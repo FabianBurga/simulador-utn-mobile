@@ -250,10 +250,7 @@ def question_choice_data(q):
 
         # Banco original:
         # ["A", "B", "C", "D", "E"]
-        if (
-            not is_reinforcement_question(q)
-            or q.get('answer') in values
-        ):
+        if q.get('answer') in values:
             return (
                 values,
                 {
@@ -284,6 +281,29 @@ def question_choice_data(q):
     return [], {}
 
 
+
+def canonical_answer_key(value):
+    """Normaliza A, a, A), A. o A: texto a una clave comparable."""
+    text = str(value or "").strip()
+
+    if not text:
+        return ""
+
+    if len(text) == 1 and text.isalpha():
+        return text.upper()
+
+    if (
+        len(text) >= 2
+        and text[0].isalpha()
+        and (
+            text[1].isspace()
+            or text[1] in ").:-"
+        )
+    ):
+        return text[0].upper()
+
+    return text.upper()
+
 def choice_display_text(key, labels):
     text = labels.get(
         key,
@@ -293,12 +313,19 @@ def choice_display_text(key, labels):
     if text == key:
         return key
 
-    prefix = f'{key}.'
+    stripped = text.strip()
 
-    if text.strip().startswith(prefix):
-        return text
+    prefixes = (
+        f'{key}.' ,
+        f'{key})',
+        f'{key}:',
+        f'{key} -',
+    )
 
-    return f'{key}. {text}'
+    if stripped.startswith(prefixes):
+        return stripped
+
+    return f'{key}. {stripped}'
 
 
 
@@ -1987,7 +2014,7 @@ def exam_screen(bank):
         )
 
         if practice and ans:
-            if ans == q['answer']:
+            if canonical_answer_key(ans) == canonical_answer_key(q.get('answer')):
                 st.success(
                     f"Correcto: {q['answer']}"
                 )
@@ -2075,7 +2102,7 @@ def results_screen():
         )
 
         correct_answer = (
-            user == q['answer']
+            canonical_answer_key(user) == canonical_answer_key(q.get('answer'))
         )
 
         rows.append(
@@ -2371,7 +2398,7 @@ def results_screen():
             {
                 'question_id': q['id'],
                 'answered': user != '—',
-                'correct': user == q['answer'],
+                'correct': canonical_answer_key(user) == canonical_answer_key(q.get('answer')),
                 'user_answer': (
                     None
                     if user == '—'

@@ -1,0 +1,14 @@
+P2 MOBILE - M4.3 ANSWER MAPPING FIX
+====================================================================
+[PASS] Backup previo a M4 restaurado
+[PASS] Extension-package mapped to A/B/C/D
+[PASS] Canonical answer comparison installed
+[PASS] Fragile comparisons corrected: 3
+[PASS] Immediate feedback protected
+[PASS] Final scoring protected
+[PASS] Detailed history protected
+[PASS] AST clean
+[PASS] 5 self-tests
+[PASS] app.py compiles
+
+DECISION : M4.3 FIX PASS
