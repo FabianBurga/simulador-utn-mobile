@@ -1,0 +1,32 @@
+{
+  "schema_version": "p2e0_simulacro_manifest_v1",
+  "package_id": "simulacro_2",
+  "display_name": "Simulacro 2",
+  "id_prefix": "S2",
+  "source_pdf": "source.pdf",
+  "questions_file": "questions.json",
+  "expected_question_count": 72,
+  "content_type": "practice_collection",
+  "allowed_modes": [
+    "Práctica",
+    "Examen rápido",
+    "Por área"
+  ],
+  "official_utn_question": false,
+  "explanations_file": "explanations.json",
+  "provenance_file": "provenance.json",
+  "original_source_filename": "SIMULACRO_UTN_2_FICA-FICAYA.pdf",
+  "original_source_sha256": "FBDC764A8268A29663B313C85A0FC4629924694714F1D22305FF15774A4E0593",
+  "published_source_pdf_sha256": "FBDC764A8268A29663B313C85A0FC4629924694714F1D22305FF15774A4E0593",
+  "validation": {
+    "publication_status": "validated",
+    "structure_reviewed": true,
+    "source_reviewed": true,
+    "answers_reviewed": true,
+    "taxonomy_reviewed": true,
+    "pedagogical_reviewed": true,
+    "mastery_approved": true,
+    "reviewed_by": "P2-E0.2 academic review + P2-E0.4 pedagogical companion",
+    "reviewed_at": "2026-08-25T20:59:11-05:00"
+  }
+}

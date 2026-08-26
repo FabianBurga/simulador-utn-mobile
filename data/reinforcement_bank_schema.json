@@ -1,0 +1,86 @@
+{
+  "schema_version": "p2e3_reinforcement_bank_v2",
+  "file": "data/reinforcement_bank.json",
+  "purpose": "Banco separado de material generado de refuerzo FICA. Admite linaje legacy SEED y generación curricular canónica.",
+  "must_remain_separate_from": "data/question_bank.json",
+  "original_question_bank_count": 180,
+  "official_utn_question_bank": false,
+  "backward_compatibility": {
+    "legacy_item_schema": "p2d_reinforcement_bank_v1",
+    "legacy_items_preserved": true,
+    "legacy_source_spec_id_preserved": true
+  },
+  "top_level_structure": {
+    "schema_version": "string",
+    "bank_version": "string",
+    "stage": "string",
+    "origin": "string",
+    "official_utn_question_bank": "boolean",
+    "source_specs": "string",
+    "lineage_sources": "object",
+    "items": "array"
+  },
+  "top_level_constraints": {
+    "schema_version": "p2e3_reinforcement_bank_v2",
+    "origin": "generated_reinforcement",
+    "official_utn_question_bank": false,
+    "items_unique_by_id": true,
+    "legacy_source_spec_ids_unique": true,
+    "curriculum_generation_ids_unique": true,
+    "maximum_legacy_seed_items": 76,
+    "curriculum_generation_has_no_fake_seed": true
+  },
+  "item_contract": {
+    "public_id_pattern": "^R-[0-9]{3}$",
+    "common_required_fields": [
+      "id",
+      "schema_version",
+      "origin",
+      "official_utn_question",
+      "area",
+      "unit",
+      "cluster",
+      "primary_topic_id",
+      "secondary_topic_ids",
+      "target_topic_ids",
+      "difficulty",
+      "cognitive_target",
+      "learning_role",
+      "stem",
+      "choices",
+      "answer",
+      "explanation",
+      "explanation_layers",
+      "distractor_analysis",
+      "quality",
+      "generation"
+    ],
+    "lineage_variants": {
+      "legacy_seed": {
+        "detection": "source_spec_id present",
+        "source_spec_id_required": true,
+        "source_spec_id_pattern": "^SEED-[0-9]{3}$",
+        "generation_question_id_required": false
+      },
+      "curriculum_generation": {
+        "detection": "lineage_type=curriculum_generation",
+        "source_spec_id_required": false,
+        "generation_question_id_required": true,
+        "generation_question_id_pattern": "^P2E3-B[0-9]{3}-Q[0-9]{2}$",
+        "generation_batch_id_required": true,
+        "canonical_topic_id_required": true,
+        "manual_cost_allowed": [
+          "C0",
+          "C1",
+          "C2"
+        ]
+      }
+    },
+    "quality_semantics": {
+      "status_validated_required_for_practice": true,
+      "quality_mastery_eligible_is_legacy_app_visibility_gate": true,
+      "mastery_engine_evidence_for_generated_reinforcement": false,
+      "official_utn_question_must_be_false": true
+    }
+  }
+}

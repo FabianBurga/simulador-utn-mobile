@@ -1,0 +1,296 @@
+{
+  "schema_version": "p2d_reinforcement_bank_v1",
+  "file": "data/reinforcement_bank.json",
+  "purpose": "Banco separado de preguntas generadas para refuerzo y cobertura del temario FICA.",
+  "must_remain_separate_from": "data/question_bank.json",
+  "original_question_bank_count": 180,
+  "seed_target_count": 76,
+  "top_level_structure": {
+    "schema_version": "string",
+    "bank_version": "string",
+    "stage": "string",
+    "origin": "string",
+    "official_utn_question_bank": "boolean",
+    "source_specs": "string",
+    "items": "array"
+  },
+  "top_level_constraints": {
+    "schema_version": "p2d_reinforcement_bank_v1",
+    "origin": "generated_reinforcement",
+    "official_utn_question_bank": false,
+    "source_specs": "results/p2c3_seed_specs.json",
+    "items_unique_by_id": true,
+    "items_unique_by_source_spec_id": true,
+    "maximum_seed_items": 76
+  },
+  "item_contract": {
+    "required_fields": [
+      "id",
+      "schema_version",
+      "origin",
+      "source_spec_id",
+      "official_utn_question",
+      "area",
+      "unit",
+      "cluster",
+      "primary_topic_id",
+      "secondary_topic_ids",
+      "target_topic_ids",
+      "difficulty",
+      "cognitive_target",
+      "learning_role",
+      "stem",
+      "choices",
+      "answer",
+      "explanation",
+      "explanation_layers",
+      "distractor_analysis",
+      "quality",
+      "generation"
+    ],
+    "fields": {
+      "id": {
+        "type": "string",
+        "pattern": "^R-[0-9]{3}$",
+        "example": "R-001",
+        "description": "Identificador único dentro del reinforcement_bank."
+      },
+      "schema_version": {
+        "type": "string",
+        "const": "p2d_reinforcement_bank_v1"
+      },
+      "origin": {
+        "type": "string",
+        "const": "generated_reinforcement"
+      },
+      "source_spec_id": {
+        "type": "string",
+        "pattern": "^SEED-[0-9]{3}$",
+        "description": "Spec P2-C3 que originó la pregunta."
+      },
+      "official_utn_question": {
+        "type": "boolean",
+        "const": false,
+        "description": "Debe ser siempre false. El material generado nunca se presenta como pregunta oficial UTN."
+      },
+      "area": {
+        "type": "string",
+        "allowed": [
+          "Matemática",
+          "Física",
+          "Química",
+          "Lenguaje",
+          "Estadística"
+        ]
+      },
+      "unit": {
+        "type": "string",
+        "nonempty": true
+      },
+      "cluster": {
+        "type": "string",
+        "nonempty": true
+      },
+      "primary_topic_id": {
+        "type": "string",
+        "nonempty": true
+      },
+      "secondary_topic_ids": {
+        "type": "array",
+        "items": "string",
+        "unique": true
+      },
+      "target_topic_ids": {
+        "type": "array",
+        "items": "string",
+        "min_items": 1,
+        "max_items": 4,
+        "unique": true,
+        "description": "Subtemas oficiales que la pregunta realmente evalúa."
+      },
+      "difficulty": {
+        "type": "string",
+        "allowed": [
+          "foundation",
+          "standard",
+          "transfer"
+        ]
+      },
+      "cognitive_target": {
+        "type": "string",
+        "allowed": [
+          "concept_identification",
+          "direct_application",
+          "transfer_and_integration"
+        ]
+      },
+      "learning_role": {
+        "type": "string",
+        "const": "coverage_seed"
+      },
+      "stem": {
+        "type": "string",
+        "nonempty": true,
+        "description": "Enunciado completo y autónomo. No debe depender del PDF original."
+      },
+      "choices": {
+        "type": "object",
+        "allowed_keys": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E"
+        ],
+        "minimum_present": 4,
+        "maximum_present": 5,
+        "all_values_nonempty": true,
+        "description": "Opciones explícitas. Deben existir 4 o 5."
+      },
+      "answer": {
+        "type": "string",
+        "allowed": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E"
+        ],
+        "description": "Debe coincidir con una clave existente en choices."
+      },
+      "explanation": {
+        "type": "string",
+        "nonempty": true,
+        "description": "Explicación resumida para compatibilidad con la interfaz."
+      },
+      "explanation_layers": {
+        "type": "object",
+        "required_keys": [
+          "intuition",
+          "step_by_step",
+          "common_error",
+          "why_correct"
+        ],
+        "all_values_nonempty": true,
+        "description": "Capas pedagógicas que luego utilizará el modo tutor."
+      },
+      "distractor_analysis": {
+        "type": "object",
+        "description": "Explica qué error diagnostica cada alternativa incorrecta.",
+        "requirements": {
+          "incorrect_choices_only": true,
+          "all_incorrect_choices_documented": true,
+          "all_descriptions_nonempty": true
+        }
+      },
+      "quality": {
+        "type": "object",
+        "required_keys": [
+          "status",
+          "mastery_eligible",
+          "coverage_verified",
+          "answer_verified",
+          "ambiguity_checked",
+          "distractors_checked",
+          "explanation_checked",
+          "flags"
+        ],
+        "fields": {
+          "status": {
+            "allowed": [
+              "draft",
+              "validated",
+              "rejected"
+            ]
+          },
+          "mastery_eligible": {
+            "type": "boolean"
+          },
+          "coverage_verified": {
+            "type": "boolean"
+          },
+          "answer_verified": {
+            "type": "boolean"
+          },
+          "ambiguity_checked": {
+            "type": "boolean"
+          },
+          "distractors_checked": {
+            "type": "boolean"
+          },
+          "explanation_checked": {
+            "type": "boolean"
+          },
+          "flags": {
+            "type": "array",
+            "items": "string"
+          }
+        },
+        "validation_rule": "mastery_eligible solo puede ser true si status=validated y todas las verificaciones son true."
+      },
+      "generation": {
+        "type": "object",
+        "required_keys": [
+          "generation_stage",
+          "generator_type",
+          "human_review_required",
+          "source_material"
+        ],
+        "fields": {
+          "generation_stage": {
+            "const": "P2-D"
+          },
+          "generator_type": {
+            "const": "synthetic_reinforcement"
+          },
+          "human_review_required": {
+            "const": true
+          },
+          "source_material": {
+            "type": "array",
+            "required_values": [
+              "UTN FICA 2P2026 official syllabus",
+              "P2-C3 seed specification"
+            ]
+          }
+        }
+      },
+      "optional_fields": {
+        "skill": {
+          "type": "string"
+        },
+        "subskill": {
+          "type": "string"
+        },
+        "estimated_time_seconds": {
+          "type": "integer",
+          "minimum": 10
+        },
+        "visual": {
+          "type": "object",
+          "description": "Reservado para diagramas generados propios."
+        },
+        "tags": {
+          "type": "array",
+          "items": "string"
+        },
+        "notes": {
+          "type": "string"
+        }
+      }
+    },
+    "cross_field_rules": [
+      "primary_topic_id debe ser igual al primer elemento de target_topic_ids.",
+      "secondary_topic_ids debe ser igual a target_topic_ids[1:].",
+      "answer debe existir como clave dentro de choices.",
+      "distractor_analysis debe documentar todas las opciones incorrectas y nunca la respuesta correcta.",
+      "area, unit, cluster y target_topic_ids deben coincidir exactamente con source_spec_id en P2-C3.",
+      "difficulty, cognitive_target y learning_role deben coincidir con source_spec_id en P2-C3.",
+      "Una pregunta no puede otorgar cobertura a un topic_id que no figure en target_topic_ids.",
+      "Una mención superficial de un tema no basta para declararlo cubierto.",
+      "El enunciado debe poder resolverse sin consultar los simulacros PDF.",
+      "El contenido no debe copiar literalmente ninguna pregunta del banco original.",
+      "El contenido no debe presentarse como pregunta auténtica de admisión UTN."
+    ]
+  }
+}

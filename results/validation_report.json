@@ -1,0 +1,144 @@
+{
+  "version": "1.0.0-p0-baseline",
+  "timestamp": "2026-08-21T21:55:15",
+  "project_root": "C:\\Users\\USER\\Downloads\\Simulador_UTN_Interactivo\\Simulador_UTN_Interactivo",
+  "passed": true,
+  "tests_total": 22,
+  "tests_passed": 22,
+  "critical_failures": 0,
+  "warnings": 0,
+  "results": [
+    {
+      "test": "Existe app.py",
+      "passed": true,
+      "critical": true,
+      "detail": ""
+    },
+    {
+      "test": "Existe data\\question_bank.json",
+      "passed": true,
+      "critical": true,
+      "detail": ""
+    },
+    {
+      "test": "Existe sources",
+      "passed": true,
+      "critical": true,
+      "detail": ""
+    },
+    {
+      "test": "Existe results",
+      "passed": true,
+      "critical": true,
+      "detail": ""
+    },
+    {
+      "test": "Existe results\\history.json",
+      "passed": true,
+      "critical": true,
+      "detail": ""
+    },
+    {
+      "test": "Dependencia Streamlit",
+      "passed": true,
+      "critical": true,
+      "detail": ""
+    },
+    {
+      "test": "Dependencia PyMuPDF",
+      "passed": true,
+      "critical": true,
+      "detail": ""
+    },
+    {
+      "test": "Dependencia pandas",
+      "passed": true,
+      "critical": true,
+      "detail": ""
+    },
+    {
+      "test": "Sintaxis app.py",
+      "passed": true,
+      "critical": true,
+      "detail": ""
+    },
+    {
+      "test": "Carga question_bank.json",
+      "passed": true,
+      "critical": true,
+      "detail": "180 registros"
+    },
+    {
+      "test": "Total preguntas",
+      "passed": true,
+      "critical": true,
+      "detail": "Esperadas: 180 | Encontradas: 180"
+    },
+    {
+      "test": "Cantidad Simulacro 1",
+      "passed": true,
+      "critical": true,
+      "detail": "Esperadas: 90 | Encontradas: 90"
+    },
+    {
+      "test": "Cantidad Simulacro 3",
+      "passed": true,
+      "critical": true,
+      "detail": "Esperadas: 90 | Encontradas: 90"
+    },
+    {
+      "test": "Campos obligatorios",
+      "passed": true,
+      "critical": true,
+      "detail": "180 preguntas verificadas"
+    },
+    {
+      "test": "IDs únicos",
+      "passed": true,
+      "critical": true,
+      "detail": "180 IDs"
+    },
+    {
+      "test": "Numeración única por simulacro",
+      "passed": true,
+      "critical": true,
+      "detail": ""
+    },
+    {
+      "test": "Respuestas y opciones",
+      "passed": true,
+      "critical": true,
+      "detail": "180 verificadas"
+    },
+    {
+      "test": "Estados del banco",
+      "passed": true,
+      "critical": true,
+      "detail": "REVISAR FUENTE: 7"
+    },
+    {
+      "test": "Explicaciones presentes",
+      "passed": true,
+      "critical": true,
+      "detail": "180 verificadas"
+    },
+    {
+      "test": "PDFs y páginas",
+      "passed": true,
+      "critical": true,
+      "detail": "{'SIMULACRO_UTN_1_FICA-FICAYA.pdf': 12, 'SIMULACRO_UTN_3_FICA-FICAYA.pdf': 14}"
+    },
+    {
+      "test": "history.json",
+      "passed": true,
+      "critical": true,
+      "detail": "1 intentos"
+    },
+    {
+      "test": "Arranque Streamlit",
+      "passed": true,
+      "critical": true,
+      "detail": "Servidor respondió correctamente en puerto temporal 53487"
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "schema_version": "p2e0_content_catalog_v1",
+  "generated_at": "2026-08-26T12:23:46",
+  "legacy": {
+    "question_count": 180,
+    "question_bank": "data/question_bank.json",
+    "question_bank_sha256": "0D7935AA56D07F10E41A13AD341D3E5D7B5FF456E00B1221A1F7E37799CB9178",
+    "source_names": [
+      "Simulacro 1",
+      "Simulacro 3"
+    ]
+  },
+  "published_packages": [
+    {
+      "folder": "fisica_4",
+      "published": true,
+      "errors": [],
+      "package_id": "fisica_4",
+      "display_name": "Física 4",
+      "id_prefix": "F4",
+      "question_count": 69,
+      "questions_file": "data/runtime_banks/fisica_4.json",
+      "questions_sha256": "E1326D9F600104B6B2C7A94E1BEB991A7C8B9D73A373092427CB0D3DD579ED8A",
+      "source_pdf": "sources/imported/fisica_4/source.pdf",
+      "source_pdf_sha256": "48FC5FE045A0850F0F56B987918210178C92A247BA7F9266355C9D58E81F8138",
+      "official_utn_question": false,
+      "content_type": "practice_collection",
+      "allowed_modes": [
+        "Práctica",
+        "Examen rápido",
+        "Por área"
+      ],
+      "validation": {
+        "publication_status": "validated",
+        "structure_reviewed": true,
+        "source_reviewed": true,
+        "answers_reviewed": true,
+        "taxonomy_reviewed": true,
+        "pedagogical_reviewed": true,
+        "mastery_approved": true,
+        "reviewed_by": "P2-E0.2 academic review + P2-E0.4 pedagogical companion",
+        "reviewed_at": "2026-08-25T20:59:11-05:00"
+      }
+    },
+    {
+      "folder": "fisica_90_yachaypre",
+      "published": true,
+      "errors": [],
+      "package_id": "fisica_90_yachaypre",
+      "display_name": "Física 90 - YachayPre",
+      "id_prefix": "F90",
+      "question_count": 83,
+      "questions_file": "data/runtime_banks/fisica_90_yachaypre.json",
+      "questions_sha256": "CCB2441D9FC03FEA54ED39EA921370F4864BEFAAE3763180969DC57E4CD24CAE",
+      "source_pdf": "sources/imported/fisica_90_yachaypre/source.pdf",
+      "source_pdf_sha256": "90C7767F0DE5EEE15B55F09533C777388746633715D106F2423E86798F48FF1C",
+      "official_utn_question": false,
+      "content_type": "practice_collection",
+      "allowed_modes": [
+        "Práctica",
+        "Examen rápido",
+        "Por área"
+      ],
+      "validation": {
+        "publication_status": "validated",
+        "structure_reviewed": true,
+        "source_reviewed": true,
+        "answers_reviewed": true,
+        "taxonomy_reviewed": true,
+        "pedagogical_reviewed": true,
+        "mastery_approved": true,
+        "reviewed_by": "P2-E0.2 academic review + P2-E0.4 pedagogical companion",
+        "reviewed_at": "2026-08-25T20:59:11-05:00"
+      }
+    },
+    {
+      "folder": "simulacro_2",
+      "published": true,
+      "errors": [],
+      "package_id": "simulacro_2",
+      "display_name": "Simulacro 2",
+      "id_prefix": "S2",
+      "question_count": 72,
+      "questions_file": "data/runtime_banks/simulacro_2.json",
+      "questions_sha256": "96CC03B5F8EB30366116D9B12AE2C539243970F1EF06EC0AACA2BA25EDD447DD",
+      "source_pdf": "sources/imported/simulacro_2/source.pdf",
+      "source_pdf_sha256": "FBDC764A8268A29663B313C85A0FC4629924694714F1D22305FF15774A4E0593",
+      "official_utn_question": false,
+      "content_type": "practice_collection",
+      "allowed_modes": [
+        "Práctica",
+        "Examen rápido",
+        "Por área"
+      ],
+      "validation": {
+        "publication_status": "validated",
+        "structure_reviewed": true,
+        "source_reviewed": true,
+        "answers_reviewed": true,
+        "taxonomy_reviewed": true,
+        "pedagogical_reviewed": true,
+        "mastery_approved": true,
+        "reviewed_by": "P2-E0.2 academic review + P2-E0.4 pedagogical companion",
+        "reviewed_at": "2026-08-25T20:59:11-05:00"
+      }
+    }
+  ],
+  "blocked_packages": [],
+  "published_question_count": 224,
+  "runtime_total_question_count": 404
+}

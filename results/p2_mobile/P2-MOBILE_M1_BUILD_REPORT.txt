@@ -1,0 +1,30 @@
+P2-MOBILE RC1 - M1 BUILD
+========================================================================
+
+[PASS] P2 Release FROZEN verificado
+[PASS] Copia Mobile independiente creada
+[PASS] Historial personal removido del Mobile
+[PASS] student_state personal removido del Mobile
+[PASS] Multiusuario codigo + PIN
+[PASS] PIN PBKDF2 + salt
+[PASS] Dos usuarios aislados en self-test
+[PASS] Backend LOCAL preparado
+[PASS] Backend SUPABASE preparado
+[PASS] Persistencia por estudiante
+[PASS] CSS responsive movil
+[PASS] Logout integrado
+[PASS] Limite basico de intentos de PIN
+[PASS] SQL Supabase generado
+[PASS] Secrets fuera de Git
+[PASS] requirements.txt preparado
+[PASS] Helper M2 para telefono generado
+[PASS] Helper M3 GitHub preflight generado
+[PASS] Todos los modulos compilan
+
+SOURCE RELEASE SHA256: 34F2E590D4B50E1C9384C8097DE68DA5B3C974090A5B370B70EA4C73D68C69CD
+MOBILE APP SHA256: 317C6E461FCF6B0D38B19E68BF8AFCD1F55D7403FA1E031FAB7D8F4696259E12
+MOBILE BACKEND SHA256: 610FD43C52FD7553C83AFA77490C3301900C9829191DD12845C4C454648B2390
+
+DECISION : P2-MOBILE M1 PASS
+NEXT     : M2 LOCAL PHONE SMOKE
+FOLDER   : C:\Users\USER\Downloads\Simulador_UTN_Interactivo\Simulador_UTN_P2_Mobile_RC1

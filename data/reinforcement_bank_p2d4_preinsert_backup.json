@@ -1,0 +1,9 @@
+{
+  "schema_version": "p2d_reinforcement_bank_v1",
+  "bank_version": "p2d0_empty_v1",
+  "stage": "P2-D0",
+  "origin": "generated_reinforcement",
+  "official_utn_question_bank": false,
+  "source_specs": "results/p2c3_seed_specs.json",
+  "items": []
+}

@@ -1,0 +1,412 @@
+{
+  "mapping_version": "p2b",
+  "utn_period": "2P2026",
+  "utn_group": "FICA",
+  "source_title": "Universidad Técnica del Norte - Admisión 2P2026 - Contenidos por áreas para la evaluación de competencias y habilidades",
+  "source_url": "https://www.utn.edu.ec/wp-content/uploads/2026/07/4.-TEMARIOS-UTN-2P2026.pdf",
+  "total_questions": 180,
+  "alignment_counts": {
+    "exact": 123,
+    "out_of_scope": 10,
+    "related": 46,
+    "uncertain": 1
+  },
+  "official_area_counts": {
+    "Estadística": 20,
+    "Física": 77,
+    "Lenguaje": 10,
+    "Matemática": 44,
+    "Química": 18
+  },
+  "coverage_eligible_questions": 163,
+  "source_review_excluded": 7,
+  "out_of_scope_ids": [
+    "S1-28",
+    "S1-37",
+    "S1-62",
+    "S1-67",
+    "S1-78",
+    "S1-85",
+    "S3-60",
+    "S3-61",
+    "S3-62",
+    "S3-89"
+  ],
+  "uncertain_ids": [
+    "S3-14"
+  ],
+  "mapped_topic_coverage": [
+    {
+      "area": "Estadística",
+      "unit": "ESTADÍSTICA Y PROBABILIDAD",
+      "topic": "Introducción a la probabilidad",
+      "eligible_source_questions": 1
+    },
+    {
+      "area": "Estadística",
+      "unit": "ESTADÍSTICA Y PROBABILIDAD",
+      "topic": "Medidas de dispersión",
+      "eligible_source_questions": 3
+    },
+    {
+      "area": "Estadística",
+      "unit": "ESTADÍSTICA Y PROBABILIDAD",
+      "topic": "Medidas de tendencia central y posición",
+      "eligible_source_questions": 4
+    },
+    {
+      "area": "Estadística",
+      "unit": "ESTADÍSTICA Y PROBABILIDAD",
+      "topic": "Población y muestra",
+      "eligible_source_questions": 2
+    },
+    {
+      "area": "Estadística",
+      "unit": "ESTADÍSTICA Y PROBABILIDAD",
+      "topic": "Tablas de distribución de frecuencias y gráficas estadísticas",
+      "eligible_source_questions": 9
+    },
+    {
+      "area": "Estadística",
+      "unit": "ESTADÍSTICA Y PROBABILIDAD",
+      "topic": "Variables estadísticas: cualitativas y cuantitativas",
+      "eligible_source_questions": 1
+    },
+    {
+      "area": "Física",
+      "unit": "CINEMÁTICA",
+      "topic": "Caída libre y lanzamientos verticales",
+      "eligible_source_questions": 1
+    },
+    {
+      "area": "Física",
+      "unit": "CINEMÁTICA",
+      "topic": "Movimiento rectilíneo uniforme",
+      "eligible_source_questions": 3
+    },
+    {
+      "area": "Física",
+      "unit": "CINEMÁTICA",
+      "topic": "Movimiento variado",
+      "eligible_source_questions": 6
+    },
+    {
+      "area": "Física",
+      "unit": "DINÁMICA",
+      "topic": "Fuerza de rozamiento",
+      "eligible_source_questions": 1
+    },
+    {
+      "area": "Física",
+      "unit": "DINÁMICA",
+      "topic": "Leyes de Newton",
+      "eligible_source_questions": 8
+    },
+    {
+      "area": "Física",
+      "unit": "DINÁMICA",
+      "topic": "Movimiento armónico simple",
+      "eligible_source_questions": 2
+    },
+    {
+      "area": "Física",
+      "unit": "ELECTRICIDAD Y MAGNETISMO",
+      "topic": "Campos magnéticos",
+      "eligible_source_questions": 8
+    },
+    {
+      "area": "Física",
+      "unit": "ELECTRICIDAD Y MAGNETISMO",
+      "topic": "Densidad de flujo y permeabilidad",
+      "eligible_source_questions": 2
+    },
+    {
+      "area": "Física",
+      "unit": "ELECTRICIDAD Y MAGNETISMO",
+      "topic": "Fuerzas sobre cargas eléctricas en movimiento en campos magnéticos",
+      "eligible_source_questions": 3
+    },
+    {
+      "area": "Física",
+      "unit": "ESTÁTICA",
+      "topic": "Equilibrio",
+      "eligible_source_questions": 1
+    },
+    {
+      "area": "Física",
+      "unit": "INTRODUCCIÓN A LA FÍSICA",
+      "topic": "Transformaciones de unidades de medida",
+      "eligible_source_questions": 1
+    },
+    {
+      "area": "Física",
+      "unit": "ONDAS Y SONIDO",
+      "topic": "Ondas mecánicas y su clasificación",
+      "eligible_source_questions": 11
+    },
+    {
+      "area": "Física",
+      "unit": "ONDAS Y SONIDO",
+      "topic": "Velocidad del sonido en diferentes medios",
+      "eligible_source_questions": 2
+    },
+    {
+      "area": "Física",
+      "unit": "TRABAJO ENERGÍA Y POTENCIA",
+      "topic": "Energía Potencial",
+      "eligible_source_questions": 2
+    },
+    {
+      "area": "Física",
+      "unit": "TRABAJO ENERGÍA Y POTENCIA",
+      "topic": "Energía cinética",
+      "eligible_source_questions": 3
+    },
+    {
+      "area": "Física",
+      "unit": "TRABAJO ENERGÍA Y POTENCIA",
+      "topic": "Potencia",
+      "eligible_source_questions": 3
+    },
+    {
+      "area": "Física",
+      "unit": "TRABAJO ENERGÍA Y POTENCIA",
+      "topic": "Principio de conservación de la energía mecánica",
+      "eligible_source_questions": 1
+    },
+    {
+      "area": "Física",
+      "unit": "TRABAJO ENERGÍA Y POTENCIA",
+      "topic": "Trabajo mecánico",
+      "eligible_source_questions": 7
+    },
+    {
+      "area": "Física",
+      "unit": "VECTORES",
+      "topic": "Operaciones con vectores",
+      "eligible_source_questions": 11
+    },
+    {
+      "area": "Lenguaje",
+      "unit": "GRAMÁTICA Y ORTOGRAFÍA",
+      "topic": "Reglas de puntuación",
+      "eligible_source_questions": 1
+    },
+    {
+      "area": "Lenguaje",
+      "unit": "GRAMÁTICA Y ORTOGRAFÍA",
+      "topic": "Relaciones entre palabras",
+      "eligible_source_questions": 1
+    },
+    {
+      "area": "Lenguaje",
+      "unit": "LECTURA CRÍTICA",
+      "topic": "Nivel literal",
+      "eligible_source_questions": 2
+    },
+    {
+      "area": "Lenguaje",
+      "unit": "ORATORIA",
+      "topic": "Métodos para exponer un discurso",
+      "eligible_source_questions": 1
+    },
+    {
+      "area": "Lenguaje",
+      "unit": "PRODUCCIÓN DE TEXTOS",
+      "topic": "Puntuación y tipos de oración",
+      "eligible_source_questions": 2
+    },
+    {
+      "area": "Lenguaje",
+      "unit": "PRODUCCIÓN DE TEXTOS",
+      "topic": "Tipos de textos",
+      "eligible_source_questions": 2
+    },
+    {
+      "area": "Matemática",
+      "unit": "CÁLCULO INTEGRAL",
+      "topic": "Integral indefinida",
+      "eligible_source_questions": 1
+    },
+    {
+      "area": "Matemática",
+      "unit": "CÁLCULO INTEGRAL",
+      "topic": "Métodos básicos de integración indefinida",
+      "eligible_source_questions": 2
+    },
+    {
+      "area": "Matemática",
+      "unit": "GEOMETRÍA Y MEDIDA",
+      "topic": "Circunferencia",
+      "eligible_source_questions": 1
+    },
+    {
+      "area": "Matemática",
+      "unit": "GEOMETRÍA Y MEDIDA",
+      "topic": "Pendiente de una recta",
+      "eligible_source_questions": 2
+    },
+    {
+      "area": "Matemática",
+      "unit": "ÁLGEBRA Y FUNCIONES",
+      "topic": "Derivada de funciones algebraicas",
+      "eligible_source_questions": 4
+    },
+    {
+      "area": "Matemática",
+      "unit": "ÁLGEBRA Y FUNCIONES",
+      "topic": "Derivada de funciones exponenciales y logarítmicas",
+      "eligible_source_questions": 2
+    },
+    {
+      "area": "Matemática",
+      "unit": "ÁLGEBRA Y FUNCIONES",
+      "topic": "Determinantes",
+      "eligible_source_questions": 1
+    },
+    {
+      "area": "Matemática",
+      "unit": "ÁLGEBRA Y FUNCIONES",
+      "topic": "Dominio y rango de una función",
+      "eligible_source_questions": 1
+    },
+    {
+      "area": "Matemática",
+      "unit": "ÁLGEBRA Y FUNCIONES",
+      "topic": "Ecuaciones e inecuaciones",
+      "eligible_source_questions": 5
+    },
+    {
+      "area": "Matemática",
+      "unit": "ÁLGEBRA Y FUNCIONES",
+      "topic": "Funciones Reales",
+      "eligible_source_questions": 1
+    },
+    {
+      "area": "Matemática",
+      "unit": "ÁLGEBRA Y FUNCIONES",
+      "topic": "Funciones trigonométricas",
+      "eligible_source_questions": 1
+    },
+    {
+      "area": "Matemática",
+      "unit": "ÁLGEBRA Y FUNCIONES",
+      "topic": "Función afín",
+      "eligible_source_questions": 1
+    },
+    {
+      "area": "Matemática",
+      "unit": "ÁLGEBRA Y FUNCIONES",
+      "topic": "Función cuadrática",
+      "eligible_source_questions": 2
+    },
+    {
+      "area": "Matemática",
+      "unit": "ÁLGEBRA Y FUNCIONES",
+      "topic": "Matriz inversa y determinantes",
+      "eligible_source_questions": 2
+    },
+    {
+      "area": "Matemática",
+      "unit": "ÁLGEBRA Y FUNCIONES",
+      "topic": "Operaciones con números reales",
+      "eligible_source_questions": 12
+    },
+    {
+      "area": "Matemática",
+      "unit": "ÁLGEBRA Y FUNCIONES",
+      "topic": "Propiedades de orden",
+      "eligible_source_questions": 1
+    },
+    {
+      "area": "Matemática",
+      "unit": "ÁLGEBRA Y FUNCIONES",
+      "topic": "Reglas para levantar una indeterminación",
+      "eligible_source_questions": 1
+    },
+    {
+      "area": "Matemática",
+      "unit": "ÁLGEBRA Y FUNCIONES",
+      "topic": "Series numéricas",
+      "eligible_source_questions": 1
+    },
+    {
+      "area": "Química",
+      "unit": "COMPUESTOS OXIGENADOS",
+      "topic": "Éteres",
+      "eligible_source_questions": 1
+    },
+    {
+      "area": "Química",
+      "unit": "EL ENLACE QUÍMICO",
+      "topic": "Tipos de enlaces",
+      "eligible_source_questions": 2
+    },
+    {
+      "area": "Química",
+      "unit": "FORMACIÓN DE COMPUESTOS QUÍMICOS",
+      "topic": "Compuestos binarios",
+      "eligible_source_questions": 2
+    },
+    {
+      "area": "Química",
+      "unit": "FORMACIÓN DE COMPUESTOS QUÍMICOS",
+      "topic": "Compuestos binarios y ternarios",
+      "eligible_source_questions": 1
+    },
+    {
+      "area": "Química",
+      "unit": "FUNDAMENTOS DE ESTEQUIOMETRIA",
+      "topic": "Fórmula empírica y molecular",
+      "eligible_source_questions": 1
+    },
+    {
+      "area": "Química",
+      "unit": "GASES",
+      "topic": "Leyes de los gases",
+      "eligible_source_questions": 1
+    },
+    {
+      "area": "Química",
+      "unit": "LAS REACCIONES QUÍMICAS Y SUS ECUACIONES",
+      "topic": "Masa atómica y molecular",
+      "eligible_source_questions": 2
+    },
+    {
+      "area": "Química",
+      "unit": "LAS REACCIONES QUÍMICAS Y SUS ECUACIONES",
+      "topic": "Tipos de reacciones químicas",
+      "eligible_source_questions": 2
+    },
+    {
+      "area": "Química",
+      "unit": "LOS ÁTOMOS Y LA TABLA PERIÓDICA",
+      "topic": "Tabla periódica",
+      "eligible_source_questions": 1
+    },
+    {
+      "area": "Química",
+      "unit": "LOS ÁTOMOS Y LA TABLA PERIÓDICA",
+      "topic": "Tipos de elementos",
+      "eligible_source_questions": 1
+    },
+    {
+      "area": "Química",
+      "unit": "MODELO ATÓMICO",
+      "topic": "Distribución electrónica",
+      "eligible_source_questions": 1
+    },
+    {
+      "area": "Química",
+      "unit": "MODELO ATÓMICO",
+      "topic": "Modelo de Sommerfeld",
+      "eligible_source_questions": 1
+    },
+    {
+      "area": "Química",
+      "unit": "MODELO ATÓMICO",
+      "topic": "Números cuánticos",
+      "eligible_source_questions": 1
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "schema_version": "p2e0_simulacro_manifest_v1",
+  "package_id": "fisica_4",
+  "display_name": "Física 4",
+  "id_prefix": "F4",
+  "source_pdf": "source.pdf",
+  "questions_file": "questions.json",
+  "expected_question_count": 69,
+  "content_type": "practice_collection",
+  "allowed_modes": [
+    "Práctica",
+    "Examen rápido",
+    "Por área"
+  ],
+  "official_utn_question": false,
+  "explanations_file": "explanations.json",
+  "provenance_file": "provenance.json",
+  "original_source_filename": "Física_4.docx",
+  "original_source_sha256": "43C00F7887A6C85716854DA9DE94BE715A362A6D48225183461D99970BFC5FE4",
+  "published_source_pdf_sha256": "48FC5FE045A0850F0F56B987918210178C92A247BA7F9266355C9D58E81F8138",
+  "validation": {
+    "publication_status": "validated",
+    "structure_reviewed": true,
+    "source_reviewed": true,
+    "answers_reviewed": true,
+    "taxonomy_reviewed": true,
+    "pedagogical_reviewed": true,
+    "mastery_approved": true,
+    "reviewed_by": "P2-E0.2 academic review + P2-E0.4 pedagogical companion",
+    "reviewed_at": "2026-08-25T20:59:11-05:00"
+  }
+}

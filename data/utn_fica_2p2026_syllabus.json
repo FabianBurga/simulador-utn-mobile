@@ -1,0 +1,1286 @@
+{
+  "schema_version": "p2c0",
+  "period": "2P2026",
+  "institution": "Universidad Técnica del Norte",
+  "evaluation": "Evaluación de competencias y habilidades",
+  "scope": {
+    "group": "FICA",
+    "faculty_group": "Ingenierías - Ciencias Aplicadas",
+    "common_for_fica": true,
+    "career_specific_syllabus": false,
+    "career_specific_weighting": false,
+    "official_areas": [
+      "Matemática",
+      "Física",
+      "Química",
+      "Lenguaje",
+      "Estadística"
+    ]
+  },
+  "source": {
+    "type": "official_utn",
+    "url": "https://www.utn.edu.ec/wp-content/uploads/2026/07/4.-TEMARIOS-UTN-2P2026.pdf",
+    "local_file": "sources\\UTN_2P2026_temario_oficial.pdf",
+    "sha256": "dfd6ebe0db10c9a78143d1035fb17776a2a8da7de450fd0deedf652b8dc85023",
+    "printed_pages": "11-17",
+    "pdf_page_indexes": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "extraction": "PyMuPDF table extraction"
+  },
+  "topic_count": 202,
+  "areas": [
+    {
+      "id": "matematica",
+      "name": "Matemática",
+      "units": [
+        {
+          "id": "mat_algebra_funciones",
+          "name": "ÁLGEBRA Y FUNCIONES",
+          "clusters": [
+            {
+              "id": "mat_algebra_funciones_01_numeros_reales",
+              "name": "Números Reales",
+              "topics": [
+                {
+                  "id": "MAT-001",
+                  "label": "Propiedades de orden"
+                },
+                {
+                  "id": "MAT-002",
+                  "label": "Propiedades algebraicas de las operaciones"
+                },
+                {
+                  "id": "MAT-003",
+                  "label": "Operaciones con números reales"
+                }
+              ]
+            },
+            {
+              "id": "mat_algebra_funciones_02_fundamentos_del_algebra",
+              "name": "Fundamentos del Álgebra",
+              "topics": [
+                {
+                  "id": "MAT-004",
+                  "label": "Operaciones con expresiones algebraica"
+                },
+                {
+                  "id": "MAT-005",
+                  "label": "Productos notables"
+                },
+                {
+                  "id": "MAT-006",
+                  "label": "Factorización"
+                },
+                {
+                  "id": "MAT-007",
+                  "label": "Simplificación de expresiones algebraicas"
+                },
+                {
+                  "id": "MAT-008",
+                  "label": "Ecuaciones, Inecuaciones: Primer grado, cuadráticas, valor absoluto, racionales e irracionales"
+                },
+                {
+                  "id": "MAT-009",
+                  "label": "Sistemas de ecuaciones e inecuaciones de primer y segundo grado"
+                },
+                {
+                  "id": "MAT-010",
+                  "label": "Sistemas de ecuaciones de tres incógnitas: métodos de resolución"
+                }
+              ]
+            },
+            {
+              "id": "mat_algebra_funciones_03_funciones_reales",
+              "name": "Funciones Reales",
+              "topics": [
+                {
+                  "id": "MAT-011",
+                  "label": "Definición"
+                },
+                {
+                  "id": "MAT-012",
+                  "label": "Principios de representación gráfica"
+                },
+                {
+                  "id": "MAT-013",
+                  "label": "Operaciones con funciones: Suma, resta, multiplicación y división"
+                },
+                {
+                  "id": "MAT-014",
+                  "label": "Función afín, raíz cuadrada, valor absoluto, cuadrática, racionales y escalonada"
+                },
+                {
+                  "id": "MAT-015",
+                  "label": "Dominio y rango de una función"
+                },
+                {
+                  "id": "MAT-016",
+                  "label": "Función inyectiva, sobreyectiva y biyectiva"
+                },
+                {
+                  "id": "MAT-017",
+                  "label": "Función inversa"
+                },
+                {
+                  "id": "MAT-018",
+                  "label": "Función compuesta"
+                },
+                {
+                  "id": "MAT-019",
+                  "label": "Función par e impar"
+                },
+                {
+                  "id": "MAT-020",
+                  "label": "Funciones monótonas"
+                }
+              ]
+            },
+            {
+              "id": "mat_algebra_funciones_04_series_numericas",
+              "name": "Series Numéricas",
+              "topics": [
+                {
+                  "id": "MAT-021",
+                  "label": "Sucesiones numéricas"
+                },
+                {
+                  "id": "MAT-022",
+                  "label": "Progresiones aritméticas"
+                },
+                {
+                  "id": "MAT-023",
+                  "label": "Progresiones geométricas"
+                }
+              ]
+            },
+            {
+              "id": "mat_algebra_funciones_05_razonamiento_abstracto",
+              "name": "Razonamiento abstracto",
+              "topics": [
+                {
+                  "id": "MAT-024",
+                  "label": "Vistas o perspectivas"
+                },
+                {
+                  "id": "MAT-025",
+                  "label": "Problemas abstractos"
+                }
+              ]
+            },
+            {
+              "id": "mat_algebra_funciones_06_matrices_y_determinantes",
+              "name": "Matrices y Determinantes",
+              "topics": [
+                {
+                  "id": "MAT-026",
+                  "label": "Tipos de matrices"
+                },
+                {
+                  "id": "MAT-027",
+                  "label": "Propiedades de las matrices"
+                },
+                {
+                  "id": "MAT-028",
+                  "label": "Operaciones con matrices"
+                },
+                {
+                  "id": "MAT-029",
+                  "label": "Matriz inversa"
+                },
+                {
+                  "id": "MAT-030",
+                  "label": "Determinantes"
+                }
+              ]
+            },
+            {
+              "id": "mat_algebra_funciones_07_funciones_exponenciales_logaritmicas_y_trigonometricas",
+              "name": "Funciones Exponenciales, logarítmicas y trigonométricas",
+              "topics": [
+                {
+                  "id": "MAT-031",
+                  "label": "Grafica de funciones exponenciales, logarítmicas y trigonométricas"
+                },
+                {
+                  "id": "MAT-032",
+                  "label": "Ecuaciones exponenciales: definición propiedades"
+                },
+                {
+                  "id": "MAT-033",
+                  "label": "Ecuaciones logarítmicas: definición, propiedades"
+                },
+                {
+                  "id": "MAT-034",
+                  "label": "Ecuaciones trigonométricas: definición, propiedades"
+                },
+                {
+                  "id": "MAT-035",
+                  "label": "Funciones trigonométricas"
+                },
+                {
+                  "id": "MAT-036",
+                  "label": "Resolución de triángulos rectángulos"
+                }
+              ]
+            },
+            {
+              "id": "mat_algebra_funciones_08_limites_y_continuidad",
+              "name": "Límites y Continuidad",
+              "topics": [
+                {
+                  "id": "MAT-037",
+                  "label": "Definición, Propiedades"
+                },
+                {
+                  "id": "MAT-038",
+                  "label": "Reglas para levantar una indeterminación"
+                },
+                {
+                  "id": "MAT-039",
+                  "label": "Límites laterales"
+                },
+                {
+                  "id": "MAT-040",
+                  "label": "Límites infinitos y al infinito"
+                },
+                {
+                  "id": "MAT-041",
+                  "label": "Límites trigonométricos"
+                },
+                {
+                  "id": "MAT-042",
+                  "label": "Límites y continuidad"
+                }
+              ]
+            },
+            {
+              "id": "mat_algebra_funciones_09_derivadas",
+              "name": "Derivadas",
+              "topics": [
+                {
+                  "id": "MAT-043",
+                  "label": "Definición de derivada"
+                },
+                {
+                  "id": "MAT-044",
+                  "label": "La derivada de una función"
+                },
+                {
+                  "id": "MAT-045",
+                  "label": "Teoremas básicos de derivación"
+                },
+                {
+                  "id": "MAT-046",
+                  "label": "Interpretación geométrica de la derivada"
+                },
+                {
+                  "id": "MAT-047",
+                  "label": "Derivada de funciones algebraicas"
+                },
+                {
+                  "id": "MAT-048",
+                  "label": "Derivada de funciones trigonométricas"
+                },
+                {
+                  "id": "MAT-049",
+                  "label": "Derivada de funciones exponenciales y logarítmicas"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "mat_geometria_medida",
+          "name": "GEOMETRÍA Y MEDIDA",
+          "clusters": [
+            {
+              "id": "mat_geometria_medida_01_lugares_geometricos",
+              "name": "Lugares geométricos",
+              "topics": [
+                {
+                  "id": "MAT-050",
+                  "label": "Distancia entre dos puntos"
+                },
+                {
+                  "id": "MAT-051",
+                  "label": "División de un segmento en una razón dada"
+                },
+                {
+                  "id": "MAT-052",
+                  "label": "Pendiente de una recta"
+                },
+                {
+                  "id": "MAT-053",
+                  "label": "Ángulo formado entre dos rectas"
+                },
+                {
+                  "id": "MAT-054",
+                  "label": "Condiciones de paralelismo y perpendicularidad"
+                }
+              ]
+            },
+            {
+              "id": "mat_geometria_medida_02_la_recta",
+              "name": "La recta",
+              "topics": [
+                {
+                  "id": "MAT-055",
+                  "label": "Definición de línea recta"
+                },
+                {
+                  "id": "MAT-056",
+                  "label": "Formas de la ecuación de la recta: punto pendiente, pendiente y ordenada al origen, simétrica, general y normal"
+                }
+              ]
+            },
+            {
+              "id": "mat_geometria_medida_03_conicas",
+              "name": "Cónicas",
+              "topics": [
+                {
+                  "id": "MAT-057",
+                  "label": "Circunferencia: Definición, forma canónica, forma general"
+                },
+                {
+                  "id": "MAT-058",
+                  "label": "Elipse: Definición, forma canónica, forma general"
+                },
+                {
+                  "id": "MAT-059",
+                  "label": "Parábola: Definición, forma canónica, forma general"
+                },
+                {
+                  "id": "MAT-060",
+                  "label": "Hipérbola: Definición, forma canónica, forma general"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "mat_calculo_integral",
+          "name": "CÁLCULO INTEGRAL",
+          "clusters": [
+            {
+              "id": "mat_calculo_integral_contenido",
+              "name": "CÁLCULO INTEGRAL",
+              "topics": [
+                {
+                  "id": "MAT-061",
+                  "label": "Antiderivadas"
+                },
+                {
+                  "id": "MAT-062",
+                  "label": "Integral indefinida"
+                },
+                {
+                  "id": "MAT-063",
+                  "label": "Métodos básicos de integración indefinida"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fisica",
+      "name": "Física",
+      "units": [
+        {
+          "id": "fis_introduccion",
+          "name": "INTRODUCCIÓN A LA FÍSICA",
+          "clusters": [
+            {
+              "id": "fis_introduccion_contenido",
+              "name": "INTRODUCCIÓN A LA FÍSICA",
+              "topics": [
+                {
+                  "id": "FIS-001",
+                  "label": "Notación Científica"
+                },
+                {
+                  "id": "FIS-002",
+                  "label": "Unidades de medida"
+                },
+                {
+                  "id": "FIS-003",
+                  "label": "Trasformaciones de unidades de medida"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "fis_vectores",
+          "name": "VECTORES",
+          "clusters": [
+            {
+              "id": "fis_vectores_contenido",
+              "name": "VECTORES",
+              "topics": [
+                {
+                  "id": "FIS-004",
+                  "label": "Vectores en el plano"
+                },
+                {
+                  "id": "FIS-005",
+                  "label": "Operaciones con vectores"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "fis_cinematica",
+          "name": "CINEMÁTICA",
+          "clusters": [
+            {
+              "id": "fis_cinematica_contenido",
+              "name": "CINEMÁTICA",
+              "topics": [
+                {
+                  "id": "FIS-006",
+                  "label": "Movimiento rectilíneo uniforme"
+                },
+                {
+                  "id": "FIS-007",
+                  "label": "Movimiento variado"
+                },
+                {
+                  "id": "FIS-008",
+                  "label": "Caída libre y lanzamientos verticales"
+                },
+                {
+                  "id": "FIS-009",
+                  "label": "Tiro parabólico y lanzamientos horizontales"
+                },
+                {
+                  "id": "FIS-010",
+                  "label": "Movimiento circular uniforme y variado"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "fis_dinamica",
+          "name": "DINÁMICA",
+          "clusters": [
+            {
+              "id": "fis_dinamica_contenido",
+              "name": "DINÁMICA",
+              "topics": [
+                {
+                  "id": "FIS-011",
+                  "label": "Leyes de Newton"
+                },
+                {
+                  "id": "FIS-012",
+                  "label": "Fuerza de rozamiento"
+                },
+                {
+                  "id": "FIS-013",
+                  "label": "Fuerza centrípeta y centrífuga"
+                },
+                {
+                  "id": "FIS-014",
+                  "label": "Impulso y Cantidad de movimiento"
+                },
+                {
+                  "id": "FIS-015",
+                  "label": "Choques elásticos e inelásticos"
+                },
+                {
+                  "id": "FIS-016",
+                  "label": "Movimiento armónico simple"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "fis_estatica",
+          "name": "ESTÁTICA",
+          "clusters": [
+            {
+              "id": "fis_estatica_contenido",
+              "name": "ESTÁTICA",
+              "topics": [
+                {
+                  "id": "FIS-017",
+                  "label": "Fuerzas"
+                },
+                {
+                  "id": "FIS-018",
+                  "label": "Equilibrio"
+                },
+                {
+                  "id": "FIS-019",
+                  "label": "Condiciones de equilibrio"
+                },
+                {
+                  "id": "FIS-020",
+                  "label": "Teorema de Varignon"
+                },
+                {
+                  "id": "FIS-021",
+                  "label": "Teorema de Lamy"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "fis_trabajo_energia",
+          "name": "TRABAJO ENERGÍA Y POTENCIA",
+          "clusters": [
+            {
+              "id": "fis_trabajo_energia_contenido",
+              "name": "TRABAJO ENERGÍA Y POTENCIA",
+              "topics": [
+                {
+                  "id": "FIS-022",
+                  "label": "Trabajo mecánico"
+                },
+                {
+                  "id": "FIS-023",
+                  "label": "Energía cinética"
+                },
+                {
+                  "id": "FIS-024",
+                  "label": "Energía Potencial"
+                },
+                {
+                  "id": "FIS-025",
+                  "label": "Energía potencial elástica"
+                },
+                {
+                  "id": "FIS-026",
+                  "label": "Principio de conservación de la energía mecánica"
+                },
+                {
+                  "id": "FIS-027",
+                  "label": "Potencia"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "fis_electricidad_magnetismo",
+          "name": "ELECTRICIDAD Y MAGNETISMO",
+          "clusters": [
+            {
+              "id": "fis_electricidad_magnetismo_contenido",
+              "name": "ELECTRICIDAD Y MAGNETISMO",
+              "topics": [
+                {
+                  "id": "FIS-028",
+                  "label": "Campo eléctrico"
+                },
+                {
+                  "id": "FIS-029",
+                  "label": "Ley de Coulomb"
+                },
+                {
+                  "id": "FIS-030",
+                  "label": "Fuerza electroestática"
+                },
+                {
+                  "id": "FIS-031",
+                  "label": "Circuitos eléctricos"
+                },
+                {
+                  "id": "FIS-032",
+                  "label": "Campos magnéticos"
+                },
+                {
+                  "id": "FIS-033",
+                  "label": "Densidad de flujo y permeabilidad"
+                },
+                {
+                  "id": "FIS-034",
+                  "label": "Fuerzas sobre cargas eléctricas en movimiento en campos magnéticos"
+                },
+                {
+                  "id": "FIS-035",
+                  "label": "Ley del electromagnetismo o Ley de inducción de Faraday"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "fis_ondas_sonido",
+          "name": "ONDAS Y SONIDO",
+          "clusters": [
+            {
+              "id": "fis_ondas_sonido_contenido",
+              "name": "ONDAS Y SONIDO",
+              "topics": [
+                {
+                  "id": "FIS-036",
+                  "label": "Ondas mecánicas y su clasificación"
+                },
+                {
+                  "id": "FIS-037",
+                  "label": "Velocidad del sonido en diferentes medios"
+                },
+                {
+                  "id": "FIS-038",
+                  "label": "Efecto Doppler"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quimica",
+      "name": "Química",
+      "units": [
+        {
+          "id": "qui_modelo_atomico",
+          "name": "MODELO ATÓMICO",
+          "clusters": [
+            {
+              "id": "qui_modelo_atomico_contenido",
+              "name": "MODELO ATÓMICO",
+              "topics": [
+                {
+                  "id": "QUI-001",
+                  "label": "El átomo"
+                },
+                {
+                  "id": "QUI-002",
+                  "label": "Teoría atómica"
+                },
+                {
+                  "id": "QUI-003",
+                  "label": "Modelo de Sommerfeld"
+                },
+                {
+                  "id": "QUI-004",
+                  "label": "Números cuánticos"
+                },
+                {
+                  "id": "QUI-005",
+                  "label": "Distribución electrónica"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "qui_tabla_periodica",
+          "name": "LOS ÁTOMOS Y LA TABLA PERIÓDICA",
+          "clusters": [
+            {
+              "id": "qui_tabla_periodica_contenido",
+              "name": "LOS ÁTOMOS Y LA TABLA PERIÓDICA",
+              "topics": [
+                {
+                  "id": "QUI-006",
+                  "label": "Tabla periódica"
+                },
+                {
+                  "id": "QUI-007",
+                  "label": "Tipos de elementos"
+                },
+                {
+                  "id": "QUI-008",
+                  "label": "Propiedades físicas y químicas de los metales"
+                },
+                {
+                  "id": "QUI-009",
+                  "label": "Propiedades físicas y químicas de los no metales"
+                },
+                {
+                  "id": "QUI-010",
+                  "label": "Propiedades periódicas"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "qui_enlace",
+          "name": "EL ENLACE QUÍMICO",
+          "clusters": [
+            {
+              "id": "qui_enlace_contenido",
+              "name": "EL ENLACE QUÍMICO",
+              "topics": [
+                {
+                  "id": "QUI-011",
+                  "label": "Representación de Lewis"
+                },
+                {
+                  "id": "QUI-012",
+                  "label": "Tipos de enlaces"
+                },
+                {
+                  "id": "QUI-013",
+                  "label": "Fuerzas de atracción intermolecular"
+                },
+                {
+                  "id": "QUI-014",
+                  "label": "Geometría molecular"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "qui_formacion_compuestos",
+          "name": "FORMACIÓN DE COMPUESTOS QUÍMICOS",
+          "clusters": [
+            {
+              "id": "qui_formacion_compuestos_contenido",
+              "name": "FORMACIÓN DE COMPUESTOS QUÍMICOS",
+              "topics": [
+                {
+                  "id": "QUI-015",
+                  "label": "Compuestos binarios"
+                },
+                {
+                  "id": "QUI-016",
+                  "label": "Compuestos ternarios y cuaternarios"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "qui_reacciones",
+          "name": "LAS REACCIONES QUÍMICAS Y SUS ECUACIONES",
+          "clusters": [
+            {
+              "id": "qui_reacciones_contenido",
+              "name": "LAS REACCIONES QUÍMICAS Y SUS ECUACIONES",
+              "topics": [
+                {
+                  "id": "QUI-017",
+                  "label": "Tipos de reacciones químicas"
+                },
+                {
+                  "id": "QUI-018",
+                  "label": "Balanceo o ajuste de ecuaciones químicas"
+                },
+                {
+                  "id": "QUI-019",
+                  "label": "Masa atómica y molecular"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "qui_disoluciones",
+          "name": "QUÍMICA DE DISOLUCIONES Y SISTEMAS DISPERSOS",
+          "clusters": [
+            {
+              "id": "qui_disoluciones_contenido",
+              "name": "QUÍMICA DE DISOLUCIONES Y SISTEMAS DISPERSOS",
+              "topics": [
+                {
+                  "id": "QUI-020",
+                  "label": "Unidades de concentración"
+                },
+                {
+                  "id": "QUI-021",
+                  "label": "Sistemas dispersos"
+                },
+                {
+                  "id": "QUI-022",
+                  "label": "Soluciones o disoluciones"
+                },
+                {
+                  "id": "QUI-023",
+                  "label": "Tipos de disoluciones"
+                },
+                {
+                  "id": "QUI-024",
+                  "label": "Concentraciones físicas"
+                },
+                {
+                  "id": "QUI-025",
+                  "label": "Concentraciones Químicas"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "qui_estequiometria",
+          "name": "FUNDAMENTOS DE ESTEQUIOMETRIA",
+          "clusters": [
+            {
+              "id": "qui_estequiometria_contenido",
+              "name": "FUNDAMENTOS DE ESTEQUIOMETRIA",
+              "topics": [
+                {
+                  "id": "QUI-026",
+                  "label": "Fórmula empírica y molecular"
+                },
+                {
+                  "id": "QUI-027",
+                  "label": "Estequiometría de las reacciones"
+                },
+                {
+                  "id": "QUI-028",
+                  "label": "Reactivo limitante y reactivo en exceso"
+                },
+                {
+                  "id": "QUI-029",
+                  "label": "Rendimiento de reacción"
+                },
+                {
+                  "id": "QUI-030",
+                  "label": "Volumen molar"
+                },
+                {
+                  "id": "QUI-031",
+                  "label": "Mol"
+                },
+                {
+                  "id": "QUI-032",
+                  "label": "Número de Avogadro"
+                },
+                {
+                  "id": "QUI-033",
+                  "label": "Peso molecular"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "qui_gases",
+          "name": "GASES",
+          "clusters": [
+            {
+              "id": "qui_gases_contenido",
+              "name": "GASES",
+              "topics": [
+                {
+                  "id": "QUI-034",
+                  "label": "Propiedades de los gases"
+                },
+                {
+                  "id": "QUI-035",
+                  "label": "Leyes de los gases"
+                },
+                {
+                  "id": "QUI-036",
+                  "label": "Ecuación general de los gases"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "qui_carbono",
+          "name": "EL CARBONO",
+          "clusters": [
+            {
+              "id": "qui_carbono_contenido",
+              "name": "EL CARBONO",
+              "topics": [
+                {
+                  "id": "QUI-037",
+                  "label": "Diferencias entre compuestos orgánicos e inorgánico"
+                },
+                {
+                  "id": "QUI-038",
+                  "label": "Hibridación del carbono"
+                },
+                {
+                  "id": "QUI-039",
+                  "label": "Tipos de carbono"
+                },
+                {
+                  "id": "QUI-040",
+                  "label": "Cadenas carbonadas"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "qui_hidrocarburos_abiertos",
+          "name": "HIDROCARBUROS DE CADENA ABIERTA",
+          "clusters": [
+            {
+              "id": "qui_hidrocarburos_abiertos_contenido",
+              "name": "HIDROCARBUROS DE CADENA ABIERTA",
+              "topics": [
+                {
+                  "id": "QUI-041",
+                  "label": "Hidrocarburos de cadena abierta"
+                },
+                {
+                  "id": "QUI-042",
+                  "label": "Alcanos"
+                },
+                {
+                  "id": "QUI-043",
+                  "label": "Alquenos"
+                },
+                {
+                  "id": "QUI-044",
+                  "label": "Alquinos"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "qui_hidrocarburos_cerrados",
+          "name": "HIDROCARBUROS DE CADENA CERRADA",
+          "clusters": [
+            {
+              "id": "qui_hidrocarburos_cerrados_contenido",
+              "name": "HIDROCARBUROS DE CADENA CERRADA",
+              "topics": [
+                {
+                  "id": "QUI-045",
+                  "label": "Hidrocarburos alicíclicos"
+                },
+                {
+                  "id": "QUI-046",
+                  "label": "Hidrocarburos aromáticos y derivados del benceno"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "qui_oxigenados",
+          "name": "COMPUESTOS OXIGENADOS",
+          "clusters": [
+            {
+              "id": "qui_oxigenados_contenido",
+              "name": "COMPUESTOS OXIGENADOS",
+              "topics": [
+                {
+                  "id": "QUI-047",
+                  "label": "Alcoholes"
+                },
+                {
+                  "id": "QUI-048",
+                  "label": "Fenoles"
+                },
+                {
+                  "id": "QUI-049",
+                  "label": "Éteres"
+                },
+                {
+                  "id": "QUI-050",
+                  "label": "Epóxidos"
+                },
+                {
+                  "id": "QUI-051",
+                  "label": "Aldehídos"
+                },
+                {
+                  "id": "QUI-052",
+                  "label": "Cetonas"
+                },
+                {
+                  "id": "QUI-053",
+                  "label": "Ácidos carboxílicos"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "qui_nitrogenados",
+          "name": "COMPUESTOS NITROGENADOS",
+          "clusters": [
+            {
+              "id": "qui_nitrogenados_contenido",
+              "name": "COMPUESTOS NITROGENADOS",
+              "topics": [
+                {
+                  "id": "QUI-054",
+                  "label": "Aminas"
+                },
+                {
+                  "id": "QUI-055",
+                  "label": "Amidas"
+                },
+                {
+                  "id": "QUI-056",
+                  "label": "Nitrilos"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lenguaje",
+      "name": "Lenguaje",
+      "units": [
+        {
+          "id": "len_lectura_critica",
+          "name": "LECTURA CRÍTICA",
+          "clusters": [
+            {
+              "id": "len_lectura_critica_contenido",
+              "name": "LECTURA CRÍTICA",
+              "topics": [
+                {
+                  "id": "LEN-001",
+                  "label": "Comprensión a través de niveles"
+                },
+                {
+                  "id": "LEN-002",
+                  "label": "Nivel literal"
+                },
+                {
+                  "id": "LEN-003",
+                  "label": "Nivel inferencial"
+                },
+                {
+                  "id": "LEN-004",
+                  "label": "Nivel crítico–valorativo"
+                },
+                {
+                  "id": "LEN-005",
+                  "label": "Estrategias para identificar ideas importantes de un texto"
+                },
+                {
+                  "id": "LEN-006",
+                  "label": "¿Cómo detectar la idea principal y secundaria de un texto?"
+                },
+                {
+                  "id": "LEN-007",
+                  "label": "Comprensión textual"
+                },
+                {
+                  "id": "LEN-008",
+                  "label": "¿Cuáles son los recursos para argumentar?"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "len_produccion_textos",
+          "name": "PRODUCCIÓN DE TEXTOS",
+          "clusters": [
+            {
+              "id": "len_produccion_textos_contenido",
+              "name": "PRODUCCIÓN DE TEXTOS",
+              "topics": [
+                {
+                  "id": "LEN-009",
+                  "label": "Cualidades de la redacción"
+                },
+                {
+                  "id": "LEN-010",
+                  "label": "Puntuación y tipos de oración"
+                },
+                {
+                  "id": "LEN-011",
+                  "label": "Tipos de textos"
+                },
+                {
+                  "id": "LEN-012",
+                  "label": "Tipos de ensayo"
+                },
+                {
+                  "id": "LEN-013",
+                  "label": "Estructura del ensayo"
+                },
+                {
+                  "id": "LEN-014",
+                  "label": "Proceso de escritura"
+                },
+                {
+                  "id": "LEN-015",
+                  "label": "Estructura de la redacción"
+                },
+                {
+                  "id": "LEN-016",
+                  "label": "¿Cómo ejecutar la redacción y su respectiva revisión?"
+                },
+                {
+                  "id": "LEN-017",
+                  "label": "¿Por qué publicar?"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "len_gramatica_ortografia",
+          "name": "GRAMÁTICA Y ORTOGRAFÍA",
+          "clusters": [
+            {
+              "id": "len_gramatica_ortografia_contenido",
+              "name": "GRAMÁTICA Y ORTOGRAFÍA",
+              "topics": [
+                {
+                  "id": "LEN-018",
+                  "label": "Reglas ortográficas"
+                },
+                {
+                  "id": "LEN-019",
+                  "label": "Uso de las mayúsculas"
+                },
+                {
+                  "id": "LEN-020",
+                  "label": "Ortografía de los numerales"
+                },
+                {
+                  "id": "LEN-021",
+                  "label": "Ortografía de los diminutivos"
+                },
+                {
+                  "id": "LEN-022",
+                  "label": "Ortografía de las siglas"
+                },
+                {
+                  "id": "LEN-023",
+                  "label": "Ortografía de las abreviaturas"
+                },
+                {
+                  "id": "LEN-024",
+                  "label": "Ortografía de las palabras homógrafas, homófonas, parónimas, polisémicas"
+                },
+                {
+                  "id": "LEN-025",
+                  "label": "Reglas de puntuación"
+                },
+                {
+                  "id": "LEN-026",
+                  "label": "Reglas de acentuación"
+                },
+                {
+                  "id": "LEN-027",
+                  "label": "El acento y la tilde"
+                },
+                {
+                  "id": "LEN-028",
+                  "label": "Clasificación de las palabras por el acento"
+                },
+                {
+                  "id": "LEN-029",
+                  "label": "Relaciones entre palabras"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "len_oratoria",
+          "name": "ORATORIA",
+          "clusters": [
+            {
+              "id": "len_oratoria_contenido",
+              "name": "ORATORIA",
+              "topics": [
+                {
+                  "id": "LEN-030",
+                  "label": "Comunicación y su impacto"
+                },
+                {
+                  "id": "LEN-031",
+                  "label": "Características de un discurso en oratoria"
+                },
+                {
+                  "id": "LEN-032",
+                  "label": "Métodos de presentación"
+                },
+                {
+                  "id": "LEN-033",
+                  "label": "La Comunicación Humana"
+                },
+                {
+                  "id": "LEN-034",
+                  "label": "Técnicas de expresión oral"
+                },
+                {
+                  "id": "LEN-035",
+                  "label": "Elaboración y partes del discurso"
+                },
+                {
+                  "id": "LEN-036",
+                  "label": "Métodos para exponer un discurso"
+                },
+                {
+                  "id": "LEN-037",
+                  "label": "Metaplasmos"
+                },
+                {
+                  "id": "LEN-038",
+                  "label": "Contradicciones y ambigüedades"
+                },
+                {
+                  "id": "LEN-039",
+                  "label": "Analogías"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "estadistica",
+      "name": "Estadística",
+      "units": [
+        {
+          "id": "est_estadistica_probabilidad",
+          "name": "ESTADÍSTICA Y PROBABILIDAD",
+          "clusters": [
+            {
+              "id": "est_estadistica_probabilidad_contenido",
+              "name": "ESTADÍSTICA Y PROBABILIDAD",
+              "topics": [
+                {
+                  "id": "EST-001",
+                  "label": "Variables estadísticas: cualitativas y cuantitativas"
+                },
+                {
+                  "id": "EST-002",
+                  "label": "Población y muestra"
+                },
+                {
+                  "id": "EST-003",
+                  "label": "Tablas de distribución de frecuencias y gráficas estadísticas"
+                },
+                {
+                  "id": "EST-004",
+                  "label": "Medidas de tendencia central y posición"
+                },
+                {
+                  "id": "EST-005",
+                  "label": "Medidas de dispersión"
+                },
+                {
+                  "id": "EST-006",
+                  "label": "Introducción a la probabilidad"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

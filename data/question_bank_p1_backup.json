@@ -1,0 +1,5266 @@
+[
+  {
+    "id": "S1-01",
+    "simulacro": "Simulacro 1",
+    "number": 1,
+    "page": 1,
+    "pdf": "SIMULACRO_UTN_1_FICA-FICAYA.pdf",
+    "subject": "Física",
+    "answer": "A",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "Componente horizontal: Vx = V·cos30° = 20·√3/2 = 10√3.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S1-02",
+    "simulacro": "Simulacro 1",
+    "number": 2,
+    "page": 1,
+    "pdf": "SIMULACRO_UTN_1_FICA-FICAYA.pdf",
+    "subject": "Física",
+    "answer": "A",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "Componente vertical: Vy = 16·sin45° = 8√2.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S1-03",
+    "simulacro": "Simulacro 1",
+    "number": 3,
+    "page": 1,
+    "pdf": "SIMULACRO_UTN_1_FICA-FICAYA.pdf",
+    "subject": "Física",
+    "answer": "B",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "La componente x se obtiene con V·cosθ cuando θ se mide desde el eje x.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S1-04",
+    "simulacro": "Simulacro 1",
+    "number": 4,
+    "page": 1,
+    "pdf": "SIMULACRO_UTN_1_FICA-FICAYA.pdf",
+    "subject": "Física",
+    "answer": "B",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "Vy = 24·sin60° = 12√3.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S1-05",
+    "simulacro": "Simulacro 1",
+    "number": 5,
+    "page": 1,
+    "pdf": "SIMULACRO_UTN_1_FICA-FICAYA.pdf",
+    "subject": "Física",
+    "answer": "C",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "Un vector sobre el eje x no tiene componente vertical.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S1-06",
+    "simulacro": "Simulacro 1",
+    "number": 6,
+    "page": 1,
+    "pdf": "SIMULACRO_UTN_1_FICA-FICAYA.pdf",
+    "subject": "Física",
+    "answer": "B",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "v = v0 + at = 0 + 4·5 = 20 m/s.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S1-07",
+    "simulacro": "Simulacro 1",
+    "number": 7,
+    "page": 1,
+    "pdf": "SIMULACRO_UTN_1_FICA-FICAYA.pdf",
+    "subject": "Física",
+    "answer": "C",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "v = 8 + 2·6 = 20 m/s.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S1-08",
+    "simulacro": "Simulacro 1",
+    "number": 8,
+    "page": 1,
+    "pdf": "SIMULACRO_UTN_1_FICA-FICAYA.pdf",
+    "subject": "Física",
+    "answer": "B",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "x = ½at² = ½·3·16 = 24 m.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S1-09",
+    "simulacro": "Simulacro 1",
+    "number": 9,
+    "page": 1,
+    "pdf": "SIMULACRO_UTN_1_FICA-FICAYA.pdf",
+    "subject": "Física",
+    "answer": "B",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "a = (18-6)/4 = 3 m/s².",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S1-10",
+    "simulacro": "Simulacro 1",
+    "number": 10,
+    "page": 2,
+    "pdf": "SIMULACRO_UTN_1_FICA-FICAYA.pdf",
+    "subject": "Física",
+    "answer": "B",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "v = 12 - 2·4 = 4 m/s.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S1-11",
+    "simulacro": "Simulacro 1",
+    "number": 11,
+    "page": 2,
+    "pdf": "SIMULACRO_UTN_1_FICA-FICAYA.pdf",
+    "subject": "Física",
+    "answer": "A",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "Componente paralela: mg·sin30° = 100·0,5 = 50 N.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S1-12",
+    "simulacro": "Simulacro 1",
+    "number": 12,
+    "page": 2,
+    "pdf": "SIMULACRO_UTN_1_FICA-FICAYA.pdf",
+    "subject": "Física",
+    "answer": "B",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "Normal: mg·cos30° = 100·√3/2 = 50√3 N.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S1-13",
+    "simulacro": "Simulacro 1",
+    "number": 13,
+    "page": 2,
+    "pdf": "SIMULACRO_UTN_1_FICA-FICAYA.pdf",
+    "subject": "Física",
+    "answer": "C",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "fr = μN = 0,4·80 = 32 N.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S1-14",
+    "simulacro": "Simulacro 1",
+    "number": 14,
+    "page": 2,
+    "pdf": "SIMULACRO_UTN_1_FICA-FICAYA.pdf",
+    "subject": "Física",
+    "answer": "B",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "La normal siempre es perpendicular a la superficie de contacto.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S1-15",
+    "simulacro": "Simulacro 1",
+    "number": 15,
+    "page": 2,
+    "pdf": "SIMULACRO_UTN_1_FICA-FICAYA.pdf",
+    "subject": "Física",
+    "answer": "B",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "mg·sin37° ≈ 50·0,6 = 30 N.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S1-16",
+    "simulacro": "Simulacro 1",
+    "number": 16,
+    "page": 2,
+    "pdf": "SIMULACRO_UTN_1_FICA-FICAYA.pdf",
+    "subject": "Física",
+    "answer": "B",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "W = Fd = 80·10 = 800 J.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S1-17",
+    "simulacro": "Simulacro 1",
+    "number": 17,
+    "page": 3,
+    "pdf": "SIMULACRO_UTN_1_FICA-FICAYA.pdf",
+    "subject": "Física",
+    "answer": "C",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "Ec = ½mv² = ½·5·64 = 160 J.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S1-18",
+    "simulacro": "Simulacro 1",
+    "number": 18,
+    "page": 3,
+    "pdf": "SIMULACRO_UTN_1_FICA-FICAYA.pdf",
+    "subject": "Física",
+    "answer": "C",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "Ep = mgh = 15·10·8 = 1200 J.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S1-19",
+    "simulacro": "Simulacro 1",
+    "number": 19,
+    "page": 3,
+    "pdf": "SIMULACRO_UTN_1_FICA-FICAYA.pdf",
+    "subject": "Física",
+    "answer": "C",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "P = W/t = 6000/20 = 300 W.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S1-20",
+    "simulacro": "Simulacro 1",
+    "number": 20,
+    "page": 3,
+    "pdf": "SIMULACRO_UTN_1_FICA-FICAYA.pdf",
+    "subject": "Física",
+    "answer": "C",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "Em = Ec + Ep = 200 + 200 = 400 J.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S1-21",
+    "simulacro": "Simulacro 1",
+    "number": 21,
+    "page": 3,
+    "pdf": "SIMULACRO_UTN_1_FICA-FICAYA.pdf",
+    "subject": "Química",
+    "answer": "D",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "El calor aparece como reactivo, por lo que la reacción absorbe energía: es endotérmica.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S1-22",
+    "simulacro": "Simulacro 1",
+    "number": 22,
+    "page": 3,
+    "pdf": "SIMULACRO_UTN_1_FICA-FICAYA.pdf",
+    "subject": "Química",
+    "answer": "D",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "La forma del orbital la determina el número cuántico azimutal o secundario l.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S1-23",
+    "simulacro": "Simulacro 1",
+    "number": 23,
+    "page": 3,
+    "pdf": "SIMULACRO_UTN_1_FICA-FICAYA.pdf",
+    "subject": "Química",
+    "answer": "B",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "En los hidruros metálicos, H actúa con número de oxidación -1.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S1-24",
+    "simulacro": "Simulacro 1",
+    "number": 24,
+    "page": 3,
+    "pdf": "SIMULACRO_UTN_1_FICA-FICAYA.pdf",
+    "subject": "Química",
+    "answer": "A",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "La estructura R-O-R corresponde a un éter.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S1-25",
+    "simulacro": "Simulacro 1",
+    "number": 25,
+    "page": 3,
+    "pdf": "SIMULACRO_UTN_1_FICA-FICAYA.pdf",
+    "subject": "Química",
+    "answer": "A",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "N₂ presenta un enlace triple N≡N.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S1-26",
+    "simulacro": "Simulacro 1",
+    "number": 26,
+    "page": 3,
+    "pdf": "SIMULACRO_UTN_1_FICA-FICAYA.pdf",
+    "subject": "Química",
+    "answer": "D",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "Los componentes 1 y 3 quedan con la misma cantidad de moles; el ítem no ofrece una opción que diga “1 y 3”. Se propone D (ninguno) por ambigüedad.",
+    "status": "revisar_fuente",
+    "source_note": "Los componentes 1 y 3 quedan con la misma cantidad de moles; el ítem no ofrece una opción que diga “1 y 3”. Se propone D (ninguno) por ambigüedad.",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": false,
+      "source_review_required": true,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": [
+        "source_review"
+      ]
+    }
+  },
+  {
+    "id": "S1-27",
+    "simulacro": "Simulacro 1",
+    "number": 27,
+    "page": 4,
+    "pdf": "SIMULACRO_UTN_1_FICA-FICAYA.pdf",
+    "subject": "Química",
+    "answer": "C",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "La fórmula empírica se obtiene dividiendo 6:16:4:6 entre 2 → 3:8:2:3.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S1-28",
+    "simulacro": "Simulacro 1",
+    "number": 28,
+    "page": 4,
+    "pdf": "SIMULACRO_UTN_1_FICA-FICAYA.pdf",
+    "subject": "Química",
+    "answer": "D",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "La definición corresponde al equivalente-gramo.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S1-29",
+    "simulacro": "Simulacro 1",
+    "number": 29,
+    "page": 4,
+    "pdf": "SIMULACRO_UTN_1_FICA-FICAYA.pdf",
+    "subject": "Química",
+    "answer": "B",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "Cada NO₂⁻ vale -1; tres aniones suman -3, por lo que Cr debe ser +3.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S1-30",
+    "simulacro": "Simulacro 1",
+    "number": 30,
+    "page": 4,
+    "pdf": "SIMULACRO_UTN_1_FICA-FICAYA.pdf",
+    "subject": "Química",
+    "answer": "C",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "Los productos están a la derecha de la flecha: V, P y X.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S1-31",
+    "simulacro": "Simulacro 1",
+    "number": 31,
+    "page": 4,
+    "pdf": "SIMULACRO_UTN_1_FICA-FICAYA.pdf",
+    "subject": "Química",
+    "answer": "C",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "En Sb₂O₃ el Sb está en +3; la nomenclatura tradicional es óxido antimonioso.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S1-32",
+    "simulacro": "Simulacro 1",
+    "number": 32,
+    "page": 4,
+    "pdf": "SIMULACRO_UTN_1_FICA-FICAYA.pdf",
+    "subject": "Química",
+    "answer": "D",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "N₂ es una molécula homonuclear y su enlace es covalente apolar.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S1-33",
+    "simulacro": "Simulacro 1",
+    "number": 33,
+    "page": 4,
+    "pdf": "SIMULACRO_UTN_1_FICA-FICAYA.pdf",
+    "subject": "Química",
+    "answer": "D",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "La ley de Dalton suma las presiones parciales.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S1-34",
+    "simulacro": "Simulacro 1",
+    "number": 34,
+    "page": 4,
+    "pdf": "SIMULACRO_UTN_1_FICA-FICAYA.pdf",
+    "subject": "Química",
+    "answer": "C",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "He, Ne, Ar, Kr y Xe pertenecen al grupo 18.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S1-35",
+    "simulacro": "Simulacro 1",
+    "number": 35,
+    "page": 4,
+    "pdf": "SIMULACRO_UTN_1_FICA-FICAYA.pdf",
+    "subject": "Química",
+    "answer": "C",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "La tabla periódica tiene 7 períodos.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S1-36",
+    "simulacro": "Simulacro 1",
+    "number": 36,
+    "page": 4,
+    "pdf": "SIMULACRO_UTN_1_FICA-FICAYA.pdf",
+    "subject": "Química",
+    "answer": "B",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "1 + 14 + 3·16 = 63 g/mol.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S1-37",
+    "simulacro": "Simulacro 1",
+    "number": 37,
+    "page": 4,
+    "pdf": "SIMULACRO_UTN_1_FICA-FICAYA.pdf",
+    "subject": "Química",
+    "answer": "A",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "Agua, alcohol, aceite y leche son líquidos en condiciones habituales.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S1-38",
+    "simulacro": "Simulacro 1",
+    "number": 38,
+    "page": 5,
+    "pdf": "SIMULACRO_UTN_1_FICA-FICAYA.pdf",
+    "subject": "Química",
+    "answer": "A",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "El peso molecular suma masa atómica × número de átomos de cada elemento.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S1-39",
+    "simulacro": "Simulacro 1",
+    "number": 39,
+    "page": 5,
+    "pdf": "SIMULACRO_UTN_1_FICA-FICAYA.pdf",
+    "subject": "Química",
+    "answer": "B",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "Z=34 distribuye 2, 8, 18, 6 electrones por capas.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S1-40",
+    "simulacro": "Simulacro 1",
+    "number": 40,
+    "page": 5,
+    "pdf": "SIMULACRO_UTN_1_FICA-FICAYA.pdf",
+    "subject": "Química",
+    "answer": "D",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "Sommerfeld amplió el modelo de Bohr incorporando órbitas elípticas.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S1-41",
+    "simulacro": "Simulacro 1",
+    "number": 41,
+    "page": 5,
+    "pdf": "SIMULACRO_UTN_1_FICA-FICAYA.pdf",
+    "subject": "Matemática",
+    "answer": "C",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "0,20·0,30 = 0,15·h/100; al simplificar se obtiene h=40.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S1-42",
+    "simulacro": "Simulacro 1",
+    "number": 42,
+    "page": 5,
+    "pdf": "SIMULACRO_UTN_1_FICA-FICAYA.pdf",
+    "subject": "Matemática",
+    "answer": "A",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "|x| nunca es negativo, por eso el rango es y≥0.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S1-43",
+    "simulacro": "Simulacro 1",
+    "number": 43,
+    "page": 5,
+    "pdf": "SIMULACRO_UTN_1_FICA-FICAYA.pdf",
+    "subject": "Matemática",
+    "answer": "C",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "La desviación típica femenina (5,1) es mayor que la masculina (3,1).",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S1-44",
+    "simulacro": "Simulacro 1",
+    "number": 44,
+    "page": 5,
+    "pdf": "SIMULACRO_UTN_1_FICA-FICAYA.pdf",
+    "subject": "Matemática",
+    "answer": "D",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "∫x³/(9x⁴+1)dx = (1/36)ln(9x⁴+1)+C; usando f(0)=-1, C=-1.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S1-45",
+    "simulacro": "Simulacro 1",
+    "number": 45,
+    "page": 5,
+    "pdf": "SIMULACRO_UTN_1_FICA-FICAYA.pdf",
+    "subject": "Matemática",
+    "answer": "A",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "Derivando término a término: 4x³ + 3/x⁴ + 2/x²; al unificar denominador coincide con A.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S1-46",
+    "simulacro": "Simulacro 1",
+    "number": 46,
+    "page": 6,
+    "pdf": "SIMULACRO_UTN_1_FICA-FICAYA.pdf",
+    "subject": "Matemática",
+    "answer": "A",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "sin²x + cos²x = 1.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": true,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": [
+        "short_explanation"
+      ]
+    }
+  },
+  {
+    "id": "S1-47",
+    "simulacro": "Simulacro 1",
+    "number": 47,
+    "page": 6,
+    "pdf": "SIMULACRO_UTN_1_FICA-FICAYA.pdf",
+    "subject": "Matemática",
+    "answer": "C",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "Las opciones C y D representan la misma recta porque D es exactamente 2×C. Se registra C como clave propuesta, pero ambas ecuaciones son equivalentes.",
+    "status": "revisar_fuente",
+    "source_note": "Las opciones C y D representan la misma recta porque D es exactamente 2×C. Se registra C como clave propuesta, pero ambas ecuaciones son equivalentes.",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": false,
+      "source_review_required": true,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": [
+        "source_review"
+      ]
+    }
+  },
+  {
+    "id": "S1-48",
+    "simulacro": "Simulacro 1",
+    "number": 48,
+    "page": 6,
+    "pdf": "SIMULACRO_UTN_1_FICA-FICAYA.pdf",
+    "subject": "Matemática",
+    "answer": "C",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "Multiplicando por 12: 6+4(4t+1) > 12+15t → t>2.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S1-49",
+    "simulacro": "Simulacro 1",
+    "number": 49,
+    "page": 6,
+    "pdf": "SIMULACRO_UTN_1_FICA-FICAYA.pdf",
+    "subject": "Matemática",
+    "answer": "D",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "Si 3/5 toma 3,2 h, el 2/5 restante toma 2,133… h = 128 min.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S1-50",
+    "simulacro": "Simulacro 1",
+    "number": 50,
+    "page": 6,
+    "pdf": "SIMULACRO_UTN_1_FICA-FICAYA.pdf",
+    "subject": "Matemática",
+    "answer": "D",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "Racionalizando, (√x-1)/(x-1)=1/(√x+1); en x=1 vale 1/2.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S1-51",
+    "simulacro": "Simulacro 1",
+    "number": 51,
+    "page": 6,
+    "pdf": "SIMULACRO_UTN_1_FICA-FICAYA.pdf",
+    "subject": "Matemática",
+    "answer": "D",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "r=5 cm; A=πr²=25π≈78,5 cm².",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S1-52",
+    "simulacro": "Simulacro 1",
+    "number": 52,
+    "page": 6,
+    "pdf": "SIMULACRO_UTN_1_FICA-FICAYA.pdf",
+    "subject": "Matemática",
+    "answer": "B",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "8 = 2·CM·CE² → CM=4/CE²; costo total=4/CE²+CE.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S1-53",
+    "simulacro": "Simulacro 1",
+    "number": 53,
+    "page": 6,
+    "pdf": "SIMULACRO_UTN_1_FICA-FICAYA.pdf",
+    "subject": "Matemática",
+    "answer": "D",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "∫(ln x)/x dx = ½(ln x)²; de 1 a e resulta 0,5.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S1-54",
+    "simulacro": "Simulacro 1",
+    "number": 54,
+    "page": 6,
+    "pdf": "SIMULACRO_UTN_1_FICA-FICAYA.pdf",
+    "subject": "Matemática",
+    "answer": "A",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "2L+8=24 → L=8 cm.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": true,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": [
+        "short_explanation"
+      ]
+    }
+  },
+  {
+    "id": "S1-55",
+    "simulacro": "Simulacro 1",
+    "number": 55,
+    "page": 7,
+    "pdf": "SIMULACRO_UTN_1_FICA-FICAYA.pdf",
+    "subject": "Matemática",
+    "answer": "C",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "√0,04 = 0,2.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": true,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": [
+        "short_explanation"
+      ]
+    }
+  },
+  {
+    "id": "S1-56",
+    "simulacro": "Simulacro 1",
+    "number": 56,
+    "page": 7,
+    "pdf": "SIMULACRO_UTN_1_FICA-FICAYA.pdf",
+    "subject": "Matemática",
+    "answer": "B",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "(-2⁶+2⁸)/(-4³)=(-64+256)/(-64)=-3.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S1-57",
+    "simulacro": "Simulacro 1",
+    "number": 57,
+    "page": 7,
+    "pdf": "SIMULACRO_UTN_1_FICA-FICAYA.pdf",
+    "subject": "Matemática",
+    "answer": "C",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "x=10+x/2 → x=20; ladrillo y medio=30.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S1-58",
+    "simulacro": "Simulacro 1",
+    "number": 58,
+    "page": 7,
+    "pdf": "SIMULACRO_UTN_1_FICA-FICAYA.pdf",
+    "subject": "Matemática",
+    "answer": "A",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "d(√x)/dx = 1/(2√x).",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": true,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": [
+        "short_explanation"
+      ]
+    }
+  },
+  {
+    "id": "S1-59",
+    "simulacro": "Simulacro 1",
+    "number": 59,
+    "page": 7,
+    "pdf": "SIMULACRO_UTN_1_FICA-FICAYA.pdf",
+    "subject": "Matemática",
+    "answer": "C",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "Integración por partes: ∫u dv = uv - ∫v du.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S1-60",
+    "simulacro": "Simulacro 1",
+    "number": 60,
+    "page": 7,
+    "pdf": "SIMULACRO_UTN_1_FICA-FICAYA.pdf",
+    "subject": "Matemática",
+    "answer": "A",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "M-N=[[2,10],[8,12]]; det=2·12-10·8=-56.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S1-61",
+    "simulacro": "Simulacro 1",
+    "number": 61,
+    "page": 7,
+    "pdf": "SIMULACRO_UTN_1_FICA-FICAYA.pdf",
+    "subject": "Matemática",
+    "answer": "A",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "La respuesta depende de la figura de la serie. Se propone A por continuidad visual, pero conviene validar directamente con el docente/material original.",
+    "status": "revisar_fuente",
+    "source_note": "La respuesta depende de la figura de la serie. Se propone A por continuidad visual, pero conviene validar directamente con el docente/material original.",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": false,
+      "source_review_required": true,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": [
+        "source_review"
+      ]
+    }
+  },
+  {
+    "id": "S1-62",
+    "simulacro": "Simulacro 1",
+    "number": 62,
+    "page": 7,
+    "pdf": "SIMULACRO_UTN_1_FICA-FICAYA.pdf",
+    "subject": "Estadística y razonamiento",
+    "answer": "D",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "Los gramos tienen cero absoluto y permiten razones, por eso es escala de razón.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S1-63",
+    "simulacro": "Simulacro 1",
+    "number": 63,
+    "page": 7,
+    "pdf": "SIMULACRO_UTN_1_FICA-FICAYA.pdf",
+    "subject": "Estadística y razonamiento",
+    "answer": "B",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "La moda puede aplicarse a categorías cualitativas.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S1-64",
+    "simulacro": "Simulacro 1",
+    "number": 64,
+    "page": 8,
+    "pdf": "SIMULACRO_UTN_1_FICA-FICAYA.pdf",
+    "subject": "Estadística y razonamiento",
+    "answer": "D",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "Una muestra es un subconjunto de la población.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S1-65",
+    "simulacro": "Simulacro 1",
+    "number": 65,
+    "page": 8,
+    "pdf": "SIMULACRO_UTN_1_FICA-FICAYA.pdf",
+    "subject": "Estadística y razonamiento",
+    "answer": "C",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "El tiempo puede tomar valores continuos, por eso es cuantitativa continua.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S1-66",
+    "simulacro": "Simulacro 1",
+    "number": 66,
+    "page": 8,
+    "pdf": "SIMULACRO_UTN_1_FICA-FICAYA.pdf",
+    "subject": "Estadística y razonamiento",
+    "answer": "A",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "El error de muestreo es la diferencia/imprecisión al estimar parámetros poblacionales con una muestra.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S1-67",
+    "simulacro": "Simulacro 1",
+    "number": 67,
+    "page": 8,
+    "pdf": "SIMULACRO_UTN_1_FICA-FICAYA.pdf",
+    "subject": "Estadística y razonamiento",
+    "answer": "B",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "Asignar números o símbolos según reglas es medir.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S1-68",
+    "simulacro": "Simulacro 1",
+    "number": 68,
+    "page": 8,
+    "pdf": "SIMULACRO_UTN_1_FICA-FICAYA.pdf",
+    "subject": "Estadística y razonamiento",
+    "answer": "A",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "Rango = valor máximo - valor mínimo.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S1-69",
+    "simulacro": "Simulacro 1",
+    "number": 69,
+    "page": 8,
+    "pdf": "SIMULACRO_UTN_1_FICA-FICAYA.pdf",
+    "subject": "Estadística y razonamiento",
+    "answer": "B",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "(40+50+35+x)/4=45 → x=55.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S1-70",
+    "simulacro": "Simulacro 1",
+    "number": 70,
+    "page": 8,
+    "pdf": "SIMULACRO_UTN_1_FICA-FICAYA.pdf",
+    "subject": "Estadística y razonamiento",
+    "answer": "A",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "Media=53; varianza poblacional=(9+1+9+1)/4=5.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S1-71",
+    "simulacro": "Simulacro 1",
+    "number": 71,
+    "page": 8,
+    "pdf": "SIMULACRO_UTN_1_FICA-FICAYA.pdf",
+    "subject": "Estadística y razonamiento",
+    "answer": "B",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "Ordenados 2,4,8,16,32, el valor central es 8.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S1-72",
+    "simulacro": "Simulacro 1",
+    "number": 72,
+    "page": 8,
+    "pdf": "SIMULACRO_UTN_1_FICA-FICAYA.pdf",
+    "subject": "Estadística y razonamiento",
+    "answer": "B",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "390/(6+7)=30; varones=180, mujeres=210; exceden en 30.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S1-73",
+    "simulacro": "Simulacro 1",
+    "number": 73,
+    "page": 8,
+    "pdf": "SIMULACRO_UTN_1_FICA-FICAYA.pdf",
+    "subject": "Estadística y razonamiento",
+    "answer": "B",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "La regla del cociente da (2x³-3x²+1)/(x-1)².",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": true,
+      "classification_hint": "Matemática",
+      "classification_reason": "Ejercicio de derivación mediante regla del cociente.",
+      "flags": [
+        "classification_review"
+      ]
+    }
+  },
+  {
+    "id": "S1-74",
+    "simulacro": "Simulacro 1",
+    "number": 74,
+    "page": 8,
+    "pdf": "SIMULACRO_UTN_1_FICA-FICAYA.pdf",
+    "subject": "Estadística y razonamiento",
+    "answer": "B",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "Entre -3,25 y -2,4 están -25/8=-3,125 y -18/7≈-2,571.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S1-75",
+    "simulacro": "Simulacro 1",
+    "number": 75,
+    "page": 9,
+    "pdf": "SIMULACRO_UTN_1_FICA-FICAYA.pdf",
+    "subject": "Estadística y razonamiento",
+    "answer": "E",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "(-1)³·(-1)²·(-2)⁰·(-2)⁰ = -1.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S1-76",
+    "simulacro": "Simulacro 1",
+    "number": 76,
+    "page": 9,
+    "pdf": "SIMULACRO_UTN_1_FICA-FICAYA.pdf",
+    "subject": "Estadística y razonamiento",
+    "answer": "C",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "x²-3x-4=(x-4)(x+1), raíces 4 y -1.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": true,
+      "classification_hint": "Matemática",
+      "classification_reason": "Ejercicio algebraico de ecuación cuadrática y raíces.",
+      "flags": [
+        "classification_review"
+      ]
+    }
+  },
+  {
+    "id": "S1-77",
+    "simulacro": "Simulacro 1",
+    "number": 77,
+    "page": 9,
+    "pdf": "SIMULACRO_UTN_1_FICA-FICAYA.pdf",
+    "subject": "Estadística y razonamiento",
+    "answer": "C",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "La inecuación se simplifica a x≤0.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": true,
+      "classification_hint": "Matemática",
+      "classification_reason": "Ejercicio algebraico de inecuaciones.",
+      "flags": [
+        "classification_review"
+      ]
+    }
+  },
+  {
+    "id": "S1-78",
+    "simulacro": "Simulacro 1",
+    "number": 78,
+    "page": 9,
+    "pdf": "SIMULACRO_UTN_1_FICA-FICAYA.pdf",
+    "subject": "Estadística y razonamiento",
+    "answer": "D",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "Las fechas históricas usan escala de intervalo: las diferencias son interpretables, no las razones.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S1-79",
+    "simulacro": "Simulacro 1",
+    "number": 79,
+    "page": 9,
+    "pdf": "SIMULACRO_UTN_1_FICA-FICAYA.pdf",
+    "subject": "Estadística y razonamiento",
+    "answer": "D",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "El gráfico de burbujas puede codificar dos variables cuantitativas y una categoría adicional.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S1-80",
+    "simulacro": "Simulacro 1",
+    "number": 80,
+    "page": 9,
+    "pdf": "SIMULACRO_UTN_1_FICA-FICAYA.pdf",
+    "subject": "Estadística y razonamiento",
+    "answer": "D",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "La media aritmética es la tendencia central más sensible a valores atípicos.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S1-81",
+    "simulacro": "Simulacro 1",
+    "number": 81,
+    "page": 9,
+    "pdf": "SIMULACRO_UTN_1_FICA-FICAYA.pdf",
+    "subject": "Lenguaje y comprensión",
+    "answer": "C",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "La opción C usa correctamente coma y comillas.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S1-82",
+    "simulacro": "Simulacro 1",
+    "number": 82,
+    "page": 9,
+    "pdf": "SIMULACRO_UTN_1_FICA-FICAYA.pdf",
+    "subject": "Lenguaje y comprensión",
+    "answer": "B",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "La opción B tiene una sola proposición principal con sujeto único y predicado compuesto.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S1-83",
+    "simulacro": "Simulacro 1",
+    "number": 83,
+    "page": 10,
+    "pdf": "SIMULACRO_UTN_1_FICA-FICAYA.pdf",
+    "subject": "Lenguaje y comprensión",
+    "answer": "D",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "El texto relata acciones sucesivas de Emma; predomina la narración.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S1-84",
+    "simulacro": "Simulacro 1",
+    "number": 84,
+    "page": 10,
+    "pdf": "SIMULACRO_UTN_1_FICA-FICAYA.pdf",
+    "subject": "Lenguaje y comprensión",
+    "answer": "B",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "El texto está escrito en prosa.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S1-85",
+    "simulacro": "Simulacro 1",
+    "number": 85,
+    "page": 10,
+    "pdf": "SIMULACRO_UTN_1_FICA-FICAYA.pdf",
+    "subject": "Lenguaje y comprensión",
+    "answer": "C",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "Baldomera-Pareja; La Tigra-De la Cuadra; Boletín-Dávila Andrade; Juyungo-Ortiz.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S1-86",
+    "simulacro": "Simulacro 1",
+    "number": 86,
+    "page": 10,
+    "pdf": "SIMULACRO_UTN_1_FICA-FICAYA.pdf",
+    "subject": "Lenguaje y comprensión",
+    "answer": "A",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "La descripción corresponde al saludo inicial de una exposición.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S1-87",
+    "simulacro": "Simulacro 1",
+    "number": 87,
+    "page": 11,
+    "pdf": "SIMULACRO_UTN_1_FICA-FICAYA.pdf",
+    "subject": "Lenguaje y comprensión",
+    "answer": "A",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "El texto dice que los algoritmos examinan imágenes médicas como TAC y resonancias.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S1-88",
+    "simulacro": "Simulacro 1",
+    "number": 88,
+    "page": 11,
+    "pdf": "SIMULACRO_UTN_1_FICA-FICAYA.pdf",
+    "subject": "Lenguaje y comprensión",
+    "answer": "C",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "Los asistentes/chatbots permiten resolver información y triaje inicial de manera autónoma, reduciendo carga.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S1-89",
+    "simulacro": "Simulacro 1",
+    "number": 89,
+    "page": 11,
+    "pdf": "SIMULACRO_UTN_1_FICA-FICAYA.pdf",
+    "subject": "Lenguaje y comprensión",
+    "answer": "B",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "B y D pueden ser gramaticalmente correctas en tiempos verbales distintos. El material parece evaluar la grafía “echó/hechó”; se propone B.",
+    "status": "revisar_fuente",
+    "source_note": "B y D pueden ser gramaticalmente correctas en tiempos verbales distintos. El material parece evaluar la grafía “echó/hechó”; se propone B.",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": false,
+      "source_review_required": true,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": [
+        "source_review"
+      ]
+    }
+  },
+  {
+    "id": "S1-90",
+    "simulacro": "Simulacro 1",
+    "number": 90,
+    "page": 11,
+    "pdf": "SIMULACRO_UTN_1_FICA-FICAYA.pdf",
+    "subject": "Lenguaje y comprensión",
+    "answer": "C",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "La opción C contiene palabras variables (adjetivo, sustantivos y verbo); las otras incluyen conjunciones/adverbios invariables.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S3-01",
+    "simulacro": "Simulacro 3",
+    "number": 1,
+    "page": 1,
+    "pdf": "SIMULACRO_UTN_3_FICA-FICAYA.pdf",
+    "subject": "Física",
+    "answer": "B",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "Las componentes verticales se anulan y las horizontales se suman: 2·60·cos45° = 60√2.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S3-02",
+    "simulacro": "Simulacro 3",
+    "number": 2,
+    "page": 1,
+    "pdf": "SIMULACRO_UTN_3_FICA-FICAYA.pdf",
+    "subject": "Física",
+    "answer": "B",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "N45°O equivale a 135° y 315° es la dirección opuesta; las posiciones quedan separadas 50+100=150 km.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S3-03",
+    "simulacro": "Simulacro 3",
+    "number": 3,
+    "page": 1,
+    "pdf": "SIMULACRO_UTN_3_FICA-FICAYA.pdf",
+    "subject": "Física",
+    "answer": "B",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "B=(8,6) y C=(8,0); B respecto de C está 6 m al norte.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S3-04",
+    "simulacro": "Simulacro 3",
+    "number": 4,
+    "page": 1,
+    "pdf": "SIMULACRO_UTN_3_FICA-FICAYA.pdf",
+    "subject": "Física",
+    "answer": "D",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "El cálculo vectorial con los datos transcritos produce aproximadamente 316 m, valor que no aparece entre las opciones. Se propone D por cercanía/posible redondeo o error de fuente.",
+    "status": "revisar_fuente",
+    "source_note": "El cálculo vectorial con los datos transcritos produce aproximadamente 316 m, valor que no aparece entre las opciones. Se propone D por cercanía/posible redondeo o error de fuente.",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": false,
+      "source_review_required": true,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": [
+        "source_review"
+      ]
+    }
+  },
+  {
+    "id": "S3-05",
+    "simulacro": "Simulacro 3",
+    "number": 5,
+    "page": 1,
+    "pdf": "SIMULACRO_UTN_3_FICA-FICAYA.pdf",
+    "subject": "Física",
+    "answer": "D",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "La tensión equilibra dos componentes perpendiculares de 80 N y 60 N: T=√(80²+60²)=100 N.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S3-06",
+    "simulacro": "Simulacro 3",
+    "number": 6,
+    "page": 1,
+    "pdf": "SIMULACRO_UTN_3_FICA-FICAYA.pdf",
+    "subject": "Física",
+    "answer": "B",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "Resultante: horizontal 8-4=4 y vertical 8-5=3; magnitud √(4²+3²)=5.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S3-07",
+    "simulacro": "Simulacro 3",
+    "number": 7,
+    "page": 2,
+    "pdf": "SIMULACRO_UTN_3_FICA-FICAYA.pdf",
+    "subject": "Física",
+    "answer": "D",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "Velocidad relativa=6,5-2,5=4 m/s; t=240/4=60 s.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S3-08",
+    "simulacro": "Simulacro 3",
+    "number": 8,
+    "page": 2,
+    "pdf": "SIMULACRO_UTN_3_FICA-FICAYA.pdf",
+    "subject": "Física",
+    "answer": "B",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "12 m este - 5 m oeste = 7 m al este.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S3-09",
+    "simulacro": "Simulacro 3",
+    "number": 9,
+    "page": 2,
+    "pdf": "SIMULACRO_UTN_3_FICA-FICAYA.pdf",
+    "subject": "Física",
+    "answer": "A",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "173·cos35°≈173·0,8191≈142 m.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S3-10",
+    "simulacro": "Simulacro 3",
+    "number": 10,
+    "page": 2,
+    "pdf": "SIMULACRO_UTN_3_FICA-FICAYA.pdf",
+    "subject": "Física",
+    "answer": "C",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "W=Fd cos60°=100·8·0,5=400 J.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S3-11",
+    "simulacro": "Simulacro 3",
+    "number": 11,
+    "page": 2,
+    "pdf": "SIMULACRO_UTN_3_FICA-FICAYA.pdf",
+    "subject": "Física",
+    "answer": "C",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "Con desaceleración uniforme, velocidad media=(30+0)/2=15; t=60/15=4 s.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S3-12",
+    "simulacro": "Simulacro 3",
+    "number": 12,
+    "page": 2,
+    "pdf": "SIMULACRO_UTN_3_FICA-FICAYA.pdf",
+    "subject": "Física",
+    "answer": "B",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "v²=v0²+2gh=10²+2·10·100=2100; v=10√21 m/s.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S3-13",
+    "simulacro": "Simulacro 3",
+    "number": 13,
+    "page": 2,
+    "pdf": "SIMULACRO_UTN_3_FICA-FICAYA.pdf",
+    "subject": "Física",
+    "answer": "D",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "50 gotas/min ÷20=2,5 mL/min; en 30 días son 108 L.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S3-14",
+    "simulacro": "Simulacro 3",
+    "number": 14,
+    "page": 3,
+    "pdf": "SIMULACRO_UTN_3_FICA-FICAYA.pdf",
+    "subject": "Física",
+    "answer": "B",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "La expresión está maquetada de forma ambigua en el PDF y la transcripción no permite reconstruirla con certeza. Se propone B como clave provisional; revisar la fórmula visualmente.",
+    "status": "revisar_fuente",
+    "source_note": "La expresión está maquetada de forma ambigua en el PDF y la transcripción no permite reconstruirla con certeza. Se propone B como clave provisional; revisar la fórmula visualmente.",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": false,
+      "source_review_required": true,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": [
+        "source_review"
+      ]
+    }
+  },
+  {
+    "id": "S3-15",
+    "simulacro": "Simulacro 3",
+    "number": 15,
+    "page": 3,
+    "pdf": "SIMULACRO_UTN_3_FICA-FICAYA.pdf",
+    "subject": "Física",
+    "answer": "C",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "Al volver al punto inicial, el desplazamiento neto es cero.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S3-16",
+    "simulacro": "Simulacro 3",
+    "number": 16,
+    "page": 3,
+    "pdf": "SIMULACRO_UTN_3_FICA-FICAYA.pdf",
+    "subject": "Física",
+    "answer": "B",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "A=(-8,6) y B=(-28,21); suma=(-36,27).",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S3-17",
+    "simulacro": "Simulacro 3",
+    "number": 17,
+    "page": 3,
+    "pdf": "SIMULACRO_UTN_3_FICA-FICAYA.pdf",
+    "subject": "Física",
+    "answer": "A",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "Fuerza perpendicular al desplazamiento: W=Fd cos90°=0.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S3-18",
+    "simulacro": "Simulacro 3",
+    "number": 18,
+    "page": 3,
+    "pdf": "SIMULACRO_UTN_3_FICA-FICAYA.pdf",
+    "subject": "Física",
+    "answer": "A",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "m=10 kg; F=ma=20 N; d=24 m; W=480 J.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S3-19",
+    "simulacro": "Simulacro 3",
+    "number": 19,
+    "page": 3,
+    "pdf": "SIMULACRO_UTN_3_FICA-FICAYA.pdf",
+    "subject": "Física",
+    "answer": "D",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "Trabajo neto=[50cos60°-5]·8=(25-5)·8=160 J.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S3-20",
+    "simulacro": "Simulacro 3",
+    "number": 20,
+    "page": 3,
+    "pdf": "SIMULACRO_UTN_3_FICA-FICAYA.pdf",
+    "subject": "Física",
+    "answer": "A",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "4 000 L requieren 20 kW; durante 0,5 h son 10 kWh=36 MJ.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S3-21",
+    "simulacro": "Simulacro 3",
+    "number": 21,
+    "page": 3,
+    "pdf": "SIMULACRO_UTN_3_FICA-FICAYA.pdf",
+    "subject": "Física",
+    "answer": "A",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "El período es el tiempo que tarda un ciclo.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S3-22",
+    "simulacro": "Simulacro 3",
+    "number": 22,
+    "page": 3,
+    "pdf": "SIMULACRO_UTN_3_FICA-FICAYA.pdf",
+    "subject": "Física",
+    "answer": "A",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "En una onda longitudinal la vibración es paralela a la propagación.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S3-23",
+    "simulacro": "Simulacro 3",
+    "number": 23,
+    "page": 3,
+    "pdf": "SIMULACRO_UTN_3_FICA-FICAYA.pdf",
+    "subject": "Física",
+    "answer": "A",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "Frecuencia = número de ciclos por unidad de tiempo.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S3-24",
+    "simulacro": "Simulacro 3",
+    "number": 24,
+    "page": 3,
+    "pdf": "SIMULACRO_UTN_3_FICA-FICAYA.pdf",
+    "subject": "Física",
+    "answer": "C",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "La máxima elongación respecto al equilibrio es la amplitud.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S3-25",
+    "simulacro": "Simulacro 3",
+    "number": 25,
+    "page": 4,
+    "pdf": "SIMULACRO_UTN_3_FICA-FICAYA.pdf",
+    "subject": "Física",
+    "answer": "D",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "En una onda transversal la vibración es perpendicular a la propagación.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S3-26",
+    "simulacro": "Simulacro 3",
+    "number": 26,
+    "page": 4,
+    "pdf": "SIMULACRO_UTN_3_FICA-FICAYA.pdf",
+    "subject": "Física",
+    "answer": "D",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "T=1/f=1/12≈0,083 s.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": true,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": [
+        "short_explanation"
+      ]
+    }
+  },
+  {
+    "id": "S3-27",
+    "simulacro": "Simulacro 3",
+    "number": 27,
+    "page": 4,
+    "pdf": "SIMULACRO_UTN_3_FICA-FICAYA.pdf",
+    "subject": "Física",
+    "answer": "B",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "v=180 m/6 s=30 m/s; λ=v/f=30/3=10 m.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S3-28",
+    "simulacro": "Simulacro 3",
+    "number": 28,
+    "page": 4,
+    "pdf": "SIMULACRO_UTN_3_FICA-FICAYA.pdf",
+    "subject": "Física",
+    "answer": "B",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "40 dm=4 m; f=20/5=4 Hz; v=λf=16 m/s.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S3-29",
+    "simulacro": "Simulacro 3",
+    "number": 29,
+    "page": 4,
+    "pdf": "SIMULACRO_UTN_3_FICA-FICAYA.pdf",
+    "subject": "Física",
+    "answer": "D",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "Si f no cambia y v se reduce a la mitad, λ también se reduce a la mitad.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S3-30",
+    "simulacro": "Simulacro 3",
+    "number": 30,
+    "page": 4,
+    "pdf": "SIMULACRO_UTN_3_FICA-FICAYA.pdf",
+    "subject": "Física",
+    "answer": "B",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "Para y=A sin(ωt-kx), v=ω/k=(8π)/(2π)=4 m/s.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S3-31",
+    "simulacro": "Simulacro 3",
+    "number": 31,
+    "page": 4,
+    "pdf": "SIMULACRO_UTN_3_FICA-FICAYA.pdf",
+    "subject": "Física",
+    "answer": "A",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "Ec=½·3000·20²=6×10⁵ J.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S3-32",
+    "simulacro": "Simulacro 3",
+    "number": 32,
+    "page": 4,
+    "pdf": "SIMULACRO_UTN_3_FICA-FICAYA.pdf",
+    "subject": "Física",
+    "answer": "A",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "Ep=mgh=13,6·10·4=544 J.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S3-33",
+    "simulacro": "Simulacro 3",
+    "number": 33,
+    "page": 5,
+    "pdf": "SIMULACRO_UTN_3_FICA-FICAYA.pdf",
+    "subject": "Física",
+    "answer": "C",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "La fricción se opone al desplazamiento y realiza trabajo negativo.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S3-34",
+    "simulacro": "Simulacro 3",
+    "number": 34,
+    "page": 5,
+    "pdf": "SIMULACRO_UTN_3_FICA-FICAYA.pdf",
+    "subject": "Física",
+    "answer": "C",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "P=W/t=(400·15)/20=300 W.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S3-35",
+    "simulacro": "Simulacro 3",
+    "number": 35,
+    "page": 5,
+    "pdf": "SIMULACRO_UTN_3_FICA-FICAYA.pdf",
+    "subject": "Física",
+    "answer": "C",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "Ec∝v²; duplicar v multiplica Ec por 4.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S3-36",
+    "simulacro": "Simulacro 3",
+    "number": 36,
+    "page": 5,
+    "pdf": "SIMULACRO_UTN_3_FICA-FICAYA.pdf",
+    "subject": "Física",
+    "answer": "C",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "Fnet=70-20=50 N; Wnet=50·10=500 J.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S3-37",
+    "simulacro": "Simulacro 3",
+    "number": 37,
+    "page": 5,
+    "pdf": "SIMULACRO_UTN_3_FICA-FICAYA.pdf",
+    "subject": "Física",
+    "answer": "C",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "Fnet=100-20=80 N; a=80/25=3,2 m/s².",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S3-38",
+    "simulacro": "Simulacro 3",
+    "number": 38,
+    "page": 5,
+    "pdf": "SIMULACRO_UTN_3_FICA-FICAYA.pdf",
+    "subject": "Física",
+    "answer": "C",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "N=m(g+a)=70·12=840 N.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S3-39",
+    "simulacro": "Simulacro 3",
+    "number": 39,
+    "page": 5,
+    "pdf": "SIMULACRO_UTN_3_FICA-FICAYA.pdf",
+    "subject": "Física",
+    "answer": "B",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "a=g sin30°=5 m/s².",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": true,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": [
+        "short_explanation"
+      ]
+    }
+  },
+  {
+    "id": "S3-40",
+    "simulacro": "Simulacro 3",
+    "number": 40,
+    "page": 5,
+    "pdf": "SIMULACRO_UTN_3_FICA-FICAYA.pdf",
+    "subject": "Física",
+    "answer": "B",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "Por acción y reacción, ambos patinadores reciben fuerzas opuestas y se mueven.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S3-41",
+    "simulacro": "Simulacro 3",
+    "number": 41,
+    "page": 5,
+    "pdf": "SIMULACRO_UTN_3_FICA-FICAYA.pdf",
+    "subject": "Física",
+    "answer": "D",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "B=Φ/A=50 μWb/0,78≈64,1 μT.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S3-42",
+    "simulacro": "Simulacro 3",
+    "number": 42,
+    "page": 5,
+    "pdf": "SIMULACRO_UTN_3_FICA-FICAYA.pdf",
+    "subject": "Física",
+    "answer": "A",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "Las cargas en movimiento/corriente eléctrica producen campo magnético.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S3-43",
+    "simulacro": "Simulacro 3",
+    "number": 43,
+    "page": 5,
+    "pdf": "SIMULACRO_UTN_3_FICA-FICAYA.pdf",
+    "subject": "Física",
+    "answer": "C",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "Fuera del imán, las líneas van del polo norte al polo sur.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S3-44",
+    "simulacro": "Simulacro 3",
+    "number": 44,
+    "page": 5,
+    "pdf": "SIMULACRO_UTN_3_FICA-FICAYA.pdf",
+    "subject": "Física",
+    "answer": "B",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "El campo es más intenso cerca de los polos.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S3-45",
+    "simulacro": "Simulacro 3",
+    "number": 45,
+    "page": 6,
+    "pdf": "SIMULACRO_UTN_3_FICA-FICAYA.pdf",
+    "subject": "Física",
+    "answer": "C",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "Cada fragmento de un imán conserva polo norte y sur.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S3-46",
+    "simulacro": "Simulacro 3",
+    "number": 46,
+    "page": 6,
+    "pdf": "SIMULACRO_UTN_3_FICA-FICAYA.pdf",
+    "subject": "Física",
+    "answer": "A",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "B=μ(N/L)I=4π×10⁻⁷·(120/0,5)·2≈603 μT.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S3-47",
+    "simulacro": "Simulacro 3",
+    "number": 47,
+    "page": 6,
+    "pdf": "SIMULACRO_UTN_3_FICA-FICAYA.pdf",
+    "subject": "Física",
+    "answer": "D",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "Un campo magnético es la perturbación/región donde aparecen fuerzas magnéticas.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S3-48",
+    "simulacro": "Simulacro 3",
+    "number": 48,
+    "page": 6,
+    "pdf": "SIMULACRO_UTN_3_FICA-FICAYA.pdf",
+    "subject": "Física",
+    "answer": "D",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "Las líneas externas emergen del norte y entran por el sur.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S3-49",
+    "simulacro": "Simulacro 3",
+    "number": 49,
+    "page": 6,
+    "pdf": "SIMULACRO_UTN_3_FICA-FICAYA.pdf",
+    "subject": "Física",
+    "answer": "C",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "r=mv/(qB)=4×10⁻⁹·200/(2×10⁻⁶·5)=0,08 m.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S3-50",
+    "simulacro": "Simulacro 3",
+    "number": 50,
+    "page": 6,
+    "pdf": "SIMULACRO_UTN_3_FICA-FICAYA.pdf",
+    "subject": "Física",
+    "answer": "C",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "amax=ω²A=40²·0,02=32 m/s².",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S3-51",
+    "simulacro": "Simulacro 3",
+    "number": 51,
+    "page": 6,
+    "pdf": "SIMULACRO_UTN_3_FICA-FICAYA.pdf",
+    "subject": "Física",
+    "answer": "B",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "λ=v/f=340/170=2 m.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": true,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": [
+        "short_explanation"
+      ]
+    }
+  },
+  {
+    "id": "S3-52",
+    "simulacro": "Simulacro 3",
+    "number": 52,
+    "page": 7,
+    "pdf": "SIMULACRO_UTN_3_FICA-FICAYA.pdf",
+    "subject": "Física",
+    "answer": "B",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "Φ=BA cosθ es máximo cuando B es perpendicular a la superficie (paralelo a la normal).",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S3-53",
+    "simulacro": "Simulacro 3",
+    "number": 53,
+    "page": 7,
+    "pdf": "SIMULACRO_UTN_3_FICA-FICAYA.pdf",
+    "subject": "Física",
+    "answer": "C",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "En MAS, a=-ω²x; su magnitud es máxima cuando |x| es máximo.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S3-54",
+    "simulacro": "Simulacro 3",
+    "number": 54,
+    "page": 7,
+    "pdf": "SIMULACRO_UTN_3_FICA-FICAYA.pdf",
+    "subject": "Física",
+    "answer": "B",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "B=μ0I/(2πr)=5×10⁻⁵ T.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S3-55",
+    "simulacro": "Simulacro 3",
+    "number": 55,
+    "page": 7,
+    "pdf": "SIMULACRO_UTN_3_FICA-FICAYA.pdf",
+    "subject": "Física",
+    "answer": "C",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "Una onda mecánica necesita un medio material.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S3-56",
+    "simulacro": "Simulacro 3",
+    "number": 56,
+    "page": 7,
+    "pdf": "SIMULACRO_UTN_3_FICA-FICAYA.pdf",
+    "subject": "Física",
+    "answer": "A",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "F=BIL=0,2·4·0,5=0,4 N.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S3-57",
+    "simulacro": "Simulacro 3",
+    "number": 57,
+    "page": 7,
+    "pdf": "SIMULACRO_UTN_3_FICA-FICAYA.pdf",
+    "subject": "Física",
+    "answer": "C",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "v=λf=2·50=100 m/s.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": true,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": [
+        "short_explanation"
+      ]
+    }
+  },
+  {
+    "id": "S3-58",
+    "simulacro": "Simulacro 3",
+    "number": 58,
+    "page": 7,
+    "pdf": "SIMULACRO_UTN_3_FICA-FICAYA.pdf",
+    "subject": "Física",
+    "answer": "D",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "F=qvB=2×10⁻⁶·3×10⁵·0,2=0,12 N.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S3-59",
+    "simulacro": "Simulacro 3",
+    "number": 59,
+    "page": 7,
+    "pdf": "SIMULACRO_UTN_3_FICA-FICAYA.pdf",
+    "subject": "Lenguaje y comprensión",
+    "answer": "B",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "“El profesor explicó el tema” contiene una sola proposición.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S3-60",
+    "simulacro": "Simulacro 3",
+    "number": 60,
+    "page": 7,
+    "pdf": "SIMULACRO_UTN_3_FICA-FICAYA.pdf",
+    "subject": "Biología",
+    "answer": "B",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "La lactosa tiene enlace β(1→4) entre galactosa y glucosa.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S3-61",
+    "simulacro": "Simulacro 3",
+    "number": 61,
+    "page": 8,
+    "pdf": "SIMULACRO_UTN_3_FICA-FICAYA.pdf",
+    "subject": "Biología",
+    "answer": "B",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "Los fosfolípidos son anfipáticos y forman la bicapa.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S3-62",
+    "simulacro": "Simulacro 3",
+    "number": 62,
+    "page": 8,
+    "pdf": "SIMULACRO_UTN_3_FICA-FICAYA.pdf",
+    "subject": "Biología",
+    "answer": "B",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "La respuesta secundaria rápida depende de linfocitos B de memoria.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S3-63",
+    "simulacro": "Simulacro 3",
+    "number": 63,
+    "page": 8,
+    "pdf": "SIMULACRO_UTN_3_FICA-FICAYA.pdf",
+    "subject": "Matemática y razonamiento",
+    "answer": "A",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "f2=35-8-6=21; 21/35=60%.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S3-64",
+    "simulacro": "Simulacro 3",
+    "number": 64,
+    "page": 8,
+    "pdf": "SIMULACRO_UTN_3_FICA-FICAYA.pdf",
+    "subject": "Matemática y razonamiento",
+    "answer": "A",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "P(A)=0,30·0,40+0,70·0,25=0,295.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S3-65",
+    "simulacro": "Simulacro 3",
+    "number": 65,
+    "page": 8,
+    "pdf": "SIMULACRO_UTN_3_FICA-FICAYA.pdf",
+    "subject": "Matemática y razonamiento",
+    "answer": "A",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "X=81+8²=145.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": true,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": [
+        "short_explanation"
+      ]
+    }
+  },
+  {
+    "id": "S3-66",
+    "simulacro": "Simulacro 3",
+    "number": 66,
+    "page": 9,
+    "pdf": "SIMULACRO_UTN_3_FICA-FICAYA.pdf",
+    "subject": "Matemática y razonamiento",
+    "answer": "A",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "8/5·100=160%.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": true,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": [
+        "short_explanation"
+      ]
+    }
+  },
+  {
+    "id": "S3-67",
+    "simulacro": "Simulacro 3",
+    "number": 67,
+    "page": 9,
+    "pdf": "SIMULACRO_UTN_3_FICA-FICAYA.pdf",
+    "subject": "Matemática y razonamiento",
+    "answer": "A",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "d[ln u]/dt=u′/u; u′=6t+2.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S3-68",
+    "simulacro": "Simulacro 3",
+    "number": 68,
+    "page": 9,
+    "pdf": "SIMULACRO_UTN_3_FICA-FICAYA.pdf",
+    "subject": "Matemática y razonamiento",
+    "answer": "A",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "m=(-10-5)/(-7-3)=(-15)/(-10)=3/2.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S3-69",
+    "simulacro": "Simulacro 3",
+    "number": 69,
+    "page": 9,
+    "pdf": "SIMULACRO_UTN_3_FICA-FICAYA.pdf",
+    "subject": "Matemática y razonamiento",
+    "answer": "A",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "det(A⁻¹)=1/det(A)=-1/28.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S3-70",
+    "simulacro": "Simulacro 3",
+    "number": 70,
+    "page": 9,
+    "pdf": "SIMULACRO_UTN_3_FICA-FICAYA.pdf",
+    "subject": "Matemática y razonamiento",
+    "answer": "A",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "Valor neto=357/1,05=340.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S3-71",
+    "simulacro": "Simulacro 3",
+    "number": 71,
+    "page": 10,
+    "pdf": "SIMULACRO_UTN_3_FICA-FICAYA.pdf",
+    "subject": "Matemática y razonamiento",
+    "answer": "A",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "Con proporcionalidad compuesta directa, el cálculo da 5,4 días y ese valor no aparece entre las opciones. Se propone A por ser la opción más cercana, pero el ítem presenta inconsistencia.",
+    "status": "revisar_fuente",
+    "source_note": "Con proporcionalidad compuesta directa, el cálculo da 5,4 días y ese valor no aparece entre las opciones. Se propone A por ser la opción más cercana, pero el ítem presenta inconsistencia.",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": false,
+      "source_review_required": true,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": [
+        "source_review"
+      ]
+    }
+  },
+  {
+    "id": "S3-72",
+    "simulacro": "Simulacro 3",
+    "number": 72,
+    "page": 10,
+    "pdf": "SIMULACRO_UTN_3_FICA-FICAYA.pdf",
+    "subject": "Matemática y razonamiento",
+    "answer": "A",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "Capacidad∝médicos·horas: 1200·(14/12)·(6/5)=1680.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S3-73",
+    "simulacro": "Simulacro 3",
+    "number": 73,
+    "page": 10,
+    "pdf": "SIMULACRO_UTN_3_FICA-FICAYA.pdf",
+    "subject": "Matemática y razonamiento",
+    "answer": "C",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "80·1,15=92.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": true,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": [
+        "short_explanation"
+      ]
+    }
+  },
+  {
+    "id": "S3-74",
+    "simulacro": "Simulacro 3",
+    "number": 74,
+    "page": 10,
+    "pdf": "SIMULACRO_UTN_3_FICA-FICAYA.pdf",
+    "subject": "Matemática y razonamiento",
+    "answer": "B",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "720/900=0,80=80%.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": true,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": [
+        "short_explanation"
+      ]
+    }
+  },
+  {
+    "id": "S3-75",
+    "simulacro": "Simulacro 3",
+    "number": 75,
+    "page": 10,
+    "pdf": "SIMULACRO_UTN_3_FICA-FICAYA.pdf",
+    "subject": "Matemática y razonamiento",
+    "answer": "C",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "Duplicar trabajadores duplica producción: 600.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S3-76",
+    "simulacro": "Simulacro 3",
+    "number": 76,
+    "page": 10,
+    "pdf": "SIMULACRO_UTN_3_FICA-FICAYA.pdf",
+    "subject": "Matemática y razonamiento",
+    "answer": "C",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "I(100)=5·100+200=700.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S3-77",
+    "simulacro": "Simulacro 3",
+    "number": 77,
+    "page": 11,
+    "pdf": "SIMULACRO_UTN_3_FICA-FICAYA.pdf",
+    "subject": "Matemática y razonamiento",
+    "answer": "A",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "Derivando: 12x³-10x+7.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S3-78",
+    "simulacro": "Simulacro 3",
+    "number": 78,
+    "page": 11,
+    "pdf": "SIMULACRO_UTN_3_FICA-FICAYA.pdf",
+    "subject": "Matemática y razonamiento",
+    "answer": "A",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "d[ln(2x²+3x+1)]/dx=(4x+3)/(2x²+3x+1).",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S3-79",
+    "simulacro": "Simulacro 3",
+    "number": 79,
+    "page": 11,
+    "pdf": "SIMULACRO_UTN_3_FICA-FICAYA.pdf",
+    "subject": "Matemática y razonamiento",
+    "answer": "B",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "m=(17-5)/(8-2)=12/6=2.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S3-80",
+    "simulacro": "Simulacro 3",
+    "number": 80,
+    "page": 11,
+    "pdf": "SIMULACRO_UTN_3_FICA-FICAYA.pdf",
+    "subject": "Matemática y razonamiento",
+    "answer": "B",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "Vértice de -2x²+40x+100: x=-b/(2a)=10.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S3-81",
+    "simulacro": "Simulacro 3",
+    "number": 81,
+    "page": 11,
+    "pdf": "SIMULACRO_UTN_3_FICA-FICAYA.pdf",
+    "subject": "Matemática y razonamiento",
+    "answer": "B",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "det(A)=2·4-1·3=5; det(A⁻¹)=1/5.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S3-82",
+    "simulacro": "Simulacro 3",
+    "number": 82,
+    "page": 11,
+    "pdf": "SIMULACRO_UTN_3_FICA-FICAYA.pdf",
+    "subject": "Matemática y razonamiento",
+    "answer": "A",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "Vértice de -x²+12x-20: x=6; U(6)=16.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S3-83",
+    "simulacro": "Simulacro 3",
+    "number": 83,
+    "page": 12,
+    "pdf": "SIMULACRO_UTN_3_FICA-FICAYA.pdf",
+    "subject": "Estadística",
+    "answer": "C",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "La tabla da frecuencia 10 para 3 horas.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S3-84",
+    "simulacro": "Simulacro 3",
+    "number": 84,
+    "page": 12,
+    "pdf": "SIMULACRO_UTN_3_FICA-FICAYA.pdf",
+    "subject": "Estadística",
+    "answer": "C",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "4 o 5 horas: 6+4=10; 10/40=25%.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S3-85",
+    "simulacro": "Simulacro 3",
+    "number": 85,
+    "page": 12,
+    "pdf": "SIMULACRO_UTN_3_FICA-FICAYA.pdf",
+    "subject": "Estadística",
+    "answer": "C",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "Acumulada hasta categoría 4: 6+9+12+8=35.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S3-86",
+    "simulacro": "Simulacro 3",
+    "number": 86,
+    "page": 12,
+    "pdf": "SIMULACRO_UTN_3_FICA-FICAYA.pdf",
+    "subject": "Estadística",
+    "answer": "C",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "Total=50; 20/50=40%.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S3-87",
+    "simulacro": "Simulacro 3",
+    "number": 87,
+    "page": 12,
+    "pdf": "SIMULACRO_UTN_3_FICA-FICAYA.pdf",
+    "subject": "Estadística",
+    "answer": "C",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "La mayor frecuencia es 18 en el intervalo 5–6.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S3-88",
+    "simulacro": "Simulacro 3",
+    "number": 88,
+    "page": 13,
+    "pdf": "SIMULACRO_UTN_3_FICA-FICAYA.pdf",
+    "subject": "Estadística",
+    "answer": "A",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "La barra más alta del histograma correspondería a 30–40 (frecuencia 15).",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S3-89",
+    "simulacro": "Simulacro 3",
+    "number": 89,
+    "page": 13,
+    "pdf": "SIMULACRO_UTN_3_FICA-FICAYA.pdf",
+    "subject": "Estadística",
+    "answer": "A",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "Cola a la derecha = mayoría de valores bajos con pocos valores muy altos.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  },
+  {
+    "id": "S3-90",
+    "simulacro": "Simulacro 3",
+    "number": 90,
+    "page": 13,
+    "pdf": "SIMULACRO_UTN_3_FICA-FICAYA.pdf",
+    "subject": "Estadística",
+    "answer": "B",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explanation": "Entre 2 y 6 horas hay 17+15=32 de 50, más de la mitad.",
+    "status": "validada_razonamiento",
+    "source_note": "",
+    "quality": {
+      "version": "p1",
+      "mastery_eligible": true,
+      "source_review_required": false,
+      "short_explanation": false,
+      "classification_review": false,
+      "classification_hint": null,
+      "classification_reason": null,
+      "flags": []
+    }
+  }
+]

@@ -1,0 +1,255 @@
+{
+  "version": "1.1.0-p1-audit",
+  "generated_at": "2026-08-21T21:55:15",
+  "bank_file": "C:\\Users\\USER\\Downloads\\Simulador_UTN_Interactivo\\Simulador_UTN_Interactivo\\data\\question_bank.json",
+  "total_questions": 180,
+  "subjects": {
+    "Física": 78,
+    "Química": 20,
+    "Matemática": 21,
+    "Estadística y razonamiento": 19,
+    "Lenguaje y comprensión": 11,
+    "Biología": 3,
+    "Matemática y razonamiento": 20,
+    "Estadística": 8
+  },
+  "simulacros": {
+    "Simulacro 1": 90,
+    "Simulacro 3": 90
+  },
+  "statuses": {
+    "validada_razonamiento": 173,
+    "revisar_fuente": 7
+  },
+  "critical_count": 0,
+  "warning_count": 12,
+  "review_count": 7,
+  "classification_count": 6,
+  "issues": [
+    {
+      "id": "S1-26",
+      "simulacro": "Simulacro 1",
+      "number": 26,
+      "subject": "Química",
+      "type": "review_source",
+      "severity": "review",
+      "detail": "Los componentes 1 y 3 quedan con la misma cantidad de moles; el ítem no ofrece una opción que diga “1 y 3”. Se propone D (ninguno) por ambigüedad."
+    },
+    {
+      "id": "S1-46",
+      "simulacro": "Simulacro 1",
+      "number": 46,
+      "subject": "Matemática",
+      "type": "short_explanation",
+      "severity": "warning",
+      "detail": "Explicación muy corta (18 caracteres)."
+    },
+    {
+      "id": "S1-47",
+      "simulacro": "Simulacro 1",
+      "number": 47,
+      "subject": "Matemática",
+      "type": "review_source",
+      "severity": "review",
+      "detail": "Las opciones C y D representan la misma recta porque D es exactamente 2×C. Se registra C como clave propuesta, pero ambas ecuaciones son equivalentes."
+    },
+    {
+      "id": "S1-54",
+      "simulacro": "Simulacro 1",
+      "number": 54,
+      "subject": "Matemática",
+      "type": "short_explanation",
+      "severity": "warning",
+      "detail": "Explicación muy corta (17 caracteres)."
+    },
+    {
+      "id": "S1-55",
+      "simulacro": "Simulacro 1",
+      "number": 55,
+      "subject": "Matemática",
+      "type": "short_explanation",
+      "severity": "warning",
+      "detail": "Explicación muy corta (12 caracteres)."
+    },
+    {
+      "id": "S1-58",
+      "simulacro": "Simulacro 1",
+      "number": 58,
+      "subject": "Matemática",
+      "type": "short_explanation",
+      "severity": "warning",
+      "detail": "Explicación muy corta (19 caracteres)."
+    },
+    {
+      "id": "S1-61",
+      "simulacro": "Simulacro 1",
+      "number": 61,
+      "subject": "Matemática",
+      "type": "review_source",
+      "severity": "review",
+      "detail": "La respuesta depende de la figura de la serie. Se propone A por continuidad visual, pero conviene validar directamente con el docente/material original."
+    },
+    {
+      "id": "S1-89",
+      "simulacro": "Simulacro 1",
+      "number": 89,
+      "subject": "Lenguaje y comprensión",
+      "type": "review_source",
+      "severity": "review",
+      "detail": "B y D pueden ser gramaticalmente correctas en tiempos verbales distintos. El material parece evaluar la grafía “echó/hechó”; se propone B."
+    },
+    {
+      "id": "S3-04",
+      "simulacro": "Simulacro 3",
+      "number": 4,
+      "subject": "Física",
+      "type": "review_source",
+      "severity": "review",
+      "detail": "El cálculo vectorial con los datos transcritos produce aproximadamente 316 m, valor que no aparece entre las opciones. Se propone D por cercanía/posible redondeo o error de fuente."
+    },
+    {
+      "id": "S3-14",
+      "simulacro": "Simulacro 3",
+      "number": 14,
+      "subject": "Física",
+      "type": "review_source",
+      "severity": "review",
+      "detail": "La expresión está maquetada de forma ambigua en el PDF y la transcripción no permite reconstruirla con certeza. Se propone B como clave provisional; revisar la fórmula visualmente."
+    },
+    {
+      "id": "S3-26",
+      "simulacro": "Simulacro 3",
+      "number": 26,
+      "subject": "Física",
+      "type": "short_explanation",
+      "severity": "warning",
+      "detail": "Explicación muy corta (19 caracteres)."
+    },
+    {
+      "id": "S3-39",
+      "simulacro": "Simulacro 3",
+      "number": 39,
+      "subject": "Física",
+      "type": "short_explanation",
+      "severity": "warning",
+      "detail": "Explicación muy corta (18 caracteres)."
+    },
+    {
+      "id": "S3-51",
+      "simulacro": "Simulacro 3",
+      "number": 51,
+      "subject": "Física",
+      "type": "short_explanation",
+      "severity": "warning",
+      "detail": "Explicación muy corta (18 caracteres)."
+    },
+    {
+      "id": "S3-57",
+      "simulacro": "Simulacro 3",
+      "number": 57,
+      "subject": "Física",
+      "type": "short_explanation",
+      "severity": "warning",
+      "detail": "Explicación muy corta (18 caracteres)."
+    },
+    {
+      "id": "S3-65",
+      "simulacro": "Simulacro 3",
+      "number": 65,
+      "subject": "Matemática y razonamiento",
+      "type": "short_explanation",
+      "severity": "warning",
+      "detail": "Explicación muy corta (12 caracteres)."
+    },
+    {
+      "id": "S3-66",
+      "simulacro": "Simulacro 3",
+      "number": 66,
+      "subject": "Matemática y razonamiento",
+      "type": "short_explanation",
+      "severity": "warning",
+      "detail": "Explicación muy corta (13 caracteres)."
+    },
+    {
+      "id": "S3-71",
+      "simulacro": "Simulacro 3",
+      "number": 71,
+      "subject": "Matemática y razonamiento",
+      "type": "review_source",
+      "severity": "review",
+      "detail": "Con proporcionalidad compuesta directa, el cálculo da 5,4 días y ese valor no aparece entre las opciones. Se propone A por ser la opción más cercana, pero el ítem presenta inconsistencia."
+    },
+    {
+      "id": "S3-73",
+      "simulacro": "Simulacro 3",
+      "number": 73,
+      "subject": "Matemática y razonamiento",
+      "type": "short_explanation",
+      "severity": "warning",
+      "detail": "Explicación muy corta (11 caracteres)."
+    },
+    {
+      "id": "S3-74",
+      "simulacro": "Simulacro 3",
+      "number": 74,
+      "subject": "Matemática y razonamiento",
+      "type": "short_explanation",
+      "severity": "warning",
+      "detail": "Explicación muy corta (17 caracteres)."
+    },
+    {
+      "id": "S1-73",
+      "simulacro": "Simulacro 1",
+      "number": 73,
+      "subject": "Estadística y razonamiento",
+      "type": "possible_math_misclassification",
+      "severity": "classification",
+      "detail": "Posible ejercicio matemático dentro de Estadística/Razonamiento. Indicadores: ['cociente']"
+    },
+    {
+      "id": "S1-76",
+      "simulacro": "Simulacro 1",
+      "number": 76,
+      "subject": "Estadística y razonamiento",
+      "type": "possible_math_misclassification",
+      "severity": "classification",
+      "detail": "Posible ejercicio matemático dentro de Estadística/Razonamiento. Indicadores: ['raíces']"
+    },
+    {
+      "id": "S1-77",
+      "simulacro": "Simulacro 1",
+      "number": 77,
+      "subject": "Estadística y razonamiento",
+      "type": "possible_math_misclassification",
+      "severity": "classification",
+      "detail": "Posible ejercicio matemático dentro de Estadística/Razonamiento. Indicadores: ['inecu', 'ecuaci']"
+    },
+    {
+      "id": "S1-81",
+      "simulacro": "Simulacro 1",
+      "number": 81,
+      "subject": "Lenguaje y comprensión",
+      "type": "possible_subject_misclassification",
+      "severity": "classification",
+      "detail": "Indicadores incompatibles con Lenguaje: ['recta']"
+    },
+    {
+      "id": "S1-89",
+      "simulacro": "Simulacro 1",
+      "number": 89,
+      "subject": "Lenguaje y comprensión",
+      "type": "possible_subject_misclassification",
+      "severity": "classification",
+      "detail": "Indicadores incompatibles con Lenguaje: ['recta']"
+    },
+    {
+      "id": "S3-71",
+      "simulacro": "Simulacro 3",
+      "number": 71,
+      "subject": "Matemática y razonamiento",
+      "type": "possible_math_misclassification",
+      "severity": "classification",
+      "detail": "Posible ejercicio matemático dentro de Estadística/Razonamiento. Indicadores: ['recta']"
+    }
+  ]
+}

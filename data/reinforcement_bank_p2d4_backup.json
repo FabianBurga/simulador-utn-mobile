@@ -1,0 +1,499 @@
+{
+  "schema_version": "p2d_reinforcement_bank_v1",
+  "bank_version": "p2d4_pilot_v1",
+  "stage": "P2-D4",
+  "origin": "generated_reinforcement",
+  "official_utn_question_bank": false,
+  "source_specs": "results/p2c3_seed_specs.json",
+  "items": [
+    {
+      "id": "R-001",
+      "schema_version": "p2d_reinforcement_bank_v1",
+      "origin": "generated_reinforcement",
+      "source_spec_id": "SEED-001",
+      "official_utn_question": false,
+      "area": "Lenguaje",
+      "unit": "GRAMÁTICA Y ORTOGRAFÍA",
+      "cluster": "GRAMÁTICA Y ORTOGRAFÍA",
+      "primary_topic_id": "LEN-018",
+      "secondary_topic_ids": [
+        "LEN-021",
+        "LEN-024",
+        "LEN-028"
+      ],
+      "target_topic_ids": [
+        "LEN-018",
+        "LEN-021",
+        "LEN-024",
+        "LEN-028"
+      ],
+      "difficulty": "foundation",
+      "cognitive_target": "concept_identification",
+      "learning_role": "coverage_seed",
+      "stem": "Para una ficha de repaso de ortografía, ¿qué opción reúne cuatro afirmaciones correctas?",
+      "choices": {
+        "A": "El diminutivo de «pez» puede escribirse «pececito»; «vaya» y «valla» son palabras homófonas; «árbol» es una palabra grave o llana; y, como regla general, después de m se escribe b.",
+        "B": "El diminutivo de «pez» se escribe «pecesito»; «vaya» y «valla» son palabras homófonas; «árbol» es una palabra grave o llana; y, como regla general, después de m se escribe b.",
+        "C": "El diminutivo de «pez» puede escribirse «pececito»; «vaya» y «valla» son palabras parónimas; «árbol» es una palabra grave o llana; y, como regla general, después de m se escribe b.",
+        "D": "El diminutivo de «pez» puede escribirse «pececito»; «vaya» y «valla» son palabras homófonas; «árbol» es una palabra aguda; y, como regla general, después de m se escribe b.",
+        "E": "El diminutivo de «pez» puede escribirse «pececito»; «vaya» y «valla» son palabras homófonas; «árbol» es una palabra grave o llana; y, como regla general, después de m se escribe v."
+      },
+      "answer": "A",
+      "explanation": "La opción A es la única completamente correcta: «pececito» conserva la c antes de e; «vaya» y «valla» suenan igual pero tienen significados distintos; «árbol» es grave; y después de m se escribe b.",
+      "explanation_layers": {
+        "intuition": "La clave es revisar cada afirmación por separado: diminutivo, relación entre palabras, acentuación y regla ortográfica.",
+        "step_by_step": "1) «Pez» forma el diminutivo «pececito». 2) «Vaya» y «valla» se pronuncian igual, por eso son homófonas. 3) «Árbol» tiene la fuerza de voz en «ár», la penúltima sílaba, por lo que es grave o llana. 4) Una regla ortográfica general indica que después de m se escribe b.",
+        "common_error": "Es frecuente escribir «pecesito», confundir homófonas con parónimas o clasificar una palabra solo por la presencia de tilde.",
+        "why_correct": "A es la única alternativa en la que las cuatro afirmaciones son simultáneamente correctas."
+      },
+      "distractor_analysis": {
+        "B": "Diagnostica un error en la formación ortográfica del diminutivo.",
+        "C": "Diagnostica confusión entre palabras homófonas y parónimas.",
+        "D": "Diagnostica un error al clasificar una palabra según la sílaba tónica.",
+        "E": "Diagnostica desconocimiento de la regla ortográfica de m antes de b."
+      },
+      "quality": {
+        "status": "validated",
+        "mastery_eligible": true,
+        "coverage_verified": true,
+        "answer_verified": true,
+        "ambiguity_checked": true,
+        "distractors_checked": true,
+        "explanation_checked": true,
+        "flags": []
+      },
+      "generation": {
+        "generation_stage": "P2-D",
+        "generator_type": "synthetic_reinforcement",
+        "human_review_required": true,
+        "source_material": [
+          "UTN FICA 2P2026 official syllabus",
+          "P2-C3 seed specification"
+        ]
+      }
+    },
+    {
+      "id": "R-004",
+      "schema_version": "p2d_reinforcement_bank_v1",
+      "origin": "generated_reinforcement",
+      "source_spec_id": "SEED-004",
+      "official_utn_question": false,
+      "area": "Lenguaje",
+      "unit": "ORATORIA",
+      "cluster": "ORATORIA",
+      "primary_topic_id": "LEN-030",
+      "secondary_topic_ids": [
+        "LEN-033",
+        "LEN-037"
+      ],
+      "target_topic_ids": [
+        "LEN-030",
+        "LEN-033",
+        "LEN-037"
+      ],
+      "difficulty": "foundation",
+      "cognitive_target": "concept_identification",
+      "learning_role": "coverage_seed",
+      "stem": "Una docente escribe en el chat del curso: «Gran trabajo, equipo. La claridad del informe ayuda a que todos comprendan el proyecto». ¿Cuál análisis integra correctamente la situación comunicativa y la forma «gran»?",
+      "choices": {
+        "A": "Es comunicación humana verbal escrita mediante un canal digital; el mensaje puede reforzar positivamente el trabajo del grupo; y «gran» es una forma apocopada de «grande», un caso de supresión.",
+        "B": "No es comunicación humana porque el mensaje se transmite mediante un dispositivo; «gran» es una forma completa sin modificación.",
+        "C": "Es comunicación humana escrita, pero el mensaje no puede producir ningún impacto en los receptores; «gran» es una forma apocopada.",
+        "D": "Es comunicación humana escrita y puede influir en el grupo, pero «gran» corresponde a una prótesis, porque añade sonidos al inicio de «grande»."
+      },
+      "answer": "A",
+      "explanation": "La comunicación sigue siendo humana aunque use un medio digital. El contenido puede influir en la motivación y comprensión del grupo. Además, «gran» es la forma apocopada de «grande».",
+      "explanation_layers": {
+        "intuition": "Hay que separar tres elementos: quiénes se comunican, qué efecto puede tener el mensaje y qué transformación aparece en la palabra «gran».",
+        "step_by_step": "1) Emisor y receptores son personas, por lo que existe comunicación humana. 2) El lenguaje está escrito y el canal es digital. 3) Un mensaje de reconocimiento y claridad puede influir en la motivación y comprensión. 4) «Gran» procede de «grande» mediante apócope, es decir, una supresión al final.",
+        "common_error": "Un error frecuente es confundir el canal tecnológico con el tipo de comunicación o confundir apócope con fenómenos de adición de sonidos.",
+        "why_correct": "A es la única opción que interpreta correctamente la comunicación humana, su posible impacto y el metaplasmo."
+      },
+      "distractor_analysis": {
+        "B": "Diagnostica la idea incorrecta de que una mediación tecnológica elimina el carácter humano de la comunicación.",
+        "C": "Diagnostica desconocimiento del impacto que un mensaje puede producir en sus receptores.",
+        "D": "Diagnostica confusión entre apócope y prótesis."
+      },
+      "quality": {
+        "status": "validated",
+        "mastery_eligible": true,
+        "coverage_verified": true,
+        "answer_verified": true,
+        "ambiguity_checked": true,
+        "distractors_checked": true,
+        "explanation_checked": true,
+        "flags": []
+      },
+      "generation": {
+        "generation_stage": "P2-D",
+        "generator_type": "synthetic_reinforcement",
+        "human_review_required": true,
+        "source_material": [
+          "UTN FICA 2P2026 official syllabus",
+          "P2-C3 seed specification"
+        ]
+      }
+    },
+    {
+      "id": "R-007",
+      "schema_version": "p2d_reinforcement_bank_v1",
+      "origin": "generated_reinforcement",
+      "source_spec_id": "SEED-007",
+      "official_utn_question": false,
+      "area": "Matemática",
+      "unit": "ÁLGEBRA Y FUNCIONES",
+      "cluster": "Funciones Reales",
+      "primary_topic_id": "MAT-011",
+      "secondary_topic_ids": [
+        "MAT-016",
+        "MAT-019"
+      ],
+      "target_topic_ids": [
+        "MAT-011",
+        "MAT-016",
+        "MAT-019"
+      ],
+      "difficulty": "foundation",
+      "cognitive_target": "concept_identification",
+      "learning_role": "coverage_seed",
+      "stem": "Sea f: R → R definida por f(x) = x³. ¿Cuál afirmación describe correctamente esta relación?",
+      "choices": {
+        "A": "Es una función, es biyectiva y es impar.",
+        "B": "Es una función, es inyectiva pero no sobreyectiva, y es impar.",
+        "C": "No es una función porque admite valores negativos de x.",
+        "D": "Es una función biyectiva y es par."
+      },
+      "answer": "A",
+      "explanation": "f(x)=x³ asigna un único valor a cada x real, es estrictamente creciente y cubre todos los reales. Además, f(-x)=-f(x), por lo que es impar.",
+      "explanation_layers": {
+        "intuition": "La gráfica de x³ avanza siempre de abajo a la izquierda hacia arriba a la derecha sin repetir valores de salida y posee simetría respecto del origen.",
+        "step_by_step": "1) Cada número real x produce exactamente un valor x³: sí es función. 2) Si x1≠x2, sus cubos también son distintos: es inyectiva. 3) Todo y real posee una raíz cúbica real: es sobreyectiva. Por tanto, es biyectiva. 4) f(-x)=(-x)³=-x³=-f(x): es impar.",
+        "common_error": "Es común pensar que una potencia impar no puede tomar todos los valores reales o confundir simetría respecto del origen con simetría respecto del eje y.",
+        "why_correct": "Solo A reúne las tres propiedades: función, biyectividad e imparidad."
+      },
+      "distractor_analysis": {
+        "B": "Diagnostica desconocimiento de que todo real tiene una raíz cúbica real.",
+        "C": "Diagnostica una comprensión incorrecta de la definición de función.",
+        "D": "Diagnostica confusión entre función par e impar."
+      },
+      "quality": {
+        "status": "validated",
+        "mastery_eligible": true,
+        "coverage_verified": true,
+        "answer_verified": true,
+        "ambiguity_checked": true,
+        "distractors_checked": true,
+        "explanation_checked": true,
+        "flags": []
+      },
+      "generation": {
+        "generation_stage": "P2-D",
+        "generator_type": "synthetic_reinforcement",
+        "human_review_required": true,
+        "source_material": [
+          "UTN FICA 2P2026 official syllabus",
+          "P2-C3 seed specification"
+        ]
+      }
+    },
+    {
+      "id": "R-016",
+      "schema_version": "p2d_reinforcement_bank_v1",
+      "origin": "generated_reinforcement",
+      "source_spec_id": "SEED-016",
+      "official_utn_question": false,
+      "area": "Química",
+      "unit": "FUNDAMENTOS DE ESTEQUIOMETRIA",
+      "cluster": "FUNDAMENTOS DE ESTEQUIOMETRIA",
+      "primary_topic_id": "QUI-027",
+      "secondary_topic_ids": [
+        "QUI-030",
+        "QUI-033"
+      ],
+      "target_topic_ids": [
+        "QUI-027",
+        "QUI-030",
+        "QUI-033"
+      ],
+      "difficulty": "foundation",
+      "cognitive_target": "concept_identification",
+      "learning_role": "coverage_seed",
+      "stem": "El peróxido de hidrógeno se descompone según 2 H₂O₂ → 2 H₂O + O₂. Se descomponen completamente 6,8 g de H₂O₂. Usa H=1 y O=16, y considera un volumen molar de 22,4 L/mol para el gas en las condiciones indicadas. ¿Qué volumen de O₂ se produce?",
+      "choices": {
+        "A": "2,24 L",
+        "B": "4,48 L",
+        "C": "22,4 L",
+        "D": "1,12 L"
+      },
+      "answer": "A",
+      "explanation": "La masa molar de H₂O₂ es 34 g/mol. 6,8 g corresponden a 0,20 mol. La reacción produce 1 mol de O₂ por cada 2 mol de H₂O₂, así que se forman 0,10 mol de O₂. Su volumen es 0,10×22,4=2,24 L.",
+      "explanation_layers": {
+        "intuition": "El recorrido es masa → moles → proporción estequiométrica → volumen del gas.",
+        "step_by_step": "1) M(H₂O₂)=2(1)+2(16)=34 g/mol. 2) n(H₂O₂)=6,8/34=0,20 mol. 3) La ecuación 2:1 indica que 0,20 mol de H₂O₂ producen 0,10 mol de O₂. 4) V=0,10×22,4=2,24 L.",
+        "common_error": "Un error típico es ignorar el coeficiente 2:1 de la ecuación y convertir directamente 0,20 mol de H₂O₂ en 0,20 mol de O₂.",
+        "why_correct": "A respeta la masa molar, la relación estequiométrica y el volumen molar."
+      },
+      "distractor_analysis": {
+        "B": "Diagnostica haber omitido la relación estequiométrica 2 H₂O₂ : 1 O₂.",
+        "C": "Diagnostica el uso de 22,4 L como respuesta sin calcular primero los moles producidos.",
+        "D": "Diagnostica aplicar una división adicional por dos después de haber usado correctamente la proporción estequiométrica."
+      },
+      "quality": {
+        "status": "validated",
+        "mastery_eligible": true,
+        "coverage_verified": true,
+        "answer_verified": true,
+        "ambiguity_checked": true,
+        "distractors_checked": true,
+        "explanation_checked": true,
+        "flags": []
+      },
+      "generation": {
+        "generation_stage": "P2-D",
+        "generator_type": "synthetic_reinforcement",
+        "human_review_required": true,
+        "source_material": [
+          "UTN FICA 2P2026 official syllabus",
+          "P2-C3 seed specification"
+        ]
+      }
+    },
+    {
+      "id": "R-019",
+      "schema_version": "p2d_reinforcement_bank_v1",
+      "origin": "generated_reinforcement",
+      "source_spec_id": "SEED-019",
+      "official_utn_question": false,
+      "area": "Matemática",
+      "unit": "ÁLGEBRA Y FUNCIONES",
+      "cluster": "Fundamentos del Álgebra",
+      "primary_topic_id": "MAT-004",
+      "secondary_topic_ids": [
+        "MAT-007"
+      ],
+      "target_topic_ids": [
+        "MAT-004",
+        "MAT-007"
+      ],
+      "difficulty": "foundation",
+      "cognitive_target": "concept_identification",
+      "learning_role": "coverage_seed",
+      "stem": "Simplifica la expresión (2x - 3)(x + 4) - (x² + 5x - 2).",
+      "choices": {
+        "A": "x² - 10",
+        "B": "x² + 10",
+        "C": "x² + 10x - 10",
+        "D": "3x² + 10x - 14"
+      },
+      "answer": "A",
+      "explanation": "Al desarrollar el primer producto se obtiene 2x²+5x-12. Al restar el segundo polinomio, x²+5x-2, cambian los signos de todos sus términos y el resultado final es x²-10.",
+      "explanation_layers": {
+        "intuition": "Primero desarrolla el producto. Después trata el signo menos delante del segundo paréntesis como un cambio de signo para cada uno de sus términos.",
+        "step_by_step": "(2x-3)(x+4)=2x²+8x-3x-12=2x²+5x-12. Luego: 2x²+5x-12-x²-5x+2=x²-10.",
+        "common_error": "El error más frecuente es cambiar solo el signo del primer término del segundo paréntesis o sumar los polinomios en vez de restarlos.",
+        "why_correct": "A es el resultado obtenido tras realizar correctamente el producto, distribuir el signo negativo y reducir términos semejantes."
+      },
+      "distractor_analysis": {
+        "B": "Diagnostica un error de signo al operar los términos constantes.",
+        "C": "Diagnostica no haber reducido correctamente los términos lineales semejantes.",
+        "D": "Diagnostica haber sumado el segundo polinomio en lugar de restarlo."
+      },
+      "quality": {
+        "status": "validated",
+        "mastery_eligible": true,
+        "coverage_verified": true,
+        "answer_verified": true,
+        "ambiguity_checked": true,
+        "distractors_checked": true,
+        "explanation_checked": true,
+        "flags": []
+      },
+      "generation": {
+        "generation_stage": "P2-D",
+        "generator_type": "synthetic_reinforcement",
+        "human_review_required": true,
+        "source_material": [
+          "UTN FICA 2P2026 official syllabus",
+          "P2-C3 seed specification"
+        ]
+      }
+    },
+    {
+      "id": "R-024",
+      "schema_version": "p2d_reinforcement_bank_v1",
+      "origin": "generated_reinforcement",
+      "source_spec_id": "SEED-024",
+      "official_utn_question": false,
+      "area": "Química",
+      "unit": "COMPUESTOS OXIGENADOS",
+      "cluster": "COMPUESTOS OXIGENADOS",
+      "primary_topic_id": "QUI-050",
+      "secondary_topic_ids": [
+        "QUI-053"
+      ],
+      "target_topic_ids": [
+        "QUI-050",
+        "QUI-053"
+      ],
+      "difficulty": "transfer",
+      "cognitive_target": "transfer_and_integration",
+      "learning_role": "coverage_seed",
+      "stem": "Un compuesto orgánico X contiene un grupo –COOH y, en otra zona de la molécula, un anillo de tres miembros formado por dos carbonos y un oxígeno. Tras una hidrólisis apropiada, ese anillo se abre y se forman dos grupos –OH en carbonos vecinos, mientras el grupo –COOH permanece. ¿Cuál interpretación es correcta?",
+      "choices": {
+        "A": "X contiene un ácido carboxílico y un epóxido; la apertura del epóxido puede originar un diol vecinal.",
+        "B": "X contiene un éster y un alqueno; la hidrogenación del alqueno origina directamente el diol descrito.",
+        "C": "X contiene un aldehído y un éter acíclico; el éter se transforma necesariamente en dos grupos –OH vecinos sin romper enlaces.",
+        "D": "X contiene una amida y una cetona; el grupo –COOH descrito corresponde en realidad a la cetona."
+      },
+      "answer": "A",
+      "explanation": "El grupo –COOH identifica un ácido carboxílico. Un anillo de tres miembros con dos carbonos y un oxígeno es un epóxido. Al abrirse ese anillo por hidrólisis pueden formarse dos grupos –OH en carbonos vecinos.",
+      "explanation_layers": {
+        "intuition": "Hay dos pistas estructurales independientes: –COOH señala un ácido carboxílico y el pequeño anillo C–C–O señala un epóxido.",
+        "step_by_step": "1) Reconoce –COOH como grupo carboxilo. 2) Identifica el anillo de tres miembros con oxígeno como epóxido. 3) La apertura del epóxido incorpora grupos –OH sobre los dos carbonos del antiguo anillo. 4) El grupo carboxilo puede permanecer presente en otra parte de la molécula.",
+        "common_error": "Es frecuente llamar éter a cualquier estructura C–O–C sin reconocer que un éter cíclico de tres miembros pertenece específicamente a los epóxidos.",
+        "why_correct": "A es la única alternativa compatible con las dos señales estructurales y con el cambio descrito."
+      },
+      "distractor_analysis": {
+        "B": "Diagnostica confusión entre el anillo epóxido y un alqueno o un éster.",
+        "C": "Diagnostica identificar el oxígeno como éter sin considerar la estructura cíclica de tres miembros.",
+        "D": "Diagnostica confusión entre el grupo carboxilo y otros grupos carbonílicos."
+      },
+      "quality": {
+        "status": "validated",
+        "mastery_eligible": true,
+        "coverage_verified": true,
+        "answer_verified": true,
+        "ambiguity_checked": true,
+        "distractors_checked": true,
+        "explanation_checked": true,
+        "flags": []
+      },
+      "generation": {
+        "generation_stage": "P2-D",
+        "generator_type": "synthetic_reinforcement",
+        "human_review_required": true,
+        "source_material": [
+          "UTN FICA 2P2026 official syllabus",
+          "P2-C3 seed specification"
+        ]
+      }
+    },
+    {
+      "id": "R-033",
+      "schema_version": "p2d_reinforcement_bank_v1",
+      "origin": "generated_reinforcement",
+      "source_spec_id": "SEED-033",
+      "official_utn_question": false,
+      "area": "Física",
+      "unit": "ESTÁTICA",
+      "cluster": "ESTÁTICA",
+      "primary_topic_id": "FIS-019",
+      "secondary_topic_ids": [
+        "FIS-021"
+      ],
+      "target_topic_ids": [
+        "FIS-019",
+        "FIS-021"
+      ],
+      "difficulty": "standard",
+      "cognitive_target": "direct_application",
+      "learning_role": "coverage_seed",
+      "stem": "Tres fuerzas concurrentes T₁, T₂ y W mantienen un punto material en equilibrio. El ángulo entre T₂ y W es 90°, el ángulo entre W y T₁ es 120° y el ángulo entre T₁ y T₂ es 150°. Si W=100 N, ¿cuál es el valor de T₁?",
+      "choices": {
+        "A": "200 N",
+        "B": "100 N",
+        "C": "50 N",
+        "D": "115,5 N"
+      },
+      "answer": "A",
+      "explanation": "Como las tres fuerzas concurrentes están en equilibrio, puede aplicarse el teorema de Lamy. T₁/sen90° = W/sen150°. Entonces T₁ = 100×1/0,5 = 200 N.",
+      "explanation_layers": {
+        "intuition": "En equilibrio la suma vectorial es cero. Con exactamente tres fuerzas concurrentes, Lamy permite relacionar cada fuerza con el seno del ángulo formado por las otras dos.",
+        "step_by_step": "1) Para T₁ se usa el ángulo entre T₂ y W: 90°. 2) Para W se usa el ángulo entre T₁ y T₂: 150°. 3) Lamy: T₁/sen90°=100/sen150°. 4) sen90°=1 y sen150°=0,5. 5) T₁=200 N.",
+        "common_error": "Un error típico es usar junto a una fuerza el ángulo que forma esa misma fuerza con otra, en vez del ángulo comprendido entre las otras dos fuerzas.",
+        "why_correct": "A satisface la relación de Lamy compatible con las condiciones de equilibrio."
+      },
+      "distractor_analysis": {
+        "B": "Diagnostica asumir que equilibrio significa que las tres fuerzas tienen igual magnitud.",
+        "C": "Diagnostica multiplicar por sen150° en lugar de dividir por él al despejar T₁.",
+        "D": "Diagnostica asociar a W el ángulo de 120° en lugar del ángulo de 150° formado por las otras dos fuerzas."
+      },
+      "quality": {
+        "status": "validated",
+        "mastery_eligible": true,
+        "coverage_verified": true,
+        "answer_verified": true,
+        "ambiguity_checked": true,
+        "distractors_checked": true,
+        "explanation_checked": true,
+        "flags": []
+      },
+      "generation": {
+        "generation_stage": "P2-D",
+        "generator_type": "synthetic_reinforcement",
+        "human_review_required": true,
+        "source_material": [
+          "UTN FICA 2P2026 official syllabus",
+          "P2-C3 seed specification"
+        ]
+      }
+    },
+    {
+      "id": "R-057",
+      "schema_version": "p2d_reinforcement_bank_v1",
+      "origin": "generated_reinforcement",
+      "source_spec_id": "SEED-057",
+      "official_utn_question": false,
+      "area": "Física",
+      "unit": "DINÁMICA",
+      "cluster": "DINÁMICA",
+      "primary_topic_id": "FIS-014",
+      "secondary_topic_ids": [],
+      "target_topic_ids": [
+        "FIS-014"
+      ],
+      "difficulty": "standard",
+      "cognitive_target": "direct_application",
+      "learning_role": "coverage_seed",
+      "stem": "Una pelota de 0,50 kg se mueve inicialmente a +8 m/s. Después de un golpe se mueve a -4 m/s sobre la misma línea. Si el sentido positivo es el del movimiento inicial, ¿qué impulso recibió la pelota?",
+      "choices": {
+        "A": "-6 N·s",
+        "B": "+6 N·s",
+        "C": "+2 N·s",
+        "D": "-2 N·s"
+      },
+      "answer": "A",
+      "explanation": "El impulso es el cambio de cantidad de movimiento: J=Δp=m(vf-vi). J=0,50(-4-8)=-6 N·s. El signo negativo indica que el impulso neto apunta en sentido contrario al movimiento inicial.",
+      "explanation_layers": {
+        "intuition": "La pelota no solo disminuye su velocidad: invierte el sentido. Por eso el cambio de momento es mayor que si simplemente se detuviera.",
+        "step_by_step": "1) pi=mvi=0,50×8=4 kg·m/s. 2) pf=mvf=0,50×(-4)=-2 kg·m/s. 3) J=pf-pi=-2-4=-6 N·s.",
+        "common_error": "Es frecuente calcular solo la magnitud del cambio y perder el signo, o usar únicamente el momento final.",
+        "why_correct": "A conserva la dirección mediante el signo y coincide exactamente con Δp."
+      },
+      "distractor_analysis": {
+        "B": "Diagnostica haber calculado correctamente la magnitud pero ignorado la dirección del impulso.",
+        "C": "Diagnostica sumar incorrectamente las velocidades antes de multiplicar por la masa.",
+        "D": "Diagnostica usar únicamente el momento final como si fuera el cambio de momento."
+      },
+      "quality": {
+        "status": "validated",
+        "mastery_eligible": true,
+        "coverage_verified": true,
+        "answer_verified": true,
+        "ambiguity_checked": true,
+        "distractors_checked": true,
+        "explanation_checked": true,
+        "flags": []
+      },
+      "generation": {
+        "generation_stage": "P2-D",
+        "generator_type": "synthetic_reinforcement",
+        "human_review_required": true,
+        "source_material": [
+          "UTN FICA 2P2026 official syllabus",
+          "P2-C3 seed specification"
+        ]
+      }
+    }
+  ]
+}

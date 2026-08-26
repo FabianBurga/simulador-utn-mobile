@@ -1,0 +1,266 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Banco complementario de explicaciones pedagógicas para preguntas originales UTN/FICA",
+  "description": "Contrato para explicaciones ampliadas de preguntas S1-xx y S3-xx. No reemplaza question_bank.json. Su función es enseñar el proceso de resolución.",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "bank_version",
+    "origin",
+    "official_utn_question",
+    "items"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "p2d5_2_original_explanation_v1"
+    },
+    "bank_version": {
+      "const": "p2d5_2_original_explanation_bank_v1"
+    },
+    "origin": {
+      "const": "pedagogical_companion_for_original_bank"
+    },
+    "official_utn_question": {
+      "const": false
+    },
+    "items": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/explanation_item"
+      }
+    }
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "step": {
+      "type": "object",
+      "required": [
+        "order",
+        "title",
+        "detail"
+      ],
+      "properties": {
+        "order": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "detail": {
+          "type": "string",
+          "minLength": 1
+        },
+        "math": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    "distractor": {
+      "type": "object",
+      "required": [
+        "choice",
+        "why_wrong",
+        "error_pattern"
+      ],
+      "properties": {
+        "choice": {
+          "type": "string",
+          "minLength": 1
+        },
+        "why_wrong": {
+          "type": "string",
+          "minLength": 1
+        },
+        "error_pattern": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "additionalProperties": false
+    },
+    "quality": {
+      "type": "object",
+      "required": [
+        "status",
+        "content_verified",
+        "answer_verified",
+        "steps_verified",
+        "distractors_verified",
+        "pedagogical_reviewed",
+        "mastery_eligible",
+        "flags"
+      ],
+      "properties": {
+        "status": {
+          "enum": [
+            "draft",
+            "validated",
+            "rejected"
+          ]
+        },
+        "content_verified": {
+          "type": "boolean"
+        },
+        "answer_verified": {
+          "type": "boolean"
+        },
+        "steps_verified": {
+          "type": "boolean"
+        },
+        "distractors_verified": {
+          "type": "boolean"
+        },
+        "pedagogical_reviewed": {
+          "type": "boolean"
+        },
+        "mastery_eligible": {
+          "type": "boolean"
+        },
+        "flags": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        }
+      },
+      "additionalProperties": false
+    },
+    "generation": {
+      "type": "object",
+      "required": [
+        "method",
+        "source_question_locked",
+        "generated_from_original_question",
+        "human_validation_required"
+      ],
+      "properties": {
+        "method": {
+          "const": "controlled_pedagogical_generation"
+        },
+        "source_question_locked": {
+          "const": true
+        },
+        "generated_from_original_question": {
+          "const": true
+        },
+        "human_validation_required": {
+          "const": true
+        }
+      },
+      "additionalProperties": false
+    },
+    "explanation_item": {
+      "type": "object",
+      "required": [
+        "id",
+        "schema_version",
+        "source_question_id",
+        "source_question_sha256",
+        "origin",
+        "official_utn_question",
+        "idea_key",
+        "what_is_asked",
+        "relevant_data",
+        "concept_or_rule",
+        "formula_or_framework",
+        "steps",
+        "why_correct",
+        "distractor_analysis",
+        "common_error",
+        "transfer_tip",
+        "quick_check",
+        "quality",
+        "generation"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^EX-(S1|S3)-[0-9]{2}$"
+        },
+        "schema_version": {
+          "const": "p2d5_2_original_explanation_v1"
+        },
+        "source_question_id": {
+          "type": "string",
+          "pattern": "^(S1|S3)-[0-9]{2}$"
+        },
+        "source_question_sha256": {
+          "type": "string",
+          "pattern": "^[A-F0-9]{64}$"
+        },
+        "origin": {
+          "const": "generated_pedagogical_explanation"
+        },
+        "official_utn_question": {
+          "const": false
+        },
+        "idea_key": {
+          "type": "string",
+          "minLength": 1
+        },
+        "what_is_asked": {
+          "type": "string",
+          "minLength": 1
+        },
+        "relevant_data": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "concept_or_rule": {
+          "type": "string",
+          "minLength": 1
+        },
+        "formula_or_framework": {
+          "type": "string",
+          "minLength": 1
+        },
+        "steps": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/step"
+          }
+        },
+        "why_correct": {
+          "type": "string",
+          "minLength": 1
+        },
+        "distractor_analysis": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/distractor"
+          }
+        },
+        "common_error": {
+          "type": "string",
+          "minLength": 1
+        },
+        "transfer_tip": {
+          "type": "string",
+          "minLength": 1
+        },
+        "quick_check": {
+          "type": "string",
+          "minLength": 1
+        },
+        "quality": {
+          "$ref": "#/$defs/quality"
+        },
+        "generation": {
+          "$ref": "#/$defs/generation"
+        }
+      },
+      "additionalProperties": false
+    }
+  }
+}

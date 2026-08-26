@@ -1,0 +1,28 @@
+{
+  "schema_version": "p2e0_simulacro_manifest_v1",
+  "package_id": "simulacro_4",
+  "display_name": "Simulacro 4",
+  "id_prefix": "S4",
+  "source_pdf": "simulacro_4.pdf",
+  "questions_file": "questions.json",
+  "expected_question_count": 90,
+  "content_type": "full_simulacro",
+  "allowed_modes": [
+    "Examen completo",
+    "Práctica",
+    "Examen rápido",
+    "Por área"
+  ],
+  "official_utn_question": false,
+  "validation": {
+    "publication_status": "draft",
+    "structure_reviewed": false,
+    "source_reviewed": false,
+    "answers_reviewed": false,
+    "taxonomy_reviewed": false,
+    "pedagogical_reviewed": false,
+    "mastery_approved": false,
+    "reviewed_by": "",
+    "reviewed_at": ""
+  }
+}

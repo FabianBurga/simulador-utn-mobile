@@ -1,0 +1,117 @@
+========================================================================
+SIMULADOR UTN - AUDITORÍA DEL BANCO P1
+========================================================================
+
+Preguntas: 180
+Errores críticos: 0
+Advertencias: 12
+REVISAR FUENTE: 7
+Posibles errores de clasificación: 6
+
+DISTRIBUCIÓN POR ÁREA
+------------------------------------------------------------------------
+Biología: 3
+Estadística: 8
+Estadística y razonamiento: 19
+Física: 78
+Lenguaje y comprensión: 11
+Matemática: 21
+Matemática y razonamiento: 20
+Química: 20
+
+ESTADOS
+------------------------------------------------------------------------
+revisar_fuente: 7
+validada_razonamiento: 173
+
+========================================================================
+ERRORES CRÍTICOS
+========================================================================
+Ninguno.
+
+========================================================================
+ADVERTENCIAS
+========================================================================
+S1-46 | Simulacro 1 | P46 | Matemática
+  Tipo: short_explanation
+  Explicación muy corta (18 caracteres).
+S1-54 | Simulacro 1 | P54 | Matemática
+  Tipo: short_explanation
+  Explicación muy corta (17 caracteres).
+S1-55 | Simulacro 1 | P55 | Matemática
+  Tipo: short_explanation
+  Explicación muy corta (12 caracteres).
+S1-58 | Simulacro 1 | P58 | Matemática
+  Tipo: short_explanation
+  Explicación muy corta (19 caracteres).
+S3-26 | Simulacro 3 | P26 | Física
+  Tipo: short_explanation
+  Explicación muy corta (19 caracteres).
+S3-39 | Simulacro 3 | P39 | Física
+  Tipo: short_explanation
+  Explicación muy corta (18 caracteres).
+S3-51 | Simulacro 3 | P51 | Física
+  Tipo: short_explanation
+  Explicación muy corta (18 caracteres).
+S3-57 | Simulacro 3 | P57 | Física
+  Tipo: short_explanation
+  Explicación muy corta (18 caracteres).
+S3-65 | Simulacro 3 | P65 | Matemática y razonamiento
+  Tipo: short_explanation
+  Explicación muy corta (12 caracteres).
+S3-66 | Simulacro 3 | P66 | Matemática y razonamiento
+  Tipo: short_explanation
+  Explicación muy corta (13 caracteres).
+S3-73 | Simulacro 3 | P73 | Matemática y razonamiento
+  Tipo: short_explanation
+  Explicación muy corta (11 caracteres).
+S3-74 | Simulacro 3 | P74 | Matemática y razonamiento
+  Tipo: short_explanation
+  Explicación muy corta (17 caracteres).
+
+========================================================================
+REVISAR FUENTE
+========================================================================
+S1-26 | Simulacro 1 | P26 | Química
+  Tipo: review_source
+  Los componentes 1 y 3 quedan con la misma cantidad de moles; el ítem no ofrece una opción que diga “1 y 3”. Se propone D (ninguno) por ambigüedad.
+S1-47 | Simulacro 1 | P47 | Matemática
+  Tipo: review_source
+  Las opciones C y D representan la misma recta porque D es exactamente 2×C. Se registra C como clave propuesta, pero ambas ecuaciones son equivalentes.
+S1-61 | Simulacro 1 | P61 | Matemática
+  Tipo: review_source
+  La respuesta depende de la figura de la serie. Se propone A por continuidad visual, pero conviene validar directamente con el docente/material original.
+S1-89 | Simulacro 1 | P89 | Lenguaje y comprensión
+  Tipo: review_source
+  B y D pueden ser gramaticalmente correctas en tiempos verbales distintos. El material parece evaluar la grafía “echó/hechó”; se propone B.
+S3-04 | Simulacro 3 | P4 | Física
+  Tipo: review_source
+  El cálculo vectorial con los datos transcritos produce aproximadamente 316 m, valor que no aparece entre las opciones. Se propone D por cercanía/posible redondeo o error de fuente.
+S3-14 | Simulacro 3 | P14 | Física
+  Tipo: review_source
+  La expresión está maquetada de forma ambigua en el PDF y la transcripción no permite reconstruirla con certeza. Se propone B como clave provisional; revisar la fórmula visualmente.
+S3-71 | Simulacro 3 | P71 | Matemática y razonamiento
+  Tipo: review_source
+  Con proporcionalidad compuesta directa, el cálculo da 5,4 días y ese valor no aparece entre las opciones. Se propone A por ser la opción más cercana, pero el ítem presenta inconsistencia.
+
+========================================================================
+POSIBLES ERRORES DE CLASIFICACIÓN
+========================================================================
+S1-73 | Simulacro 1 | P73 | Estadística y razonamiento
+  Tipo: possible_math_misclassification
+  Posible ejercicio matemático dentro de Estadística/Razonamiento. Indicadores: ['cociente']
+S1-76 | Simulacro 1 | P76 | Estadística y razonamiento
+  Tipo: possible_math_misclassification
+  Posible ejercicio matemático dentro de Estadística/Razonamiento. Indicadores: ['raíces']
+S1-77 | Simulacro 1 | P77 | Estadística y razonamiento
+  Tipo: possible_math_misclassification
+  Posible ejercicio matemático dentro de Estadística/Razonamiento. Indicadores: ['inecu', 'ecuaci']
+S1-81 | Simulacro 1 | P81 | Lenguaje y comprensión
+  Tipo: possible_subject_misclassification
+  Indicadores incompatibles con Lenguaje: ['recta']
+S1-89 | Simulacro 1 | P89 | Lenguaje y comprensión
+  Tipo: possible_subject_misclassification
+  Indicadores incompatibles con Lenguaje: ['recta']
+S3-71 | Simulacro 3 | P71 | Matemática y razonamiento
+  Tipo: possible_math_misclassification
+  Posible ejercicio matemático dentro de Estadística/Razonamiento. Indicadores: ['recta']

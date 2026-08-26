@@ -1,0 +1,24 @@
+{
+  "stage": "P2-E0.5",
+  "package_id": "fisica_90_yachaypre",
+  "display_name": "Física 90 - YachayPre",
+  "original_content_type": "practice_collection",
+  "published_content_type": "practice_collection",
+  "original_source_filename": "Simulador_Fisica_90_Preguntas_YachayPre.pdf",
+  "original_source_sha256": "90C7767F0DE5EEE15B55F09533C777388746633715D106F2423E86798F48FF1C",
+  "published_source_pdf": "source.pdf",
+  "published_source_pdf_sha256": "90C7767F0DE5EEE15B55F09533C777388746633715D106F2423E86798F48FF1C",
+  "source_review_excluded_count": 7,
+  "source_review_excluded_numbers": [
+    56,
+    57,
+    58,
+    59,
+    66,
+    67,
+    83
+  ],
+  "validated_published_count": 83,
+  "pedagogical_source_artifact": "results/p2e0_4_extension_pedagogical_companion_bank.json",
+  "pedagogical_source_artifact_sha256": "098571092B309BA6DF76B9C6014D4D722E14BB12F6C7D61FFAECB76047C8210C"
+}

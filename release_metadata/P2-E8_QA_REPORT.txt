@@ -1,0 +1,60 @@
+P2-E8 - QA GLOBAL / RELEASE
+========================================================================
+
+[PASS] exists_app.py
+[PASS] exists_persistence_engine.py
+[PASS] exists_recommendations_engine.py
+[PASS] exists_history_engine.py
+[PASS] exists_dashboard_engine.py
+[PASS] exists_mastery_engine.py
+[PASS] exists_adaptive_selector.py
+[PASS] hash_app.py
+[PASS] hash_persistence_engine.py
+[PASS] hash_recommendations_engine.py
+[PASS] hash_history_engine.py
+[PASS] hash_dashboard_engine.py
+[PASS] hash_mastery_engine.py
+[PASS] hash_adaptive_selector.py
+[PASS] compile_app.py
+[PASS] compile_persistence_engine.py
+[PASS] compile_recommendations_engine.py
+[PASS] compile_history_engine.py
+[PASS] compile_dashboard_engine.py
+[PASS] compile_mastery_engine.py
+[PASS] compile_adaptive_selector.py
+[PASS] compile_content_manager.py
+[PASS] freeze_P2-E5
+[PASS] freeze_P2-E6
+[PASS] freeze_P2-E7
+[PASS] history_json_valid
+[PASS] legacy_preserved
+[PASS] detailed_present
+[PASS] history_classification
+[PASS] detailed_items_consistent
+[PASS] student_state_valid
+[PASS] student_state_schema
+[PASS] recommendations_persisted
+[PASS] history_fingerprint_present
+[PASS] history_state_fingerprint_match
+[PASS] state_history_count_match
+[PASS] state_legacy_count_match
+[PASS] state_detailed_count_match
+[PASS] recommendations_match_persistence
+[PASS] navigation_Simulador
+[PASS] navigation_Dashboard
+[PASS] navigation_Historial
+[PASS] navigation_Recomendaciones
+[PASS] history_integration
+[PASS] dashboard_integration
+[PASS] recommendations_integration
+[PASS] persistence_integration
+[PASS] data_question_bank.json
+[PASS] data_reinforcement_bank.json
+
+HISTORY
+------------------------------------------------------------------------
+Total      : 13
+Legacy     : 11
+Detallados : 2
+
+QA STATUS  : PASS

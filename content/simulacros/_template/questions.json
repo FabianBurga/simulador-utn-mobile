@@ -1,0 +1,27 @@
+[
+  {
+    "id": "S4-01",
+    "number": 1,
+    "page": 1,
+    "subject": "Matemática",
+    "answer": "A",
+    "choices": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "explanation": "Explicación pedagógica validada.",
+    "status": "validada_fuente",
+    "source_note": "",
+    "area": "Matemática",
+    "topic": "Tema",
+    "skill": "Habilidad",
+    "subskill": "Subhabilidad",
+    "taxonomy_status": "validated",
+    "quality": {
+      "status": "validated",
+      "mastery_eligible": true
+    }
+  }
+]

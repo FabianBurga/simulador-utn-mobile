@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Runtime companion pedagógico para extensiones publicadas",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "bank_version",
+    "origin",
+    "source_artifact_sha256",
+    "publication_status",
+    "items"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "p2e0_5_extension_pedagogical_companion_v1"
+    },
+    "bank_version": {
+      "const": "p2e0_5_extension_pedagogical_companion_bank_v1"
+    },
+    "origin": {
+      "const": "published_runtime_pedagogical_companion_for_extensions"
+    },
+    "source_artifact_sha256": {
+      "const": "098571092B309BA6DF76B9C6014D4D722E14BB12F6C7D61FFAECB76047C8210C"
+    },
+    "publication_status": {
+      "const": "published"
+    },
+    "generated_at": {
+      "type": "string",
+      "minLength": 1
+    },
+    "items": {
+      "type": "array",
+      "minItems": 224,
+      "maxItems": 224
+    }
+  },
+  "additionalProperties": false
+}
