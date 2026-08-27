@@ -14,6 +14,17 @@ from pathlib import Path
 import fitz  # PyMuPDF
 import pandas as pd
 import streamlit as st
+from analytics_integration import (
+    analytics_abandon_attempt,
+    analytics_answer_selected,
+    analytics_complete_attempt,
+    analytics_logout,
+    analytics_page_view,
+    analytics_question_view,
+    analytics_set_flag,
+    analytics_start_attempt,
+    ensure_analytics,
+)
 from mobile_backend import (
     mobile_bootstrap,
     mobile_push_user_files,
@@ -1258,6 +1269,7 @@ def save_history(record):
         )
 
 def reset_exam():
+    analytics_abandon_attempt(st, reason="reset_exam")
     for k in ['exam_questions','exam_idx','answers','flags','start_ts','duration_min','submitted','exam_title','mode','last_saved_attempt','selection_strategy','adaptive_selection_meta', 'final_elapsed']:
         st.session_state.pop(k, None)
 
@@ -1742,6 +1754,12 @@ def configure_exam(bank, reinforcement_bank):
             )
 
         st.session_state.mode = mode
+        analytics_start_attempt(
+            st,
+            mode=mode,
+            title=st.session_state.exam_title,
+            questions=qs,
+        )
 
         st.rerun()
 
@@ -1781,6 +1799,7 @@ def exam_screen(bank):
     qs = st.session_state.exam_questions
     idx = st.session_state.exam_idx
     q = qs[idx]
+    analytics_question_view(st, q, idx + 1)
 
     top1, top2, top3, top4 = st.columns(
         [2.2, 1, 1, 1]
@@ -1984,6 +2003,7 @@ def exam_screen(bank):
             st.session_state.answers[
                 q['id']
             ] = ans
+            analytics_answer_selected(st, q, ans)
 
         flag = (
             q['id']
@@ -2002,6 +2022,11 @@ def exam_screen(bank):
             st.session_state.flags.discard(
                 q['id']
             )
+        analytics_set_flag(
+            st,
+            q,
+            q['id'] in st.session_state.flags,
+        )
 
         # ----------------------------------------------------
         # FEEDBACK:
@@ -2448,6 +2473,15 @@ def results_screen():
     if not st.session_state.get(
         'last_saved_attempt'
     ):
+        analytics_complete_attempt(
+            st,
+            qs=qs,
+            answers=answers,
+            correct=correct,
+            total=total,
+            pct=pct,
+            detailed_items=locals().get('history_items'),
+        )
         save_history(
             {
                 'schema_version': 'p2e1_attempt_v1',
@@ -2586,6 +2620,13 @@ HISTORY = Path(
     _mobile_ctx["history_path"]
 )
 
+# P2-M5A.4 - ANALYTICS INSTRUMENTATION
+_p2_analytics_engine = ensure_analytics(
+    st,
+    _mobile_ctx,
+    app_version="P2-MOBILE-M5A.4",
+)
+
 bank = load_bank()
 reinforcement_bank = load_reinforcement_bank()
 
@@ -2610,6 +2651,7 @@ with st.sidebar:
     mobile_sidebar_account(
         st,
         _mobile_ctx,
+        on_logout=lambda: analytics_logout(st),
     )
 
     st.divider()
@@ -2639,6 +2681,7 @@ with st.sidebar:
             'Las preguntas R-xxx aparecen '
             'únicamente en Práctica.'
         )
+analytics_page_view(st, page)
 
 if (
     page == 'Dashboard'

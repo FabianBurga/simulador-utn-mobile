@@ -1,0 +1,30 @@
+P2-M5A.4 - ANALYTICS INSTRUMENTATION
+========================================================================
+[PASS] M5A.3 engine preserved
+[PASS] M4.3 scoring guard preserved
+[PASS] Analytics integration module installed
+[PASS] Authenticated session start + LOGIN_SUCCESS
+[PASS] 60-second heartbeat mounted
+[PASS] PAGE_VIEWED transitions
+[PASS] Practice/exam start
+[PASS] Question view tracking
+[PASS] Answer select/change tracking
+[PASS] Flag/unflag tracking
+[PASS] Result view + attempt completion exactly once
+[PASS] Reset/exit abandonment
+[PASS] Explicit logout session close
+[PASS] Streamlit rerun dedupe delegated to engine
+[PASS] Analytics remains fail-safe
+[PASS] app.py patch additive: no academic line removed
+[PASS] No secrets embedded
+
+app.py before SHA256: 85F0D5038B2C50E627FB4F4375EA61A22FC7D0936F3A6AF4B89C23D95A9F4D42
+app.py after  SHA256: B946AEE089901561AC837F36BE7FEA962FADFCF87662271D318E4802272250C9
+mobile_backend.py SHA256: 56FEFA1FCAF01D3DE0A38D8298320043B94975CD691069FA93A16023F4E9BF2E
+analytics_integration.py SHA256: 750C3EB9F3F49980414403EE5AB8A72022D419D690F2A8323F100B4E9E5DC136
+
+NOTE: Native st.expander open/close is not treated as a reliable
+      EXPLANATION_VIEWED signal; no false telemetry is generated.
+
+DECISION : P2-M5A.4 INSTRUMENTATION PASS
+NEXT     : P2-M5A.5 CLOUD SMOKE + DATA FREEZE

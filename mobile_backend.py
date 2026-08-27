@@ -470,7 +470,7 @@ def mobile_bootstrap(st, base: str | Path):
     return ctx
 
 
-def mobile_sidebar_account(st, ctx):
+def mobile_sidebar_account(st, ctx, on_logout=None):
     st.caption("ðŸ“± P2 Mobile RC1")
     st.caption("Estudiante: " + str(ctx.get("user_code", "")))
     st.caption(
@@ -479,6 +479,11 @@ def mobile_sidebar_account(st, ctx):
         else "Backend: CLOUD"
     )
     if st.button("Cerrar sesion", use_container_width=True):
+        try:
+            if on_logout is not None:
+                on_logout()
+        except Exception:
+            pass
         try:
             mobile_push_user_files(st, ctx, force=True)
         except Exception:
