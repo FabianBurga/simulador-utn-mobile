@@ -58,7 +58,7 @@ class AccessValidationError(ValueError):
 
 def normalize_user_code(value: str) -> str:
     raw = str(value or "").strip().upper()
-    raw = re.sub(r"[^A-Z0-9-]", "", raw)
+    raw = re.sub(r"[^A-Z0-9_-]", "", raw)
     return raw[:16]
 
 
@@ -298,7 +298,7 @@ class StudentAccessService:
 
     def login(self, *, user_code: str, pin: str) -> LoginResult:
         code = normalize_user_code(user_code)
-        if not re.fullmatch(r"UTN-[A-Z0-9]{6}", code):
+        if not re.fullmatch(r"[A-Z0-9][A-Z0-9_-]{3,23}", code):
             return LoginResult(ok=False, message="Código o PIN incorrecto.")
 
         context = self.store.get_login_context(code)

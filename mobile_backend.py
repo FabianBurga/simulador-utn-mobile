@@ -292,35 +292,38 @@ def _clear_auth_state(st):
         st.session_state.pop(key, None)
 
 
-def _login_screen(st, store, backend_name: str):
-    st.title("ðŸ“± Simulador UTN")
-    st.caption("P2 Mobile RC1 Â· progreso independiente por estudiante")
-    st.info(
-        "Usa un codigo de estudiante que no revele informacion personal. "
-        "Si el codigo no existe, se creara automaticamente."
+def _finish_cloud_auth(st, *, user_id: str, user_code: str, display_name: str, backend_name: str):
+    st.session_state["p2m_authenticated"] = True
+    st.session_state["p2m_user_id"] = str(user_id)
+    st.session_state["p2m_user_code"] = str(user_code)
+    st.session_state["p2m_display_name"] = str(display_name or user_code)
+    st.session_state["p2m_backend"] = backend_name
+    st.session_state["p2m_session_id"] = str(uuid.uuid4())
+    st.session_state["p2m_initialized"] = False
+    st.session_state["p2m_login_failures"] = 0
+
+
+def _legacy_local_login_screen(st, store, backend_name: str):
+    st.title("📱 Simulador UTN")
+    st.caption("Modo local de prueba")
+    st.warning(
+        "Este modo permite crear usuarios locales solo para pruebas. "
+        "Producción usa registro por invitación."
     )
 
-    locked_until = float(st.session_state.get("p2m_locked_until", 0))
-    now = time.time()
-    if locked_until > now:
-        remaining = int(locked_until - now) + 1
-        st.warning(f"Espera {remaining}s antes de volver a intentar.")
-        return None
-
-    with st.form("p2_mobile_login", clear_on_submit=False):
+    with st.form("p2_mobile_local_login", clear_on_submit=False):
         raw_code = st.text_input(
-            "Codigo de estudiante",
-            placeholder="Ejemplo: UTN2026A1",
+            "Código local",
+            placeholder="TESTA",
             max_chars=24,
         )
         pin = st.text_input(
-            "PIN",
+            "PIN local",
             type="password",
             max_chars=12,
-            help="Solo numeros, entre 4 y 12 digitos.",
         )
         submitted = st.form_submit_button(
-            "Entrar / Crear cuenta",
+            "Entrar / Crear usuario local",
             use_container_width=True,
         )
 
@@ -328,47 +331,266 @@ def _login_screen(st, store, backend_name: str):
         return None
 
     code = _normalize_code(raw_code)
-    if not _valid_code(code):
-        st.error("El codigo debe tener 4-24 caracteres: letras, numeros, _ o -.")
-        return None
-    if not _valid_pin(pin):
-        st.error("El PIN debe tener entre 4 y 12 digitos.")
+    if not _valid_code(code) or not _valid_pin(pin):
+        st.error("Código o PIN local no válido.")
         return None
 
     try:
         row = store.find_by_code(code)
-        created = False
         if row is None:
             row = store.create_user(code, pin)
-            created = True
-        else:
-            if not _verify_pin(
-                pin,
-                str(row.get("pin_salt", "")),
-                str(row.get("pin_hash", "")),
-            ):
-                failures = int(st.session_state.get("p2m_login_failures", 0)) + 1
-                st.session_state["p2m_login_failures"] = failures
-                if failures >= 5:
-                    st.session_state["p2m_locked_until"] = time.time() + 30
-                    st.session_state["p2m_login_failures"] = 0
-                st.error("Codigo o PIN incorrecto.")
+        elif not _verify_pin(
+            pin,
+            str(row.get("pin_salt", "")),
+            str(row.get("pin_hash", "")),
+        ):
+            st.error("Código o PIN incorrecto.")
+            return None
+
+        _finish_cloud_auth(
+            st,
+            user_id=str(row["id"]),
+            user_code=code,
+            display_name=code,
+            backend_name=backend_name,
+        )
+        st.rerun()
+    except Exception:
+        st.error("No se pudo iniciar la sesión local.")
+    return None
+
+
+def _registration_success_screen(st, service, backend_name: str):
+    from student_access import RegistrationResult, recovery_credentials_text
+
+    data = st.session_state.get("p2m_registration_result")
+    if not isinstance(data, dict):
+        return False
+
+    result = RegistrationResult(
+        user_id=str(data["user_id"]),
+        user_code=str(data["user_code"]),
+        display_name=str(data["display_name"]),
+        recovery_code=str(data["recovery_code"]),
+        cohort_id=data.get("cohort_id"),
+    )
+
+    st.title("✅ Cuenta creada")
+    st.success("Tu cuenta está lista. Guarda tus datos antes de continuar.")
+
+    c1, c2 = st.columns(2)
+    c1.metric("Código de estudiante", result.user_code)
+    c2.metric("Nombre / alias", result.display_name)
+
+    st.warning(
+        "Tu código de recuperación se muestra una sola vez. "
+        "Guárdalo; servirá para recuperar tu acceso si olvidas el PIN."
+    )
+    st.code(result.recovery_code, language=None)
+
+    st.download_button(
+        "Descargar mis datos de acceso",
+        recovery_credentials_text(result).encode("utf-8"),
+        file_name=f"{result.user_code}_acceso.txt",
+        mime="text/plain",
+        use_container_width=True,
+    )
+
+    saved = st.checkbox(
+        "Confirmo que guardé mi código de estudiante y mi código de recuperación.",
+        key="p2m_registration_saved",
+    )
+
+    if st.button(
+        "Entrar al simulador",
+        use_container_width=True,
+        disabled=not saved,
+        type="primary",
+    ):
+        try:
+            service.store.record_login_result(result.user_id, True)
+        except Exception:
+            pass
+        st.session_state.pop("p2m_registration_result", None)
+        st.session_state.pop("p2m_registration_saved", None)
+        _finish_cloud_auth(
+            st,
+            user_id=result.user_id,
+            user_code=result.user_code,
+            display_name=result.display_name,
+            backend_name=backend_name,
+        )
+        st.rerun()
+
+    if st.button("Volver al inicio", use_container_width=True):
+        st.session_state.pop("p2m_registration_result", None)
+        st.session_state.pop("p2m_registration_saved", None)
+        st.rerun()
+
+    return True
+
+
+def _login_screen(st, store, backend_name: str):
+    if backend_name == "local":
+        return _legacy_local_login_screen(st, store, backend_name)
+
+    from student_access import (
+        AccessValidationError,
+        build_access_service_from_streamlit,
+    )
+
+    try:
+        service = build_access_service_from_streamlit(st)
+    except Exception:
+        st.error("No se pudo inicializar el sistema de acceso.")
+        return None
+
+    if _registration_success_screen(st, service, backend_name):
+        return None
+
+    st.title("🎓 Simulador UTN")
+    st.caption("Tu progreso queda guardado de forma independiente.")
+
+    action = st.radio(
+        "Acceso",
+        ["Iniciar sesión", "Crear cuenta"],
+        horizontal=True,
+        label_visibility="collapsed",
+        key="p2m_access_mode",
+    )
+
+    if action == "Iniciar sesión":
+        st.subheader("Iniciar sesión")
+        st.caption(
+            "Usa tu código de estudiante y PIN. "
+            "Las nuevas cuentas tienen un código como UTN-ABC234."
+        )
+
+        with st.form("p2_m6_login", clear_on_submit=False):
+            raw_code = st.text_input(
+                "Código de estudiante",
+                placeholder="UTN-ABC234",
+                max_chars=24,
+            )
+            pin = st.text_input(
+                "PIN",
+                type="password",
+                max_chars=12,
+                help="Las nuevas cuentas usan un PIN numérico de 6 dígitos.",
+            )
+            submitted = st.form_submit_button(
+                "Ingresar",
+                use_container_width=True,
+                type="primary",
+            )
+
+        if submitted:
+            try:
+                result = service.login(
+                    user_code=raw_code,
+                    pin=pin,
+                )
+            except Exception:
+                st.error("No se pudo validar el acceso. Intenta nuevamente.")
                 return None
 
-        st.session_state["p2m_authenticated"] = True
-        st.session_state["p2m_user_id"] = str(row["id"])
-        st.session_state["p2m_user_code"] = code
-        st.session_state["p2m_backend"] = backend_name
-        st.session_state["p2m_session_id"] = str(uuid.uuid4())
-        st.session_state["p2m_initialized"] = False
-        st.session_state["p2m_login_failures"] = 0
-        if created:
-            st.success("Cuenta creada.")
-        st.rerun()
-    except Exception as exc:
-        st.error("No se pudo iniciar la sesion.")
-        st.caption(str(exc))
+            if not result.ok:
+                st.error(result.message or "Código o PIN incorrecto.")
+                if result.remaining_attempts is not None and result.remaining_attempts > 0:
+                    st.caption(
+                        f"Intentos restantes antes del bloqueo temporal: "
+                        f"{result.remaining_attempts}"
+                    )
+                return None
+
+            _finish_cloud_auth(
+                st,
+                user_id=str(result.user_id),
+                user_code=str(result.user_code),
+                display_name=str(result.display_name or result.user_code),
+                backend_name=backend_name,
+            )
+            st.rerun()
+
+        st.caption("¿Olvidaste tu PIN? La recuperación se habilitará en P2-M6.5.")
         return None
+
+    st.subheader("Crear cuenta")
+    st.caption(
+        "Necesitas un código de acceso entregado por el responsable del simulador."
+    )
+
+    with st.expander("¿Qué datos se guardan?"):
+        st.markdown(
+            """
+            Se guarda tu nombre o alias, un código de estudiante, tu progreso académico
+            y eventos básicos de uso del simulador. No necesitas entregar correo,
+            teléfono, cédula, GPS ni ubicación precisa.
+            """
+        )
+
+    with st.form("p2_m6_register", clear_on_submit=False):
+        invite_code = st.text_input(
+            "Código de acceso",
+            placeholder="PREUTN-2026-...",
+            max_chars=64,
+        )
+        display_name = st.text_input(
+            "Nombre o alias",
+            placeholder="Ejemplo: Mateo",
+            max_chars=60,
+        )
+        pin = st.text_input(
+            "Crea un PIN de 6 números",
+            type="password",
+            max_chars=6,
+        )
+        pin_confirmation = st.text_input(
+            "Repite el PIN",
+            type="password",
+            max_chars=6,
+        )
+        privacy_ok = st.checkbox(
+            "Acepto el registro de mi progreso académico y uso del simulador "
+            "para personalizar y mejorar la experiencia.",
+        )
+        submitted = st.form_submit_button(
+            "Crear cuenta",
+            use_container_width=True,
+            type="primary",
+        )
+
+    if not submitted:
+        return None
+
+    if not privacy_ok:
+        st.error("Debes aceptar el aviso de privacidad para crear la cuenta.")
+        return None
+
+    try:
+        result = service.register(
+            invite_code=invite_code,
+            display_name=display_name,
+            pin=pin,
+            pin_confirmation=pin_confirmation,
+            privacy_notice_version="p2_privacy_v1",
+        )
+    except AccessValidationError as exc:
+        st.error(exc.public_message)
+        return None
+    except Exception:
+        st.error("No se pudo crear la cuenta. Intenta nuevamente.")
+        return None
+
+    st.session_state["p2m_registration_result"] = {
+        "user_id": result.user_id,
+        "user_code": result.user_code,
+        "display_name": result.display_name,
+        "recovery_code": result.recovery_code,
+        "cohort_id": result.cohort_id,
+    }
+    st.rerun()
+    return None
 
 
 def _build_context(st, base: Path, store, backend_name: str):

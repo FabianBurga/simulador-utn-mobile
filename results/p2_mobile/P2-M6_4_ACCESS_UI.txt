@@ -1,0 +1,19 @@
+P2-M6.4 - REGISTRATION + LOGIN UI
+========================================================================
+
+[PASS] login y registro separados
+[PASS] auto-registro cloud eliminado
+[PASS] registro por invitación
+[PASS] código UTN generado automáticamente
+[PASS] PIN nuevo de 6 dígitos
+[PASS] entrega one-time recovery code
+[PASS] usuarios legacy compatibles
+[PASS] modo local de prueba preservado
+[PASS] falso negativo de self-test corregido
+[PASS] P2/M5A/M5B intactos
+
+mobile_backend.py SHA256: C70B53248C73900A61C665AAF63AA2A48E4E3DA68FB95226F40D98CEFD29480D
+student_access.py SHA256: 5A6B6C647C47CC36446D0C48C02504B8E42B3BE293457322271F2AFE13E49E46
+
+DECISION : P2-M6.4 ACCESS UI PASS
+NEXT     : CLOUD REGISTRATION SMOKE
