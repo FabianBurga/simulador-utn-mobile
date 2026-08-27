@@ -12,3 +12,5 @@ backups/
 .idea/
 .DS_Store
 Thumbs.db
+.admin_setup/
+admin_local_secrets.toml

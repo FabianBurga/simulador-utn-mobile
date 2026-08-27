@@ -1,0 +1,18 @@
+P2-M5B.1 - MASTER DASHBOARD BUILD
+========================================================================
+
+[PASS] admin_app.py generado
+[PASS] admin_backend.py generado
+[PASS] autenticación PBKDF2
+[PASS] credencial local fuera de Git
+[PASS] Overview / Live / Students / Attempts / Questions
+[PASS] Funnel / Retention / System Health
+[PASS] CSV exports
+[PASS] M5A/student app preservado
+
+admin_app.py SHA256: 99ADA54A4201410DBA4B891B16B380AC094FD7AAD27152374144CE93FC2447F7
+admin_backend.py SHA256: B34BCFA8656C596FB6760885FA9E6ECAE530A8F10A65464936BCE507485BCA0D
+app.py SHA256: 4D8047517D33FFAF914343C6EE809891DBA0CFB672080FD59260C6E40FB53563
+
+DECISION : P2-M5B.1 BUILD PASS
+NEXT     : DEPLOY ADMIN APP
