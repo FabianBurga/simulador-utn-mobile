@@ -1,0 +1,16 @@
+P2-M6.3 - STUDENT ACCESS ENGINE
+========================================================================
+
+[PASS] student_access.py
+[PASS] PIN PBKDF2 compatible con P2 Mobile
+[PASS] registro por invitación
+[PASS] código estudiante UTN-XXXXXX
+[PASS] recovery code 16 caracteres
+[PASS] lockout bridge 5 intentos / 15 min
+[PASS] no secretos en texto plano
+[PASS] P2/M5A/M5B intactos
+
+student_access.py SHA256: F6A038189572DEB01EE78C320DC9EB9FD8D128D26E965559729ACDC6BB94F113
+
+DECISION : P2-M6.3 ACCESS ENGINE PASS
+NEXT     : P2-M6.4 REGISTRATION + LOGIN UI
