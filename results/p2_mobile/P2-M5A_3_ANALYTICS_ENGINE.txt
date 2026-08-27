@@ -1,0 +1,22 @@
+P2-M5A.3 - ANALYTICS ENGINE
+====================================================================
+[PASS] Session lifecycle
+[PASS] Event queue + batch flush
+[PASS] Idempotency / rerun dedupe
+[PASS] Heartbeat + idle detection
+[PASS] Attempt lifecycle
+[PASS] Question view tracking
+[PASS] Answer select/change tracking
+[PASS] Flag/explanation tracking
+[PASS] Academic truth preserved on completion
+[PASS] Fail-silent analytics outage
+[PASS] NoOp fallback
+[PASS] Supabase RPC store prepared
+[PASS] Stale-session reconcile hook
+[PASS] No secrets embedded
+
+analytics_engine.py SHA256: 5A0793A1B90A7C62D28C79EB4F88F6D6BA36F9376A80D6CB3EE4EEEB7E0B5E40
+selftest SHA256: 6D9531AB97F1BE0612804349D78BF7E4F07A4CBFA17AA1370855F36ED8D11847
+
+DECISION : P2-M5A.3 ENGINE PASS
+NEXT     : P2-M5A.4 INSTRUMENTATION
