@@ -6,7 +6,7 @@ from typing import Any
 import hashlib
 import hmac
 
-ADMIN_VERSION = "P2-M5B.1"
+ADMIN_VERSION = "P2-M5B.3"
 
 
 def verify_admin_password(password: str, encoded_hash: str) -> bool:
@@ -68,9 +68,18 @@ class AdminDataStore:
             limit=5000,
         )
 
+    def sessions(self, user_id: str | None = None, limit: int = 5000):
+        return self._select(
+            "p2_admin_sessions",
+            filters={"user_id": user_id} if user_id else None,
+            order="started_at",
+            desc=True,
+            limit=limit,
+        )
+
     def live_sessions(self):
         rows = self._select(
-            "p2_admin_live_sessions",
+            "p2_admin_sessions",
             order="last_seen_at",
             desc=True,
             limit=500,
@@ -78,7 +87,7 @@ class AdminDataStore:
         return [
             row for row in rows
             if row.get("status") in {"active", "idle"}
-            and row.get("online_state") in {"active", "idle"}
+            and row.get("observed_state") in {"active", "idle"}
         ]
 
     def daily_metrics(self, days: int = 30):
@@ -102,7 +111,7 @@ class AdminDataStore:
                 output.append(row)
         return output
 
-    def attempts(self, user_id: str | None = None, limit: int = 1000):
+    def attempts(self, user_id: str | None = None, limit: int = 5000):
         return self._select(
             "p2_admin_attempts",
             filters={"user_id": user_id} if user_id else None,
@@ -119,6 +128,14 @@ class AdminDataStore:
             limit=10000,
         )
 
+    def areas(self):
+        return self._select(
+            "p2_admin_area_metrics",
+            order="responses",
+            desc=True,
+            limit=1000,
+        )
+
     def retention(self):
         return self._select(
             "p2_admin_retention",
@@ -133,6 +150,10 @@ class AdminDataStore:
 
     def health(self):
         rows = self._select("p2_admin_system_health", limit=1)
+        return rows[0] if rows else {}
+
+    def data_quality(self):
+        rows = self._select("p2_admin_data_quality", limit=1)
         return rows[0] if rows else {}
 
     def user_timeline(self, user_id: str, limit: int = 500):
