@@ -4,7 +4,7 @@ from typing import Any
 
 from analytics_engine import build_engine_for_mobile, canonical_answer_key
 
-APP_VERSION = "P2-MOBILE-M5A.4"
+APP_VERSION = "P2-MOBILE-M5A.5A"
 ENGINE_KEY = "_p2_analytics_engine"
 ENGINE_USER_KEY = "_p2_analytics_user_id"
 

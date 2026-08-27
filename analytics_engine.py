@@ -207,6 +207,7 @@ class AnalyticsHealth:
 class QuestionRuntime:
     first_view_at: datetime
     last_view_at: datetime
+    question_order: int = 1
     view_count: int = 1
     first_answer: str | None = None
     final_answer: str | None = None
@@ -233,6 +234,7 @@ class AnalyticsEngine:
         self._sequence = 0
         self._queue: list[dict[str, Any]] = []
         self._queued_keys: set[str] = set()
+        self._seen_keys: set[str] = set()
         self._session_started_at: datetime | None = None
         self._last_heartbeat_at: datetime | None = None
         self._last_interaction_at: datetime | None = None
@@ -335,7 +337,7 @@ class AnalyticsEngine:
 
         scope = semantic_scope or str(uuid.uuid4())
         idem = _hash_key(self.session_id, event_name, scope)
-        if idem in self._queued_keys:
+        if idem in self._seen_keys:
             self.health.duplicates_prevented += 1
             return False
 
@@ -361,6 +363,7 @@ class AnalyticsEngine:
         }
         self._queue.append(row)
         self._queued_keys.add(idem)
+        self._seen_keys.add(idem)
         self.health.events_enqueued += 1
 
         if event_name != "SESSION_HEARTBEAT":
@@ -541,11 +544,16 @@ class AnalyticsEngine:
         runtime = self._question_runtime.get(question_id)
         is_same_current = self._current_question_id == question_id
         if runtime is None:
-            runtime = QuestionRuntime(first_view_at=now, last_view_at=now)
+            runtime = QuestionRuntime(
+                first_view_at=now,
+                last_view_at=now,
+                question_order=order,
+            )
             self._question_runtime[question_id] = runtime
         elif not is_same_current:
             runtime.last_view_at = now
             runtime.view_count += 1
+        runtime.question_order = order
 
         self._current_question_id = question_id
         self._current_question_order = order
@@ -620,7 +628,7 @@ class AnalyticsEngine:
                 {
                     "attempt_id": self._attempt_id,
                     "question_id": question_id,
-                    "question_order": self._current_question_order or 1,
+                    "question_order": runtime.question_order,
                     "area": _text(question.get("subject") or question.get("area")),
                     "topic": _text(question.get("topic")),
                     "skill": _text(question.get("skill")),
@@ -673,7 +681,7 @@ class AnalyticsEngine:
                 {
                     "attempt_id": self._attempt_id,
                     "question_id": question_id,
-                    "question_order": self._current_question_order or 1,
+                    "question_order": runtime.question_order,
                     "flagged": flagged,
                     "answer_change_count": runtime.answer_change_count,
                     "explanation_viewed": runtime.explanation_viewed,
@@ -709,7 +717,7 @@ class AnalyticsEngine:
                 {
                     "attempt_id": self._attempt_id,
                     "question_id": question_id,
-                    "question_order": self._current_question_order or 1,
+                    "question_order": runtime.question_order,
                     "explanation_viewed": True,
                     "answer_change_count": runtime.answer_change_count,
                     "flagged": runtime.flagged,
@@ -752,10 +760,9 @@ class AnalyticsEngine:
                     {
                         "attempt_id": attempt_id,
                         "question_id": qid,
-                        "question_order": (
-                            self._current_question_order or 1
-                            if runtime is not None and qid == self._current_question_id
-                            else int(item.get("question_order") or 1)
+                        "question_order": int(
+                            item.get("question_order")
+                            or (runtime.question_order if runtime is not None else 1)
                         ),
                         "area": _text(item.get("area")),
                         "topic": _text(item.get("topic")),
@@ -867,8 +874,11 @@ class AnalyticsEngine:
 
     def results_viewed(self) -> bool:
         self._interaction()
+        if self._page != "Resultados":
+            self.page_view("Resultados", self._mode)
         return self.track(
             "RESULTS_VIEWED",
+            page="Resultados",
             metadata={},
             semantic_scope=f"results:{self._sequence + 1}",
         )
@@ -888,11 +898,22 @@ class AnalyticsEngine:
         if self._attempt_id:
             self.abandon_attempt(reason="session_end")
         self._interaction(now)
-        event_ok = self.track(
-            "LOGOUT" if reason == "logout" else "SESSION_ENDED",
+
+        logout_ok = True
+        if reason == "logout":
+            logout_ok = self.track(
+                "LOGOUT",
+                metadata={"reason": reason},
+                critical=True,
+                semantic_scope="logout",
+                occurred_at=now,
+            )
+
+        ended_ok = self.track(
+            "SESSION_ENDED",
             metadata={"reason": reason},
             critical=True,
-            semantic_scope=f"end:{reason}",
+            semantic_scope=f"session_end:{reason}",
             occurred_at=now,
         )
         self.flush()
@@ -916,7 +937,7 @@ class AnalyticsEngine:
                 },
             )
         )
-        return event_ok
+        return bool(logout_ok and ended_ok)
 
     def reconcile_stale(self) -> Any:
         return self._guard(lambda: self.store.reconcile_stale_sessions())

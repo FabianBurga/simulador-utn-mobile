@@ -1,0 +1,22 @@
+P2-M5A.5A - ANALYTICS QUALITY FIX
+========================================================================
+
+[PASS] question_order estable
+[PASS] idempotencia persistente durante toda la sesión
+[PASS] duplicados semánticos no consumen sequence_no
+[PASS] RESULTS_VIEWED usa page=Resultados
+[PASS] logout emite LOGOUT + SESSION_ENDED
+[PASS] ANSWER_CHANGED cubierto por self-test
+[PASS] QUESTION_FLAGGED cubierto por self-test
+[PASS] heartbeat same-bucket validado con reloj determinista
+[PASS] M5A.3 self-test preservado
+[PASS] M5A.4 self-test preservado
+[PASS] lógica académica preservada
+
+analytics_engine.py SHA256: D2811F7E5155869247B321A1ED93DA8FC8B0324F3FB2CFDD02F18EEF2AB13936
+analytics_integration.py SHA256: 5730F8B2AFD03BB04300191FB928C6D8E4577B3D11A852AB894E8824AA69A6D9
+app.py SHA256: 4D8047517D33FFAF914343C6EE809891DBA0CFB672080FD59260C6E40FB53563
+selftest_m5a5a_quality.py SHA256: D44CEA44C4D8933164B9270E15980D09948532040DD88ADCC5CF1F3EAAADB925
+
+DECISION : P2-M5A.5A QUALITY FIX PASS
+NEXT     : CLOUD MICRO-SMOKE

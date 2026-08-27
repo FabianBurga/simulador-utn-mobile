@@ -2624,7 +2624,7 @@ HISTORY = Path(
 _p2_analytics_engine = ensure_analytics(
     st,
     _mobile_ctx,
-    app_version="P2-MOBILE-M5A.4",
+    app_version="P2-MOBILE-M5A.5A",
 )
 
 bank = load_bank()
