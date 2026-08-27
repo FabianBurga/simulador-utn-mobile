@@ -26,6 +26,8 @@ class AccessStore(Protocol):
     def register_student(self, payload: dict[str, Any]) -> dict[str, Any]: ...
     def get_login_context(self, user_code: str) -> dict[str, Any]: ...
     def record_login_result(self, user_id: str, success: bool) -> dict[str, Any]: ...
+    def get_recovery_context(self, user_code: str) -> dict[str, Any]: ...
+    def reset_pin_material(self, payload: dict[str, Any]) -> dict[str, Any]: ...
 
 
 @dataclass(frozen=True)
@@ -47,6 +49,14 @@ class LoginResult:
     locked_until: str | None = None
     remaining_attempts: int | None = None
     message: str = ""
+
+
+@dataclass(frozen=True)
+class PinResetResult:
+    user_id: str
+    user_code: str
+    display_name: str
+    recovery_code: str
 
 
 class AccessValidationError(ValueError):
@@ -228,6 +238,27 @@ class SupabaseAccessStore:
         return dict(data or {})
 
 
+def get_recovery_context(self, user_code: str) -> dict[str, Any]:
+    result = self.client.rpc(
+        "p2_access_get_recovery_context",
+        {"p_user_code": user_code},
+    ).execute()
+    data = result.data
+    if isinstance(data, list):
+        return dict(data[0]) if data else {"found": False}
+    return dict(data or {"found": False})
+
+def reset_pin_material(self, payload: dict[str, Any]) -> dict[str, Any]:
+    result = self.client.rpc(
+        "p2_access_reset_pin_material",
+        payload,
+    ).execute()
+    data = result.data
+    if isinstance(data, list):
+        return dict(data[0]) if data else {}
+    return dict(data or {})
+
+
 class StudentAccessService:
     def __init__(self, store: AccessStore):
         self.store = store
@@ -374,6 +405,85 @@ class StudentAccessService:
             message="Acceso correcto.",
         )
 
+
+
+
+    def reset_pin(
+        self,
+        *,
+        user_code: str,
+        recovery_code: str,
+        new_pin: str,
+        new_pin_confirmation: str,
+    ) -> PinResetResult:
+        code = normalize_user_code(user_code)
+        if not re.fullmatch(r"[A-Z0-9][A-Z0-9_-]{3,23}", code):
+            raise AccessValidationError(
+                "recovery_failed",
+                "No se pudo validar la recuperación.",
+            )
+
+        clean_pin = validate_registration_pin(
+            new_pin,
+            new_pin_confirmation,
+        )
+
+        context = self.store.get_recovery_context(code)
+        if not context.get("found"):
+            raise AccessValidationError(
+                "recovery_failed",
+                "No se pudo validar la recuperación.",
+            )
+
+        if str(context.get("account_status") or "") != "active":
+            raise AccessValidationError(
+                "account_not_active",
+                "Esta cuenta no está activa.",
+            )
+
+        if not bool(context.get("recovery_enabled")):
+            raise AccessValidationError(
+                "recovery_disabled",
+                "La recuperación no está habilitada para esta cuenta.",
+            )
+
+        if not verify_recovery_code(
+            recovery_code,
+            str(context.get("recovery_salt") or ""),
+            str(context.get("recovery_hash") or ""),
+        ):
+            raise AccessValidationError(
+                "recovery_failed",
+                "No se pudo validar la recuperación.",
+            )
+
+        pin_salt, pin_hash = make_pin_material(clean_pin)
+
+        next_recovery = generate_recovery_code()
+        recovery_salt, recovery_hash = make_recovery_material(next_recovery)
+
+        result = self.store.reset_pin_material({
+            "p_user_id": str(context["user_id"]),
+            "p_pin_salt": pin_salt,
+            "p_pin_hash": pin_hash,
+            "p_recovery_salt": recovery_salt,
+            "p_recovery_hash": recovery_hash,
+        })
+
+        if result.get("ok") is not True:
+            error = str(result.get("error") or "pin_reset_failed")
+            public = {
+                "account_not_active": "Esta cuenta no está activa.",
+                "recovery_disabled": "La recuperación no está habilitada para esta cuenta.",
+            }.get(error, "No se pudo restablecer el PIN.")
+            raise AccessValidationError(error, public)
+
+        return PinResetResult(
+            user_id=str(context["user_id"]),
+            user_code=str(context.get("user_code") or code),
+            display_name=str(context.get("display_name") or code),
+            recovery_code=next_recovery,
+        )
 
 def recovery_credentials_text(result: RegistrationResult) -> str:
     return (

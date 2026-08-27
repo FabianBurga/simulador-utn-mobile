@@ -430,6 +430,119 @@ def _registration_success_screen(st, service, backend_name: str):
     return True
 
 
+def _pin_recovery_screen(st, service):
+    from student_access import AccessValidationError, PinResetResult
+
+    st.title("🔑 Recuperar acceso")
+    st.caption("Usa el código de recuperación que guardaste al crear tu cuenta.")
+
+    reset_data = st.session_state.get("p2m_reset_result")
+    if isinstance(reset_data, dict):
+        result = PinResetResult(
+            user_id=str(reset_data["user_id"]),
+            user_code=str(reset_data["user_code"]),
+            display_name=str(reset_data["display_name"]),
+            recovery_code=str(reset_data["recovery_code"]),
+        )
+
+        st.success("PIN actualizado correctamente.")
+        st.warning(
+            "Tu código de recuperación anterior ya no funciona. "
+            "Guarda el nuevo código antes de volver al inicio."
+        )
+        st.code(result.recovery_code, language=None)
+
+        recovery_text = (
+            "SIMULADOR UTN - RECUPERACIÓN ACTUALIZADA\n"
+            "========================================\n\n"
+            f"Código de estudiante: {result.user_code}\n"
+            f"Nuevo código de recuperación: {result.recovery_code}\n\n"
+            "El código de recuperación anterior quedó invalidado.\n"
+            "El PIN no se incluye en este documento.\n"
+        )
+        st.download_button(
+            "Descargar nuevo código de recuperación",
+            recovery_text.encode("utf-8"),
+            file_name=f"{result.user_code}_recuperacion.txt",
+            mime="text/plain",
+            use_container_width=True,
+        )
+
+        saved = st.checkbox(
+            "Confirmo que guardé mi nuevo código de recuperación.",
+            key="p2m_reset_saved",
+        )
+        if st.button(
+            "Volver a iniciar sesión",
+            use_container_width=True,
+            disabled=not saved,
+            type="primary",
+        ):
+            st.session_state.pop("p2m_reset_result", None)
+            st.session_state.pop("p2m_reset_saved", None)
+            st.session_state.pop("p2m_show_recovery", None)
+            st.session_state["p2m_access_mode"] = "Iniciar sesión"
+            st.rerun()
+        return None
+
+    with st.form("p2_m6_pin_recovery", clear_on_submit=False):
+        user_code = st.text_input(
+            "Código de estudiante",
+            placeholder="UTN-ABC234",
+            max_chars=24,
+        )
+        recovery_code = st.text_input(
+            "Código de recuperación",
+            placeholder="XXXX-XXXX-XXXX-XXXX",
+            max_chars=32,
+        )
+        new_pin = st.text_input(
+            "Nuevo PIN de 6 números",
+            type="password",
+            max_chars=6,
+        )
+        new_pin_confirmation = st.text_input(
+            "Repite el nuevo PIN",
+            type="password",
+            max_chars=6,
+        )
+        submitted = st.form_submit_button(
+            "Restablecer PIN",
+            use_container_width=True,
+            type="primary",
+        )
+
+    if submitted:
+        try:
+            result = service.reset_pin(
+                user_code=user_code,
+                recovery_code=recovery_code,
+                new_pin=new_pin,
+                new_pin_confirmation=new_pin_confirmation,
+            )
+        except AccessValidationError as exc:
+            st.error(exc.public_message)
+            return None
+        except Exception:
+            st.error("No se pudo restablecer el PIN. Intenta nuevamente.")
+            return None
+
+        st.session_state["p2m_reset_result"] = {
+            "user_id": result.user_id,
+            "user_code": result.user_code,
+            "display_name": result.display_name,
+            "recovery_code": result.recovery_code,
+        }
+        st.rerun()
+
+    if st.button("← Volver al inicio de sesión", use_container_width=True):
+        st.session_state.pop("p2m_show_recovery", None)
+        st.session_state["p2m_access_mode"] = "Iniciar sesión"
+        st.rerun()
+
+    return None
+
+
 def _login_screen(st, store, backend_name: str):
     if backend_name == "local":
         return _legacy_local_login_screen(st, store, backend_name)
@@ -447,6 +560,9 @@ def _login_screen(st, store, backend_name: str):
 
     if _registration_success_screen(st, service, backend_name):
         return None
+
+    if st.session_state.get("p2m_show_recovery", False):
+        return _pin_recovery_screen(st, service)
 
     st.title("🎓 Simulador UTN")
     st.caption("Tu progreso queda guardado de forma independiente.")
@@ -512,7 +628,9 @@ def _login_screen(st, store, backend_name: str):
             )
             st.rerun()
 
-        st.caption("¿Olvidaste tu PIN? La recuperación se habilitará en P2-M6.5.")
+        if st.button("¿Olvidaste tu PIN?", use_container_width=True):
+            st.session_state["p2m_show_recovery"] = True
+            st.rerun()
         return None
 
     st.subheader("Crear cuenta")

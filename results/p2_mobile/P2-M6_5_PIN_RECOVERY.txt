@@ -1,0 +1,18 @@
+P2-M6.5 - PIN RECOVERY
+========================================================================
+
+[PASS] StudentAccessService.reset_pin runtime binding
+[PASS] recovery code verification
+[PASS] PIN reset
+[PASS] recovery rotation
+[PASS] old recovery invalidation
+[PASS] lockout cleared after valid recovery
+[PASS] one-time new recovery display
+[PASS] safe recovery export
+[PASS] P2/M5A/M5B intactos
+
+mobile_backend.py SHA256: AD6050A0C76DEFDDA161E74246C311FBCDFA3A77886A48967FF88FCE08FCD008
+student_access.py SHA256: DCB755366E62D1F4D11801502031165728FF82D51B49210556E82C4D64F5DAC8
+
+DECISION : P2-M6.5 PIN RECOVERY PASS
+NEXT     : CLOUD PIN RECOVERY SMOKE
